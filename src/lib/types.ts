@@ -1,6 +1,6 @@
 import type { Snippet } from "svelte";
 import type { SvelteHTMLElements } from "svelte/elements";
-import type { SvelteSet } from "svelte/reactivity";
+import type { IconDefinitionsRegistry } from "./IconDefinitionsRegistry.svelte.js";
 
 export type IconProps = Omit<SvelteHTMLElements["svg"], "children">;
 export interface BaseIconProps extends IconProps {
@@ -9,5 +9,5 @@ export interface BaseIconProps extends IconProps {
 }
 
 export interface IconContext {
-  registry: SvelteSet<string>;
+  registry: IconDefinitionsRegistry;
 }
