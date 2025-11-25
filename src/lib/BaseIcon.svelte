@@ -8,7 +8,7 @@
     ...rest
   }: BaseIconProps = $props();
 
-  const stampId = $derived(`${iconName}-icon`);
+  const stampId = $derived(`${iconName}-svelte-icon`);
 </script>
 
 <svg
