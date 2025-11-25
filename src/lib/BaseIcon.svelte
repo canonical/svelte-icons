@@ -26,7 +26,7 @@
 </svg>
 
 <style>
-  .ds.icon {
+  svg {
     display: inline-grid;
     place-content: center;
     width: 1em;

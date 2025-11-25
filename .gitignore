@@ -24,5 +24,9 @@ dist-ssr
 *.sw?
 
 .svelte-kit
-src/icons/*.svelte
-src/icons/index.ts
+src/lib/icons/*.svelte
+src/lib/icons/index.ts
+src/stories/icons/*.svelte
+
+*storybook.log
+storybook-static
