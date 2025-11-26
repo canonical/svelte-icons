@@ -19,7 +19,7 @@ import path from "node:path";
       generateComponent(
         path.join(inputDir, svgFileName),
         path.join(outputDir, `${componentName}.svelte`),
-        iconName,
+        `${iconName}-build-in`,
       );
 
       componentNames.push(componentName);

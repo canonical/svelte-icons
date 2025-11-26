@@ -28,7 +28,11 @@
     };
   });
 
-  const stampId = $derived(`${iconName}-svelte-icon`);
+  const inContextId = $derived(`${iconName}-svelte-icon`);
+  // Avoid id clashes for icons that are used outside of an IconsOptimizationProvider
+  // TODO: Maybe in case we are outside of context we should just not use stamping at all? But how to pass props to the outer svg then...
+  const outOfContextId = $props.id();
+  const stampId = $derived(iconsContext ? inContextId : outOfContextId);
 </script>
 
 <svg
@@ -49,8 +53,6 @@
 
 <style>
   svg {
-    display: inline-grid;
-    place-content: center;
     width: 1em;
     height: 1em;
   }

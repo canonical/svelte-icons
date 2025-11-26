@@ -8,7 +8,7 @@
   });
 </script>
 
-<Story name="Default" args={{ iconName: "example-icon" }}>
+<Story name="Default" args={{ iconName: "example" }}>
   {#snippet template({ children, ...args })}
     <BaseIcon {...args}>
       <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
