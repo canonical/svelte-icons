@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { onMount } from "svelte";
   import { getIconsContext } from "./context.js";
   import type { BaseIconProps } from "./types.js";
 
@@ -10,25 +9,26 @@
     ...rest
   }: BaseIconProps = $props();
 
-  const stampId = $derived(`${iconName}-svelte-icon`);
-
+  const instanceId = Symbol(iconName);
   const iconsContext = getIconsContext();
-  // svelte-ignore state_referenced_locally
-  if (iconsContext) {
-    // In case of name conflicts, later registrations override earlier ones
-    iconsContext.registry.register(stampId, children);
-  }
 
-  $effect(() => {
+  iconsContext?.registerIconInstance(iconName, instanceId);
+
+  const isLeader = $derived(
+    !iconsContext || iconsContext.isLeaderInstance(iconName, instanceId),
+  );
+
+  $effect.pre(() => {
     if (!iconsContext) return;
 
-    // If name or children change, re-register
-    // In case of name conflicts, and different definitions, the last one to update overrides earlier ones
-    iconsContext.registry.register(stampId, children);
-    iconsContext.registry.notifyMounted(stampId);
+    iconsContext.registerIconInstance(iconName, instanceId);
 
-    return () => iconsContext.registry.notifyUnmounted(stampId);
+    return () => {
+      iconsContext.unregisterIconInstance(iconName, instanceId);
+    };
   });
+
+  const stampId = $derived(`${iconName}-svelte-icon`);
 </script>
 
 <svg
@@ -37,7 +37,7 @@
   class={["svelte-icon", className]}
   {...rest}
 >
-  {#if !iconsContext}
+  {#if isLeader}
     <defs>
       <symbol id={stampId}>
         {@render children()}

@@ -1,27 +1,30 @@
 <script lang="ts">
   import { type Snippet } from "svelte";
+  import { SvelteMap, SvelteSet } from "svelte/reactivity";
   import { setIconsContext } from "./context.js";
-  import { IconDefinitionsRegistry } from "./IconDefinitionsRegistry.svelte.js";
 
   const { children }: { children: Snippet<[]> } = $props();
 
-  const registry = new IconDefinitionsRegistry();
+  const registry: SvelteMap<string, SvelteSet<symbol>> = new SvelteMap();
 
-  setIconsContext({ registry });
+  setIconsContext({
+    registerIconInstance: (iconName: string, instanceId: symbol) => {
+      const instances = registry.get(iconName);
+      if (instances) {
+        instances.add(instanceId);
+      } else {
+        registry.set(iconName, new SvelteSet([instanceId]));
+      }
+    },
+    unregisterIconInstance: (iconName: string, instanceId: symbol) => {
+      registry.get(iconName)?.delete(instanceId);
+    },
+    isLeaderInstance: (iconName: string, instanceId: symbol) => {
+      return (
+        registry.get(iconName)?.values().next().value === instanceId || false
+      );
+    },
+  });
 </script>
 
 {@render children()}
-
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <defs>
-    <!--
-    We rely on the fact that registry definitions in SSR are accessed AFTER all the icons in `children` have been initialized.
-    TODO: Will this work in async Svelte?
-    -->
-    {#each registry.definitions as [stampId, entry]}
-      <symbol id={stampId}>
-        {@render entry.definition()}
-      </symbol>
-    {/each}
-  </defs>
-</svg>
