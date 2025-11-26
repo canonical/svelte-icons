@@ -74,7 +74,7 @@ You can also create custom icon components using the `BaseIcon` component:
 </BaseIcon>
 ```
 
-> [!warning] Using custom icons with `IconsOptimizationProvider`
+> [!IMPORTANT]
 > When using custom icons with `IconsOptimizationProvider`:
 > - ensure that the `iconName` prop is unique for each custom icon to avoid collisions,
 > - modifying the SVG content inside `BaseIcon` during runtime may lead to unexpected behaviors.
