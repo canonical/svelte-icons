@@ -11,6 +11,11 @@
 </script>
 
 <script lang="ts">
+  const numIcons = 20;
+  let withOptimizationContainer = $state<HTMLElement>();
+  let withoutOptimizationContainer = $state<HTMLElement>();
+
+  // Reactivity playground
   const icons = $state(
     Array.from({ length: 10 }, (_, i) =>
       Array.from({ length: 4 }, () => ({
@@ -22,40 +27,68 @@
   );
 </script>
 
+{#snippet exampleSVG()}
+  <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <circle
+      cx="8"
+      cy="8"
+      r="7"
+      stroke="currentColor"
+      stroke-width="1"
+      fill="lightgray"
+    />
+    <line x1="4" y1="8" x2="12" y2="8" stroke="currentColor" stroke-width="1" />
+    <line x1="8" y1="4" x2="8" y2="12" stroke="currentColor" stroke-width="1" />
+  </svg>
+{/snippet}
+
 <Story name="Default">
   {#snippet template({ children, ...args })}
     <IconsOptimizationProvider {...args}>
-      {#each { length: 10 }, i (i)}
-        <BaseIcon iconName="example-icon">
-          <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-            <circle
-              cx="8"
-              cy="8"
-              r="7"
-              stroke="currentColor"
-              stroke-width="1"
-              fill="lightgray"
-            />
-            <line
-              x1="4"
-              y1="8"
-              x2="12"
-              y2="8"
-              stroke="currentColor"
-              stroke-width="1"
-            />
-            <line
-              x1="8"
-              y1="4"
-              x2="8"
-              y2="12"
-              stroke="currentColor"
-              stroke-width="1"
-            />
-          </svg>
+      <BaseIcon iconName="example">
+        {@render exampleSVG()}
+      </BaseIcon>
+      <BaseIcon iconName="example">
+        {@render exampleSVG()}
+      </BaseIcon>
+    </IconsOptimizationProvider>
+  {/snippet}
+</Story>
+
+<Story name="Node tree size comparison">
+  {#snippet template({ children, ...args })}
+    <div
+      bind:this={withOptimizationContainer}
+      style="border: 1px dashed gray; padding: 0.5rem;"
+    >
+      <IconsOptimizationProvider {...args}>
+        {#each { length: numIcons }, i (i)}
+          <BaseIcon iconName="example">
+            {@render exampleSVG()}
+          </BaseIcon>
+        {/each}
+      </IconsOptimizationProvider>
+      <div>
+        Nodes subtree size with optimization: {withOptimizationContainer?.querySelectorAll(
+          "*",
+        ).length}
+      </div>
+    </div>
+    <div
+      bind:this={withoutOptimizationContainer}
+      style="margin-top: 1em; border: 1px dashed gray; padding: 0.5rem;"
+    >
+      {#each { length: numIcons }, i (i)}
+        <BaseIcon iconName="example">
+          {@render exampleSVG()}
         </BaseIcon>
       {/each}
-    </IconsOptimizationProvider>
+      <div>
+        Nodes subtree size without optimization: {withoutOptimizationContainer?.querySelectorAll(
+          "*",
+        ).length}
+      </div>
+    </div>
   {/snippet}
 </Story>
 
