@@ -2,11 +2,24 @@
   import { defineMeta } from "@storybook/addon-svelte-csf";
   import BaseIcon from "../lib/BaseIcon.svelte";
   import IconsOptimizationProvider from "../lib/IconsOptimizationProvider.svelte";
+  import type { IconContext } from "../lib/types.js";
 
   const { Story } = defineMeta({
     title: "IconsOptimizationProvider",
     component: IconsOptimizationProvider,
   });
+</script>
+
+<script lang="ts">
+  const icons = $state(
+    Array.from({ length: 10 }, (_, i) =>
+      Array.from({ length: 4 }, () => ({
+        content: String.fromCharCode(97 + i),
+        name: i.toString(),
+        mounted: true,
+      })),
+    ).flatMap((x) => x),
+  );
 </script>
 
 <Story name="Default">
@@ -42,6 +55,96 @@
           </svg>
         </BaseIcon>
       {/each}
+    </IconsOptimizationProvider>
+  {/snippet}
+</Story>
+
+<Story name="Reactivity playground" tags={["!autodocs"]}>
+  {#snippet template()}
+    <div style="font-size: small;">
+      <p>
+        This playground allows you to test the behaviors of the <code
+          >IconsOptimizationProvider</code
+        >.
+      </p>
+      <ul>
+        <li>
+          You can change the name and content (text rendered inside <code
+            >svg</code
+          >) of each icon using the inputs.
+        </li>
+        <li>
+          Icons are rendered inside the buttons that you can use to mount and
+          unmount them.
+        </li>
+        <li>
+          Icons in <span style="outline: 1px solid red;">red outlines</span>
+          indicate that they are the ones that currently define the SVG structure
+          for all the icons with the matching name.
+        </li>
+      </ul>
+    </div>
+    <IconsOptimizationProvider>
+      <div
+        style="display: grid; grid-template-columns: repeat(4, 1fr 1fr auto); gap: 0.5rem;"
+      >
+        {#each icons as icon (icon)}
+          <div
+            style="display: grid; grid-template-columns: subgrid; grid-column: span 3;"
+            class="icon-controls-wrapper"
+          >
+            <div
+              style="display: grid; grid-template-columns: subgrid; grid-column: span 2; font-size: x-small;"
+            >
+              <label>
+                <div>Icon name:</div>
+                <input
+                  style="font-size: x-small; width: 100%;"
+                  type="text"
+                  size="1"
+                  bind:value={icon.name}
+                  placeholder="Change name"
+                />
+              </label>
+              <label>
+                <div>Icon content:</div>
+                <input
+                  style="font-size: x-small; width: 100%;"
+                  type="text"
+                  size="1"
+                  bind:value={icon.content}
+                  placeholder="Change content"
+                />
+              </label>
+            </div>
+            <button
+              onclick={() => (icon.mounted = !icon.mounted)}
+              title="Mount / Unmount Icon"
+              style="display: grid; place-content: center;"
+            >
+              {#if icon.mounted}
+                <BaseIcon iconName={icon.name}>
+                  <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <text
+                      x="8"
+                      y="8"
+                      text-anchor="middle"
+                      dominant-baseline="middle"
+                      font-size="10"
+                      fill="currentColor">{icon.content}</text
+                    >
+                  </svg>
+                </BaseIcon>
+              {/if}
+            </button>
+          </div>
+        {/each}
+      </div>
+      <style>
+        .icon-controls-wrapper:has(svg.svelte-icon > defs) {
+          outline: 1px solid red;
+        }
+      </style>
     </IconsOptimizationProvider>
   {/snippet}
 </Story>
