@@ -1,47 +1,102 @@
-# Svelte + TS + Vite
+# @canonical/svelte-icons
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+Canonical's design system icons packaged as Svelte 5 components. This library provides all icons from [Canonical's Pragma design system](https://github.com/canonical/pragma/tree/main/packages/ds-assets) as easy-to-use Svelte components.
 
-## Recommended IDE Setup
+## Installation
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+```bash
+bun add @canonical/svelte-icons
+```
 
-## Need an official Svelte framework?
+## Usage
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+### Basic Usage
 
-## Technical considerations
+Import icons individually and use them as components:
 
-**Why use this over SvelteKit?**
+```svelte
+<script>
+  import { Home, Settings, User } from '@canonical/svelte-icons';
+</script>
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+<Home />
+<Settings class="custom-class" />
+```
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+### Styling Icons
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+Icons by default inherit the current text color and size.
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+```svelte
+<script>
+  import { Search } from '@canonical/svelte-icons';
+</script>
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+<Search 
+  style="color: red; width: 2em; height: 2em;" 
+/>
+```
 
-**Why include `.vscode/extensions.json`?**
+### Performance Optimization
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+When using the same icon multiple times, you may use `IconsOptimizationProvider` to deduplicate SVG definitions in the generated markup:
 
-**Why enable `allowJs` in the TS template?**
+```svelte
+<script>
+  import { IconsOptimizationProvider, Home } from '@canonical/svelte-icons';
+</script>
 
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+<IconsOptimizationProvider>
+  <nav>
+    <Home /> <!-- All instances share the same SVG definition -->
+    <Home />
+    <Home />
+  </nav>
+</IconsOptimizationProvider>
+```
 
-**Why is HMR not preserving my local component state?**
+This is especially useful when rendering the same icon many times.
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+//TODO: Add link to *Node tree size comparison* story
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+### Custom Icons
+You can also create custom icon components using the `BaseIcon` component:
 
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```svelte
+<script>
+  import { BaseIcon } from '@canonical/svelte-icons';
+</script>
+
+<BaseIcon iconName="my-custom-icon">
+  <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="8" cy="8" r="6" stroke="black" stroke-width="1" fill="red" />
+  </svg>
+</BaseIcon>
+```
+
+> [!warning] Using custom icons with `IconsOptimizationProvider`
+> When using custom icons with `IconsOptimizationProvider`:
+> - ensure that the `iconName` prop is unique for each custom icon to avoid collisions,
+> - modifying the SVG content inside `BaseIcon` during runtime may lead to unexpected behaviors.
+>
+> Check out the *Reactivity playground* story to learn more. //TODO: link to story.
+
+## Icon Source
+
+All SVG icons are sourced from the [@canonical/ds-assets](https://github.com/canonical/pragma/tree/main/packages/ds-assets) package, which is part of Canonical's Pragma design system.
+
+## Development
+
+```bash
+# Install dependencies
+bun install
+
+# Build icon components from source
+bun run build
+
+# Run Storybook for development
+bun run storybook
+
+# Type check
+bun run check
 ```
