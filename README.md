@@ -2,6 +2,9 @@
 
 Canonical's design system icons packaged as Svelte 5 components. This library provides all icons from [Canonical's Pragma design system](https://github.com/canonical/pragma/tree/main/packages/ds-assets) as easy-to-use Svelte components.
 
+> [!WARNING]
+> This package is it's experimental stage. It may undergo significant changes before reaching a stable release. It is not recommended for production use at this time.
+
 ## Installation
 
 ```bash
