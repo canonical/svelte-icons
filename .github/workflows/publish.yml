@@ -1,0 +1,77 @@
+name: Publish to npm
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "package.json"
+      - "src/**"
+      - "srcipts/**"
+      - "svelte.config.js"
+      - "tsconfig.app.json"
+      - ".github/workflows/publish.yml"
+
+# https://docs.npmjs.com/trusted-publishers#github-actions-configuration
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    name: Publish package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
+
+      - run: bun install
+
+      - run: bun run check
+
+      - run: bun run build
+
+      # Based on https://github.com/canonical/launchpad-design-tokens/blob/main/.github/workflows/publish.yml
+      - name: Bump patch version if needed
+        run: |
+          PACKAGE_VERSION=$(bun -e "console.log(require('./package.json').version)")
+          PACKAGE_NAME=$(bun -e "console.log(require('./package.json').name)")
+
+          # Check if version already exists on npm
+          if npm view "$PACKAGE_NAME@$PACKAGE_VERSION" version 2>/dev/null; then
+            echo "Version $PACKAGE_VERSION already exists, bumping patch version"
+            
+            # Extract version parts
+            IFS='.' read -ra VERSION_PARTS <<< "$PACKAGE_VERSION"
+            MAJOR=${VERSION_PARTS[0]}
+            MINOR=${VERSION_PARTS[1]}
+            PATCH=${VERSION_PARTS[2]}
+            
+            # Bump patch version
+            NEW_PATCH=$((PATCH + 1))
+            NEW_VERSION="${MAJOR}.${MINOR}.${NEW_PATCH}"
+            
+            echo "Bumping to version: $NEW_VERSION"
+            
+            # Update package.json
+            bunx bumpp $NEW_VERSION -y --no-commit --no-tag --push=false
+          else
+            echo "Version $PACKAGE_VERSION is new, proceeding with current version"
+          fi
+
+      - run: npm publish --access public
+
+      - name: Commit version bump
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add package.json
+          git commit -m "Bump version after publish" || exit 0
+          git push || exit 0
