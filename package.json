@@ -31,8 +31,8 @@
     }
   },
   "scripts": {
-    "build": "bun run clean:icons && bun run build:icons && svelte-package -o dist -i src/lib --tsconfig ./tsconfig.app.json",
     "build:icons": "bun run scripts/buildIcons.ts node_modules/@canonical/ds-assets/icons/ src/lib/icons",
+    "build:package": "svelte-package -o dist -i src/lib --tsconfig ./tsconfig.app.json",
     "build:stories": "bun run scripts/buildStories.ts src/lib/icons src/stories/icons",
     "clean": "bun run clean:icons && bun run clean:stories",
     "clean:icons": "rm -f src/lib/icons/*.svelte src/lib/icons/index.ts",
@@ -43,7 +43,7 @@
     "check:biome:fix": "biome check --write",
     "check:ts": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook dev -p 6006",
-    "build-storybook": "bun run clean &&bun run build:icons && bun run build:stories && storybook build"
+    "build-storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook build"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.7",
