@@ -6,7 +6,7 @@ on:
     paths:
       - "package.json"
       - "src/**"
-      - "srcipts/**"
+      - "scripts/**"
       - "svelte.config.js"
       - "tsconfig.app.json"
       - ".github/workflows/publish.yml"
