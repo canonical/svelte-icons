@@ -52,8 +52,14 @@ jobs:
             echo "Version $PACKAGE_VERSION is new, proceeding with current version"
           fi
 
+      # Required for Trusted publishing (https://docs.npmjs.com/trusted-publishers#step-2-configure-your-cicd-workflow)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          registry-url: "https://registry.npmjs.org"
+
       # TODO: Enable back the provenance when repository gets public
-      - run: NPM_CONFIG_PROVENANCE=false bun publish --access public
+      - run: NPM_CONFIG_PROVENANCE=false npm publish --access public
 
       - name: Commit version bump
         run: |
