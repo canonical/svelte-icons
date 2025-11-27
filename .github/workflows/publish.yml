@@ -58,6 +58,9 @@ jobs:
           node-version: "20"
           registry-url: "https://registry.npmjs.org"
 
+      # npm >11.5.1 is required for Trusted publishing
+      - run: npm install -g npm@latest
+
       # TODO: Enable back the provenance when repository gets public
       - run: NPM_CONFIG_PROVENANCE=false npm publish --access public
 
