@@ -1,0 +1,63 @@
+name: Publish to npm
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "package.json"
+      - "src/**"
+      - "scripts/**"
+      - "svelte.config.js"
+      - "tsconfig.app.json"
+      - ".github/workflows/publish.yml"
+
+# https://docs.npmjs.com/trusted-publishers#github-actions-configuration
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    name: Publish package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
+
+      - run: bun install
+
+      - run: bun run check
+
+      - run: bun run build
+
+      - name: Bump patch version if needed
+        run: |
+          PACKAGE_VERSION=$(npm pkg get version | tr -d '"')
+          PACKAGE_NAME=$(npm pkg get name | tr -d '"')
+
+          # Check if version already exists on npm
+          if npm view "$PACKAGE_NAME@$PACKAGE_VERSION" version 2>/dev/null; then
+            echo "Version $PACKAGE_VERSION already exists, bumping patch version"
+            
+            npm version patch --no-git-tag-version
+          else
+            echo "Version $PACKAGE_VERSION is new, proceeding with current version"
+          fi
+
+      - run: npm publish --access public
+
+      - name: Commit version bump
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add package.json
+          git commit -m "Bump version after publish" || exit 0
+          git push || exit 0
