@@ -1,5 +1,6 @@
 <script module lang="ts">
   import { defineMeta } from "@storybook/addon-svelte-csf";
+  import { type Component } from "svelte";
   import * as icons from "../lib/icons/index.js";
 
   const { Story } = defineMeta({
@@ -12,7 +13,7 @@
   <div
     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1em;"
   >
-    {#each Object.entries(icons) as [iconName, IconComponent]}
+    {#each Object.entries(icons as Record<string, Component>) as [iconName, IconComponent]}
       <div style="display: flex; gap: 0.5em; align-items: center;">
         <IconComponent />
         <span>{iconName}</span>
