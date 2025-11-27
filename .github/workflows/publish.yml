@@ -17,8 +17,11 @@ permissions:
   contents: write
 
 jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
   publish:
-    name: Publish package
+    needs: ci
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -33,8 +36,6 @@ jobs:
           key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
 
       - run: bun install
-
-      - run: bun run check
 
       - run: bun run build
 
