@@ -31,6 +31,7 @@
     }
   },
   "scripts": {
+    "build": "bun run clean:icons && bun run build:icons && bun run build:package",
     "build:icons": "bun run scripts/buildIcons.ts node_modules/@canonical/ds-assets/icons/ src/lib/icons",
     "build:package": "svelte-package -o dist -i src/lib --tsconfig ./tsconfig.app.json",
     "build:stories": "bun run scripts/buildStories.ts src/lib/icons src/stories/icons",

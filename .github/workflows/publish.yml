@@ -17,7 +17,11 @@ permissions:
   contents: write
 
 jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
   publish:
+    needs: ci
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -33,11 +37,7 @@ jobs:
 
       - run: bun install
 
-      - run: bun run build:icons
-
-      - run: bun run check
-
-      - run: bun run build:package
+      - run: bun run build
 
       - name: Bump patch version if needed
         run: |
