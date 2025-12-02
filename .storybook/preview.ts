@@ -1,4 +1,6 @@
 import type { Preview } from "@storybook/svelte-vite";
+import CustomTheme from "./CustomTheme";
+import "./vanillaframework.scss";
 
 const preview: Preview = {
   tags: ["autodocs"],
@@ -9,7 +11,9 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
-
+    docs: {
+      theme: CustomTheme,
+    },
     a11y: {
       // 'todo' - show a11y violations in the test UI only
       // 'error' - fail CI on a11y violations

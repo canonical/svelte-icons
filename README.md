@@ -17,9 +17,9 @@ bun add @canonical/svelte-icons
 
 Import icons individually and use them as components:
 
-```svelte
+```html
 <script>
-  import { Home, Settings, User } from '@canonical/svelte-icons';
+  import { Home, Settings, User } from "@canonical/svelte-icons";
 </script>
 
 <Home />
@@ -30,28 +30,27 @@ Import icons individually and use them as components:
 
 Icons by default inherit the current text color and size.
 
-```svelte
+```html
 <script>
-  import { Search } from '@canonical/svelte-icons';
+  import { Search } from "@canonical/svelte-icons";
 </script>
 
-<Search 
-  style="color: red; width: 2em; height: 2em;" 
-/>
+<Search style="color: red; width: 2em; height: 2em;" />
 ```
 
 ### Performance Optimization
 
 When using the same icon multiple times, you may use `IconsOptimizationProvider` to deduplicate SVG definitions in the generated markup:
 
-```svelte
+```html
 <script>
-  import { IconsOptimizationProvider, Home } from '@canonical/svelte-icons';
+  import { IconsOptimizationProvider, Home } from "@canonical/svelte-icons";
 </script>
 
 <IconsOptimizationProvider>
   <nav>
-    <Home /> <!-- All instances share the same SVG definition -->
+    <Home />
+    <!-- All instances share the same SVG definition -->
     <Home />
     <Home />
   </nav>
@@ -60,14 +59,15 @@ When using the same icon multiple times, you may use `IconsOptimizationProvider`
 
 This is especially useful when rendering the same icon many times.
 
-//TODO: Add link to *Node tree size comparison* story
+//TODO: Add link to _Node tree size comparison_ story
 
 ### Custom Icons
+
 You can also create custom icon components using the `BaseIcon` component:
 
-```svelte
+```html
 <script>
-  import { BaseIcon } from '@canonical/svelte-icons';
+  import { BaseIcon } from "@canonical/svelte-icons";
 </script>
 
 <BaseIcon iconName="my-custom-icon">
@@ -79,10 +79,11 @@ You can also create custom icon components using the `BaseIcon` component:
 
 > [!IMPORTANT]
 > When using custom icons with `IconsOptimizationProvider`:
+>
 > - ensure that the `iconName` prop is unique for each custom icon to avoid collisions,
 > - modifying the SVG content inside `BaseIcon` during runtime may lead to unexpected behaviors.
 >
-> Check out the *Reactivity playground* story to learn more. //TODO: link to story.
+> Check out the _Reactivity playground_ story to learn more. //TODO: link to story.
 
 ## Icon Source
 
