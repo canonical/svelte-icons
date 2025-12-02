@@ -18,7 +18,7 @@ const svgFiles = (await readdir(inputDir)).filter((file) =>
 const components = await Promise.all(
   svgFiles.map(async (svgFile) => {
     const iconName = svgFile.replace(/\.svg$/, "");
-    const component = kebabToPascalCase(iconName);
+    const component = `${kebabToPascalCase(iconName)}Icon`;
     const svgInputPath = path.join(inputDir, svgFile);
     const outputPath = path.join(outputDir, `${component}.svelte`);
 
