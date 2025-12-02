@@ -1,0 +1,3 @@
+<% it.components.forEach(component => { %>
+export { default as <%= component %> } from "./<%= component %>.svelte";
+<% }) %>

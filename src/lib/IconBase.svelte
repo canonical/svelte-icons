@@ -1,13 +1,13 @@
 <script lang="ts">
   import { getIconsContext } from "./context.js";
-  import type { BaseIconProps } from "./types.js";
+  import type { IconBaseProps } from "./types.js";
 
   const {
     iconName,
     class: className,
     children,
     ...rest
-  }: BaseIconProps = $props();
+  }: IconBaseProps = $props();
 
   const instanceId = Symbol(iconName);
   const iconsContext = getIconsContext();
