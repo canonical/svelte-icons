@@ -1,5 +1,7 @@
 import type { Preview } from "@storybook/svelte-vite";
-import CustomTheme from "./CustomTheme";
+import { DocsContainer } from "./components/docs/DocsContainer";
+import { withThemeByClassName } from "./decorators/class-name.decorator";
+import "./styles.css";
 import "./vanillaframework.scss";
 
 const preview: Preview = {
@@ -10,10 +12,12 @@ const preview: Preview = {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
+      backgrounds: { disable: true },
     },
     docs: {
-      theme: CustomTheme,
+      container: DocsContainer,
     },
+
     a11y: {
       // 'todo' - show a11y violations in the test UI only
       // 'error' - fail CI on a11y violations
@@ -21,6 +25,14 @@ const preview: Preview = {
       test: "todo",
     },
   },
+  decorators: [
+    withThemeByClassName({
+      themes: {
+        light: "is-light",
+        dark: "is-dark",
+      },
+    }),
+  ],
 };
 
 export default preview;

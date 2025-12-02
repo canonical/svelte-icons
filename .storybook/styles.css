@@ -39,3 +39,7 @@
   --font-ubuntu-sans-mono:
     "Ubuntu Sans Mono", "Courier New", Courier, monospace;
 }
+
+html.is-dark {
+  color-scheme: dark;
+}
