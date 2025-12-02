@@ -1,6 +1,5 @@
 import type { Preview } from "@storybook/svelte-vite";
 import CustomTheme from "./CustomTheme";
-// @ts-expect-error
 import "./vanillaframework.scss";
 
 const preview: Preview = {
