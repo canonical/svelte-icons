@@ -1,8 +1,7 @@
 <script module lang="ts">
   import { defineMeta } from "@storybook/addon-svelte-csf";
-  import BaseIcon from "../lib/BaseIcon.svelte";
+  import IconBase from "../lib/IconBase.svelte";
   import IconsOptimizationProvider from "../lib/IconsOptimizationProvider.svelte";
-  import type { IconContext } from "../lib/types.js";
 
   const { Story } = defineMeta({
     title: "IconsOptimizationProvider",
@@ -45,12 +44,12 @@
 <Story name="Default">
   {#snippet template({ children, ...args })}
     <IconsOptimizationProvider {...args}>
-      <BaseIcon iconName="example">
+      <IconBase iconName="example">
         {@render exampleSVG()}
-      </BaseIcon>
-      <BaseIcon iconName="example">
+      </IconBase>
+      <IconBase iconName="example">
         {@render exampleSVG()}
-      </BaseIcon>
+      </IconBase>
     </IconsOptimizationProvider>
   {/snippet}
 </Story>
@@ -63,9 +62,9 @@
     >
       <IconsOptimizationProvider {...args}>
         {#each { length: numIcons }, i (i)}
-          <BaseIcon iconName="example">
+          <IconBase iconName="example">
             {@render exampleSVG()}
-          </BaseIcon>
+          </IconBase>
         {/each}
       </IconsOptimizationProvider>
       <div>
@@ -79,9 +78,9 @@
       style="margin-top: 1em; border: 1px dashed gray; padding: 0.5rem;"
     >
       {#each { length: numIcons }, i (i)}
-        <BaseIcon iconName="example">
+        <IconBase iconName="example">
           {@render exampleSVG()}
-        </BaseIcon>
+        </IconBase>
       {/each}
       <div>
         Nodes subtree size without optimization: {withoutOptimizationContainer?.querySelectorAll(
@@ -156,7 +155,7 @@
               style="display: grid; place-content: center;"
             >
               {#if icon.mounted}
-                <BaseIcon iconName={icon.name}>
+                <IconBase iconName={icon.name}>
                   <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <text
                       x="8"
@@ -167,7 +166,7 @@
                       fill="currentColor">{icon.content}</text
                     >
                   </svg>
-                </BaseIcon>
+                </IconBase>
               {/if}
             </button>
           </div>

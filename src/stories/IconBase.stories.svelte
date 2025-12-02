@@ -1,16 +1,16 @@
 <script module lang="ts">
   import { defineMeta } from "@storybook/addon-svelte-csf";
-  import BaseIcon from "../lib/BaseIcon.svelte";
+  import IconBase from "../lib/IconBase.svelte";
 
   const { Story } = defineMeta({
-    title: "BaseIcon",
-    component: BaseIcon,
+    title: "IconBase",
+    component: IconBase,
   });
 </script>
 
 <Story name="Default" args={{ iconName: "example" }}>
   {#snippet template({ children, ...args })}
-    <BaseIcon {...args}>
+    <IconBase {...args}>
       <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
         <circle
           cx="8"
@@ -37,6 +37,6 @@
           stroke-width="1"
         />
       </svg>
-    </BaseIcon>
+    </IconBase>
   {/snippet}
 </Story>
