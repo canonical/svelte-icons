@@ -43,7 +43,7 @@
     "check:biome": "biome check",
     "check:biome:fix": "biome check --write",
     "check:ts": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook dev -p 6006",
+    "storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook dev -p 6006 --no-open",
     "build-storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook build"
   },
   "devDependencies": {
@@ -55,6 +55,7 @@
     "@storybook/addon-docs": "^10.0.8",
     "@storybook/addon-svelte-csf": "^5.0.10",
     "@storybook/svelte-vite": "^10.0.8",
+    "@storybook/theming": "^8.6.14",
     "@sveltejs/package": "^2.5.6",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@tsconfig/svelte": "^5.0.6",
@@ -63,6 +64,7 @@
     "storybook": "^10.0.8",
     "svelte-check": "^4.3.4",
     "typescript": "~5.9.3",
+    "vanilla-framework": "^4.37.1",
     "vite": "^7.2.4"
   },
   "peerDependencies": {

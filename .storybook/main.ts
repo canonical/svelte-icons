@@ -12,5 +12,6 @@ const config: StorybookConfig = {
     name: "@storybook/svelte-vite",
     options: {},
   },
+  staticDirs: ["./assets"],
 };
 export default config;
