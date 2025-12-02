@@ -1,78 +1,45 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
+import { Eta } from "eta";
+import { indent, kebabToPascalCase } from "./utils.ts";
 
-(async () => {
-  const [_, __, inputDir, outputDir] = process.argv;
+const [, , inputDir, outputDir] = process.argv;
 
-  if (!inputDir || !outputDir) {
-    console.log("Usage: bun buildIcons.ts <inputDir> <outputDir>");
-    return;
-  }
+if (!inputDir || !outputDir) {
+  console.error("Usage: bun build-icons.ts <inputDir> <outputDir>");
+  process.exit(1);
+}
 
-  const componentNames: string[] = [];
-  (await readdir(inputDir))
-    .filter((file) => file.endsWith(".svg"))
-    .forEach(async (svgFileName) => {
-      const iconName = svgFileName.replace(/\.svg$/, "");
-      const componentName = toPascalCase(iconName);
+const eta = new Eta({ views: path.join(__dirname, "templates") });
+const svgFiles = (await readdir(inputDir)).filter((file) =>
+  file.endsWith(".svg"),
+);
 
-      generateComponent(
-        path.join(inputDir, svgFileName),
-        path.join(outputDir, `${componentName}.svelte`),
-        `${iconName}-build-in`,
-      );
+const components = await Promise.all(
+  svgFiles.map(async (svgFile) => {
+    const iconName = svgFile.replace(/\.svg$/, "");
+    const component = kebabToPascalCase(iconName);
+    const svgInputPath = path.join(inputDir, svgFile);
+    const outputPath = path.join(outputDir, `${component}.svelte`);
 
-      componentNames.push(componentName);
+    const svgRaw = await Bun.file(svgInputPath, {
+      type: "image/svg+xml",
+    }).text();
+    const svgContent = svgRaw.replace(/<\?xml[^?]*\?>\s*/g, "");
+
+    const componentContent = eta.render("./Icon", {
+      iconName,
+      svgContent: indent(svgContent, 1),
     });
 
-  generateIndex(outputDir, componentNames);
-})();
+    await Bun.write(outputPath, componentContent);
+    return component;
+  }),
+);
 
-async function generateIndex(outputDir: string, componentNames: string[]) {
-  Bun.write(
-    path.join(outputDir, "index.ts"),
-    componentNames
-      .toSorted()
-      .map(
-        (component) =>
-          `export { default as ${component} } from "./${component}.svelte";\n`,
-      ),
-  );
-}
+const indexPath = path.join(outputDir, "index.ts");
+const indexContent = eta.render("./index", {
+  components: components.toSorted(),
+});
 
-async function generateComponent(
-  input: string,
-  output: string,
-  iconName: string,
-) {
-  const svg = await Bun.file(input, {
-    type: "image/svg+xml",
-  }).text();
-
-  const svgContent = svg.replace(/<\?xml[^?]*\?>\s*/g, "");
-  const indentedSvgContent = svgContent
-    .split("\n")
-    .map((line) => (line ? `  ${line}` : line))
-    .join("\n");
-
-  Bun.write(
-    output,
-    `<script lang="ts">
-  import BaseIcon from "../BaseIcon.svelte";
-  import type { IconProps } from "../types.js";
-
-  const props: IconProps = $props();
-</script>
-
-<BaseIcon iconName="${iconName}" {...props}>
-${indentedSvgContent}
-</BaseIcon>
-`,
-  );
-}
-
-function toPascalCase(str: string) {
-  return str.replace(/(^\w|-\w)/g, (match) =>
-    match.replace("-", "").toUpperCase(),
-  );
-}
+await Bun.write(indexPath, indexContent);

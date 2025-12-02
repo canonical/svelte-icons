@@ -1,0 +1,22 @@
+<script module lang="ts">
+  import { defineMeta } from "@storybook/addon-svelte-csf";
+  import <%= it.component %> from "<%= it.relativeInput %>/<%= it.component %>.svelte";
+
+  const { Story } = defineMeta({
+    title: "Icons/<%= it.component %>",
+    component: <%= it.component %>,
+  });
+</script>
+
+<Story name="Default" />
+
+<Story name="Of different sizes" asChild>
+  <h1><<%= it.component %> /></h1>
+  <h2><<%= it.component %> /></h2>
+  <h3><<%= it.component %> /></h3>
+  <h4><<%= it.component %> /></h4>
+  <h5><<%= it.component %> /></h5>
+  <h6><<%= it.component %> /></h6>
+</Story>
+
+<Story name="With custom color" args={{ style: "color: red;" }} />
