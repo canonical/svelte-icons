@@ -1,11 +1,11 @@
 <script lang="ts">
-  import BaseIcon from "../BaseIcon.svelte";
+  import IconBase from "../IconBase.svelte";
   import type { IconProps } from "../types.js";
 
   const props: IconProps = $props();
 </script>
 
-<BaseIcon iconName="<%= it.iconName %>" {...props}>
+<IconBase iconName="<%= it.iconName %>" {...props}>
 <%~ it.svgContent %>
 
-</BaseIcon>
+</IconBase>

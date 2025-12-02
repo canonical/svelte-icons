@@ -2,7 +2,7 @@ import type { Snippet } from "svelte";
 import type { SvelteHTMLElements } from "svelte/elements";
 
 export type IconProps = Omit<SvelteHTMLElements["svg"], "children">;
-export interface BaseIconProps extends IconProps {
+export interface IconBaseProps extends IconProps {
   iconName: string;
   children: Snippet<[]>;
 }

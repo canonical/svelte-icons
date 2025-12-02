@@ -63,25 +63,25 @@ This is especially useful when rendering the same icon many times.
 
 ### Custom Icons
 
-You can also create custom icon components using the `BaseIcon` component:
+You can also create custom icon components using the `IconBase` component:
 
 ```html
 <script>
-  import { BaseIcon } from "@canonical/svelte-icons";
+  import { IconBase } from "@canonical/svelte-icons";
 </script>
 
-<BaseIcon iconName="my-custom-icon">
+<IconBase iconName="my-custom-icon">
   <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
     <circle cx="8" cy="8" r="6" stroke="black" stroke-width="1" fill="red" />
   </svg>
-</BaseIcon>
+</IconBase>
 ```
 
 > [!IMPORTANT]
 > When using custom icons with `IconsOptimizationProvider`:
 >
 > - ensure that the `iconName` prop is unique for each custom icon to avoid collisions,
-> - modifying the SVG content inside `BaseIcon` during runtime may lead to unexpected behaviors.
+> - modifying the SVG content inside `IconBase` during runtime may lead to unexpected behaviors.
 >
 > Check out the _Reactivity playground_ story to learn more. //TODO: link to story.
 
