@@ -12,7 +12,6 @@ export interface ClassNameStrategyConfiguration {
   themes: {
     light: string;
     dark: string;
-    system: string;
   };
   parentSelector?: string;
 }
