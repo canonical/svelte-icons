@@ -41,7 +41,7 @@ const DARK_THEME = create({
   brandImage: "/logo-dark.svg",
 
   colorPrimary: "#E8541F",
-  colorSecondary: "#454545",
+  colorSecondary: "#777",
   buttonBg: "#E8541F",
 
   // UI
@@ -56,7 +56,7 @@ const DARK_THEME = create({
 
   // Toolbar default and active colors
   barTextColor: "#FFF",
-  barSelectedColor: "#E8541F",
+  barSelectedColor: "#777",
   barHoverColor: "#FFF",
   barBg: "#262626",
 

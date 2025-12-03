@@ -5,12 +5,11 @@ import { DARK_THEME, LIGHT_THEME } from "../../theme";
 export const DocsContainer = (props: DocsContainerProps) => {
   // biome-ignore lint/suspicious/noExplicitAny: no types available for context
   const theme = (props.context as any).store.userGlobals?.globals?.theme;
-
   const prefersColorSchemeDark = window.matchMedia(
     "(prefers-color-scheme: dark)",
   );
 
-  const currentTheme = theme
+  const currentTheme = ["dark", "light"].includes(theme)
     ? theme
     : prefersColorSchemeDark.matches
       ? "dark"

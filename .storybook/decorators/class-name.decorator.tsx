@@ -12,6 +12,7 @@ export interface ClassNameStrategyConfiguration {
   themes: {
     light: string;
     dark: string;
+    system: string;
   };
   parentSelector?: string;
 }
@@ -30,7 +31,7 @@ export const withThemeByClassName = <TRenderer extends Renderer = Renderer>({
   );
 
   const defaultTheme = prefersColorSchemeDark.matches ? "dark" : "light";
-  initializeThemeState(Object.keys(themes), defaultTheme);
+  initializeThemeState(Object.keys(themes), "system");
 
   return (storyFn, context) => {
     const { themeOverride } = context.parameters[PARAM_KEY] ?? {};
