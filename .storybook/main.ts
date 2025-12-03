@@ -14,5 +14,19 @@ const config: StorybookConfig = {
     options: {},
   },
   staticDirs: ["./assets"],
+  viteFinal: (config) => {
+    config.css = {
+      ...config.css,
+      preprocessorOptions: {
+        ...config.css?.preprocessorOptions,
+        scss: {
+          ...config.css?.preprocessorOptions?.scss,
+          quietDeps: true,
+          silenceDeprecations: ["import", "global-builtin"],
+        },
+      },
+    };
+    return config;
+  },
 };
 export default config;

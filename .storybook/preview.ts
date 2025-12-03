@@ -1,7 +1,10 @@
 import type { Preview } from "@storybook/svelte-vite";
+import { getPreferredColorScheme } from "storybook/theming";
+import { withThemeFromSvelteProvider } from "./components/decorators/withThemeFromSvelteProvider.decorator";
 import { DocsContainer } from "./components/docs/DocsContainer";
-import { withThemeByClassName } from "./decorators/class-name.decorator";
+import VanillaFrameworkThemeProvider from "./components/stories/VanillaFrameworkThemeProvider.svelte";
 import "./styles.css";
+import { DARK_THEME, LIGHT_THEME } from "./theme";
 import "./vanillaframework.scss";
 
 const preview: Preview = {
@@ -26,11 +29,13 @@ const preview: Preview = {
     },
   },
   decorators: [
-    withThemeByClassName({
+    withThemeFromSvelteProvider({
       themes: {
-        light: "is-light",
-        dark: "is-dark",
+        light: LIGHT_THEME,
+        dark: DARK_THEME,
       },
+      defaultTheme: getPreferredColorScheme(),
+      Provider: VanillaFrameworkThemeProvider,
     }),
   ],
 };

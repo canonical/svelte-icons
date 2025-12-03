@@ -64,3 +64,5 @@ const DARK_THEME = create({
 });
 
 export { DARK_THEME, LIGHT_THEME };
+
+export type ThemeName = "light" | "dark";

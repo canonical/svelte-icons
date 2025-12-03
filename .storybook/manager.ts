@@ -22,8 +22,9 @@ function setupThemeListeners() {
 
 function setupFavicon() {
   const link = document.createElement("link");
-  link.setAttribute("rel", "shortcut icon");
+  link.setAttribute("rel", "icon");
   link.setAttribute("href", "/cof_square.svg");
+  link.setAttribute("type", "image/svg+xml");
   document.head.appendChild(link);
 }
 
