@@ -1,0 +1,1992 @@
+{
+  "arrow-bottom-left.svg": {
+    "tags": [
+      "arrow",
+      "bottom",
+      "left",
+      "diagonal",
+      "down-left",
+      "direction",
+      "indicator"
+    ]
+  },
+  "search.svg": {
+    "tags": [
+      "search",
+      "find",
+      "explore",
+      "magnify",
+      "zoom",
+      "glass",
+      "looking",
+      "investigate",
+      "discover"
+    ]
+  },
+  "controllers.svg": {
+    "tags": [
+      "controller",
+      "game",
+      "gaming",
+      "joystick",
+      "gamepad",
+      "play",
+      "entertainment"
+    ]
+  },
+  "checkmark.svg": {
+    "tags": [
+      "checkmark",
+      "check",
+      "tick",
+      "complete",
+      "done",
+      "success",
+      "approve",
+      "confirm",
+      "mark",
+      "validation",
+      "verified",
+      "correct"
+    ]
+  },
+  "arrow-bottom-right.svg": {
+    "tags": [
+      "arrow",
+      "bottom right",
+      "diagonal",
+      "direction",
+      "pointer",
+      "indicate",
+      "navigation",
+      "download",
+      "external"
+    ]
+  },
+  "arrow-down.svg": {
+    "tags": [
+      "arrow",
+      "down",
+      "direction",
+      "download",
+      "collapse",
+      "navigate",
+      "south"
+    ]
+  },
+  "switcher.svg": {
+    "tags": ["switcher", "switch", "layout", "change", "rearrange", "swap"]
+  },
+  "priority-negligible.svg": {
+    "tags": [
+      "priority",
+      "negligible",
+      "low",
+      "importance",
+      "status",
+      "indicator",
+      "arrow",
+      "minimal",
+      "trivial",
+      "ranking",
+      "minor",
+      "unimportant",
+      "default",
+      "trend",
+      "decrease"
+    ]
+  },
+  "priority-medium.svg": {
+    "tags": [
+      "priority",
+      "medium",
+      "arrow",
+      "up",
+      "level",
+      "importance",
+      "moderate",
+      "grade",
+      "ranking"
+    ]
+  },
+  "debug.svg": {
+    "tags": [
+      "debug",
+      "bug",
+      "fix",
+      "error",
+      "search",
+      "tool",
+      "troubleshoot",
+      "development",
+      "magnifying glass",
+      "inspect"
+    ]
+  },
+  "restart.svg": {
+    "tags": [
+      "restart",
+      "refresh",
+      "reload",
+      "reset",
+      "update",
+      "undo",
+      "arrow",
+      "cycle"
+    ]
+  },
+  "information.svg": {
+    "tags": [
+      "information",
+      "info",
+      "help",
+      "about",
+      "details",
+      "query",
+      "guide",
+      "support"
+    ]
+  },
+  "arrow-top-right.svg": {
+    "tags": [
+      "arrow",
+      "top-right",
+      "diagonal",
+      "direction",
+      "point",
+      "northeast",
+      "up",
+      "right",
+      "navigation"
+    ]
+  },
+  "user.svg": {
+    "tags": [
+      "user",
+      "profile",
+      "person",
+      "avatar",
+      "account",
+      "contact",
+      "human",
+      "member"
+    ]
+  },
+  "fullscreen.svg": {
+    "tags": [
+      "fullscreen",
+      "expand",
+      "maximize",
+      "screen",
+      "arrows",
+      "display",
+      "view",
+      "cinema",
+      "video"
+    ]
+  },
+  "success-fill.svg": {
+    "tags": [
+      "success",
+      "check",
+      "done",
+      "complete",
+      "mark",
+      "tick",
+      "verified",
+      "approved",
+      "good",
+      "correct",
+      "circle",
+      "ok"
+    ]
+  },
+  "disconnected.svg": {
+    "tags": [
+      "disconnected",
+      "broken",
+      "connection",
+      "network",
+      "signal",
+      "error",
+      "offline",
+      "wire",
+      "not working",
+      "interrupted"
+    ]
+  },
+  "bundle.svg": {
+    "tags": [
+      "bundle",
+      "group",
+      "package",
+      "collection",
+      "modules",
+      "components",
+      "items",
+      "multiple",
+      "services",
+      "products",
+      "inventory",
+      "assembly"
+    ]
+  },
+  "home.svg": {
+    "tags": ["home", "house", "building", "residence", "homepage"]
+  },
+  "timed-out.svg": {
+    "tags": [
+      "timed out",
+      "timeout",
+      "time",
+      "clock",
+      "timer",
+      "expired",
+      "overdue",
+      "stop",
+      "cancelled",
+      "deadline",
+      "out of time",
+      "process",
+      "waiting",
+      "delay"
+    ]
+  },
+  "chevron-down.svg": {
+    "tags": [
+      "chevron",
+      "down",
+      "arrow",
+      "expand",
+      "collapse",
+      "direction",
+      "caret",
+      "indicator",
+      "fold"
+    ]
+  },
+  "github.svg": {
+    "tags": [
+      "github",
+      "code",
+      "development",
+      "programmer",
+      "developer",
+      "social coding",
+      "version control",
+      "git",
+      "platform",
+      "repository",
+      "programming",
+      "software"
+    ]
+  },
+  "open-terminal.svg": {
+    "tags": [
+      "terminal",
+      "console",
+      "command line",
+      "cli",
+      "shell",
+      "developer",
+      "code",
+      "programmer",
+      "window",
+      "execute",
+      "prompt",
+      "script",
+      "open"
+    ]
+  },
+  "usb.svg": {
+    "tags": [
+      "usb",
+      "universal serial bus",
+      "connector",
+      "port",
+      "data",
+      "cable",
+      "peripheral",
+      "electronic",
+      "device",
+      "interface"
+    ]
+  },
+  "export.svg": {
+    "tags": [
+      "export",
+      "share",
+      "upload",
+      "save",
+      "download",
+      "arrow",
+      "box",
+      "send",
+      "move",
+      "transfer",
+      "file"
+    ]
+  },
+  "tag.svg": {
+    "tags": [
+      "tag",
+      "label",
+      "price",
+      "sale",
+      "discount",
+      "special offer",
+      "identification",
+      "mark",
+      "brand",
+      "product",
+      "category",
+      "pricing",
+      "marketing",
+      "commerce",
+      "shopping",
+      "retail",
+      "bookmark",
+      "favorite",
+      "organize",
+      "metadata",
+      "key",
+      "symbol",
+      "identifier",
+      "badge",
+      "marker",
+      "notice",
+      "flag"
+    ]
+  },
+  "snapshot.svg": {
+    "tags": [
+      "camera",
+      "photo",
+      "picture",
+      "snapshot",
+      "photography",
+      "image",
+      "capture",
+      "lens",
+      "digital",
+      "media"
+    ]
+  },
+  "show.svg": {
+    "tags": [
+      "eye",
+      "show",
+      "visible",
+      "visibility",
+      "view",
+      "look",
+      "open",
+      "see",
+      "unhide",
+      "watch"
+    ]
+  },
+  "highlight-on.svg": {
+    "tags": [
+      "light",
+      "bulb",
+      "lightbulb",
+      "lamp",
+      "on",
+      "idea",
+      "innovation",
+      "bright",
+      "electricity",
+      "electric",
+      "illuminate",
+      "glow"
+    ]
+  },
+  "map.svg": {
+    "tags": [
+      "map",
+      "navigation",
+      "location",
+      "geography",
+      "atlas",
+      "travel",
+      "guide",
+      "direction",
+      "discover",
+      "journey"
+    ]
+  },
+  "comments.svg": {
+    "tags": [
+      "comments",
+      "speech",
+      "bubble",
+      "chat",
+      "message",
+      "discussion",
+      "talk",
+      "communication",
+      "feedback"
+    ]
+  },
+  "drag.svg": {
+    "tags": ["drag", "reorder", "move", "handle", "grip", "sort", "draggable"]
+  },
+  "security-error.svg": {
+    "tags": [
+      "security",
+      "error",
+      "shield",
+      "fail",
+      "protection",
+      "warning",
+      "danger",
+      "incorrect",
+      "threat",
+      "malware",
+      "virus",
+      "defense",
+      "denied",
+      "security fail",
+      "security error",
+      "problem",
+      "access denied"
+    ]
+  },
+  "power-on.svg": {
+    "tags": ["power", "on", "off", "standby", "button", "switch", "start"]
+  },
+  "add-logical-volume.svg": {
+    "tags": [
+      "volume",
+      "logical volume",
+      "add",
+      "plus",
+      "storage",
+      "disk",
+      "block",
+      "data",
+      "create",
+      "new",
+      "lvm"
+    ]
+  },
+  "file.svg": {
+    "tags": [
+      "file",
+      "document",
+      "page",
+      "paper",
+      "content",
+      "text",
+      "form",
+      "note",
+      "report",
+      "data"
+    ]
+  },
+  "tidy.svg": {
+    "tags": [
+      "tidy",
+      "clean",
+      "organize",
+      "broom",
+      "sweep",
+      "neat",
+      "arrange",
+      "sort",
+      "housekeeping",
+      "dust"
+    ]
+  },
+  "chevron-up.svg": {
+    "tags": ["chevron", "up", "arrow", "direction", "indicator", "caret"]
+  },
+  "switcher-environments.svg": {
+    "tags": [
+      "switcher",
+      "environments",
+      "switch",
+      "options",
+      "list",
+      "select",
+      "settings",
+      "configuration",
+      "stages",
+      "choose",
+      "multiple"
+    ]
+  },
+  "x.svg": {
+    "tags": [
+      "x",
+      "social media",
+      "twitter",
+      "platform",
+      "network",
+      "share",
+      "communication",
+      "app",
+      "website",
+      "symbol",
+      "logo"
+    ]
+  },
+  "plans.svg": {
+    "tags": [
+      "plan",
+      "goals",
+      "success",
+      "achievement",
+      "star",
+      "favorite",
+      "checklist",
+      "verified",
+      "checked",
+      "completed",
+      "important"
+    ]
+  },
+  "menu-contextual.svg": {
+    "tags": [
+      "menu",
+      "contextual",
+      "options",
+      "more",
+      "overflow",
+      "dots",
+      "vertical ellipsis",
+      "kebab menu"
+    ]
+  },
+  "chevron-right.svg": {
+    "tags": [
+      "chevron",
+      "right",
+      "arrow",
+      "next",
+      "navigate",
+      "forward",
+      "pointer",
+      "direction",
+      "indicator",
+      "caret"
+    ]
+  },
+  "connected.svg": {
+    "tags": [
+      "connected",
+      "link",
+      "connection",
+      "network",
+      "join",
+      "relationship",
+      "connect"
+    ]
+  },
+  "instagram.svg": {
+    "tags": [
+      "instagram",
+      "social media",
+      "photo",
+      "sharing",
+      "app",
+      "network",
+      "camera",
+      "brand",
+      "logo",
+      "platform",
+      "photography"
+    ]
+  },
+  "link.svg": {
+    "tags": [
+      "link",
+      "chain",
+      "URL",
+      "hyperlink",
+      "connection",
+      "web",
+      "attach",
+      "share",
+      "website"
+    ]
+  },
+  "certificate.svg": {
+    "tags": [
+      "certificate",
+      "document",
+      "diploma",
+      "award",
+      "medal",
+      "seal",
+      "validation",
+      "achievement",
+      "quality",
+      "official",
+      "authentic",
+      "license",
+      "permit",
+      "honor",
+      "recognition",
+      "success",
+      "trust",
+      "guarantee",
+      "badge"
+    ]
+  },
+  "arrow-right.svg": {
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "next",
+      "direction",
+      "pointer",
+      "navigation",
+      "indicator",
+      "go",
+      "move"
+    ]
+  },
+  "log-out.svg": {
+    "tags": [
+      "log out",
+      "exit",
+      "logout",
+      "sign out",
+      "leave",
+      "arrow",
+      "door",
+      "quit",
+      "account",
+      "session"
+    ]
+  },
+  "add-canvas.svg": {
+    "tags": ["add", "canvas", "new", "create", "page", "document", "artboard"]
+  },
+  "mount.svg": {
+    "tags": [
+      "mount",
+      "hard drive",
+      "storage",
+      "disk",
+      "add",
+      "connect",
+      "filesystem",
+      "external drive",
+      "hdd",
+      "ssd",
+      "server",
+      "computer",
+      "hardware"
+    ]
+  },
+  "settings.svg": {
+    "tags": [
+      "settings",
+      "gear",
+      "cog",
+      "configuration",
+      "preferences",
+      "options",
+      "tools",
+      "adjust",
+      "customize"
+    ]
+  },
+  "blueprint.svg": {
+    "tags": [
+      "blueprint",
+      "plan",
+      "drawing",
+      "scheme",
+      "architecture",
+      "design",
+      "engineering",
+      "construction",
+      "document"
+    ]
+  },
+  "website.svg": {
+    "tags": [
+      "website",
+      "browser",
+      "internet",
+      "web",
+      "page",
+      "layout",
+      "window",
+      "screen",
+      "ui",
+      "interface"
+    ]
+  },
+  "thumbs-down.svg": {
+    "tags": [
+      "dislike",
+      "disapproval",
+      "negative",
+      "no",
+      "bad",
+      "vote down",
+      "hand",
+      "thumb down",
+      "social media",
+      "feedback"
+    ]
+  },
+  "archive.svg": {
+    "tags": [
+      "archive",
+      "box",
+      "storage",
+      "save",
+      "organize",
+      "document",
+      "file",
+      "container",
+      "inbox",
+      "outbox"
+    ]
+  },
+  "in-progress.svg": {
+    "tags": [
+      "progress",
+      "loading",
+      "in progress",
+      "pending",
+      "processing",
+      "status"
+    ]
+  },
+  "notifications-off.svg": {
+    "tags": [
+      "notifications",
+      "off",
+      "disable",
+      "mute",
+      "quiet",
+      "alert",
+      "bell",
+      "silent",
+      "no notifications"
+    ]
+  },
+  "desktop.svg": {
+    "tags": [
+      "desktop",
+      "computer",
+      "monitor",
+      "screen",
+      "display",
+      "work",
+      "office",
+      "device",
+      "technology"
+    ]
+  },
+  "download.svg": {
+    "tags": [
+      "download",
+      "arrow",
+      "save",
+      "file",
+      "install",
+      "retrieve",
+      "get",
+      "data"
+    ]
+  },
+  "pin.svg": {
+    "tags": [
+      "pin",
+      "pushpin",
+      "thumbtack",
+      "map",
+      "location",
+      "mark",
+      "marker",
+      "point",
+      "attach",
+      "fasten",
+      "stationery",
+      "office",
+      "board"
+    ]
+  },
+  "import.svg": {
+    "tags": ["import", "download", "arrow", "down", "box", "document", "entry"]
+  },
+  "select-add.svg": {
+    "tags": [
+      "select",
+      "add",
+      "plus",
+      "selection",
+      "choose",
+      "create",
+      "mark",
+      "tool",
+      "new"
+    ]
+  },
+  "arrow-top-left.svg": {
+    "tags": ["arrow", "top-left", "diagonal", "direction", "up-left"]
+  },
+  "starred.svg": {
+    "tags": [
+      "star",
+      "favorite",
+      "important",
+      "bookmark",
+      "rating",
+      "achievement",
+      "mark",
+      "highlighted",
+      "selected"
+    ]
+  },
+  "models.svg": {
+    "tags": ["models", "people", "group", "team", "users", "human", "persons"]
+  },
+  "book.svg": {
+    "tags": [
+      "book",
+      "reading",
+      "literature",
+      "education",
+      "library",
+      "knowledge",
+      "story",
+      "novel"
+    ]
+  },
+  "security-warning.svg": {
+    "tags": [
+      "security",
+      "warning",
+      "shield",
+      "alert",
+      "danger",
+      "protection",
+      "privacy",
+      "secure",
+      "caution",
+      "exclamation",
+      "error"
+    ]
+  },
+  "code.svg": {
+    "tags": [
+      "code",
+      "coding",
+      "programming",
+      "developer",
+      "develop",
+      "script",
+      "brackets",
+      "terminal",
+      "markup"
+    ]
+  },
+  "priority-low.svg": {
+    "tags": [
+      "priority",
+      "low",
+      "importance",
+      "status",
+      "task",
+      "level",
+      "minimal",
+      "lesser"
+    ]
+  },
+  "priority-critical.svg": {
+    "tags": [
+      "priority",
+      "critical",
+      "urgency",
+      "important",
+      "alert",
+      "warning",
+      "high priority",
+      "danger",
+      "severe",
+      "indicator"
+    ]
+  },
+  "stop.svg": {
+    "tags": [
+      "stop",
+      "square",
+      "media",
+      "player",
+      "button",
+      "control",
+      "end",
+      "finish",
+      "halt"
+    ]
+  },
+  "cursor.svg": {
+    "tags": [
+      "cursor",
+      "mouse",
+      "arrow",
+      "pointer",
+      "click",
+      "select",
+      "computer",
+      "interface",
+      "ui"
+    ]
+  },
+  "toggle-side-nav.svg": {
+    "tags": [
+      "toggle",
+      "side nav",
+      "sidebar",
+      "navigation",
+      "menu",
+      "collapse",
+      "expand",
+      "hide",
+      "show",
+      "panel",
+      "drawer",
+      "left",
+      "arrow",
+      "bar"
+    ]
+  },
+  "plus.svg": {
+    "tags": [
+      "plus",
+      "add",
+      "create",
+      "new",
+      "increment",
+      "addition",
+      "math",
+      "sum",
+      "cross",
+      "positive"
+    ]
+  },
+  "warning.svg": {
+    "tags": [
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "danger",
+      "problem",
+      "triangle",
+      "exclamation",
+      "sign",
+      "symbol"
+    ]
+  },
+  "rss.svg": {
+    "tags": [
+      "rss",
+      "feed",
+      "subscribe",
+      "news",
+      "blog",
+      "content",
+      "syndication",
+      "web feed"
+    ]
+  },
+  "email.svg": {
+    "tags": [
+      "email",
+      "mail",
+      "message",
+      "envelope",
+      "send",
+      "receive",
+      "communication",
+      "inbox"
+    ]
+  },
+  "private-key.svg": {
+    "tags": [
+      "key",
+      "private",
+      "security",
+      "access",
+      "password",
+      "encryption",
+      "secret",
+      "locked",
+      "secure",
+      "cryptographic"
+    ]
+  },
+  "close.svg": {
+    "tags": [
+      "close",
+      "cancel",
+      "exit",
+      "remove",
+      "delete",
+      "stop",
+      "cross",
+      "x mark"
+    ]
+  },
+  "switcher-dashboard.svg": {
+    "tags": [
+      "dashboard",
+      "grid",
+      "layout",
+      "squares",
+      "modules",
+      "widgets",
+      "overview",
+      "control panel",
+      "interface"
+    ]
+  },
+  "copy.svg": {
+    "tags": [
+      "document",
+      "file",
+      "copy",
+      "duplicate",
+      "add",
+      "new",
+      "plus",
+      "create"
+    ]
+  },
+  "repository.svg": {
+    "tags": [
+      "repository",
+      "storage",
+      "archive",
+      "code",
+      "version control",
+      "git",
+      "data",
+      "database",
+      "vault",
+      "folder",
+      "directory",
+      "files",
+      "documents",
+      "project",
+      "history",
+      "backup",
+      "secure",
+      "organized"
+    ]
+  },
+  "snooze.svg": {
+    "tags": [
+      "snooze",
+      "sleep",
+      "nap",
+      "rest",
+      "tired",
+      "zzz",
+      "slumber",
+      "alarm"
+    ]
+  },
+  "hide.svg": {
+    "tags": [
+      "hide",
+      "invisible",
+      "eye",
+      "slash",
+      "disabled",
+      "private",
+      "secret",
+      "off",
+      "view",
+      "toggle",
+      "mask",
+      "concealed",
+      "unseen",
+      "visibility"
+    ]
+  },
+  "back-to-top.svg": {
+    "tags": ["arrow", "up", "top", "back", "scroll", "elevate", "return"]
+  },
+  "image.svg": {
+    "tags": [
+      "copyright",
+      "symbol",
+      "circle",
+      "legal",
+      "ownership",
+      "brand",
+      "registered"
+    ]
+  },
+  "single-host.svg": {
+    "tags": [
+      "host",
+      "server",
+      "computer",
+      "machine",
+      "hexagon",
+      "single",
+      "network"
+    ]
+  },
+  "fork.svg": {
+    "tags": [
+      "fork",
+      "tuning fork",
+      "sound",
+      "music",
+      "vibration",
+      "physics",
+      "instrument"
+    ]
+  },
+  "exposed.svg": {
+    "tags": ["globe", "world", "earth", "map", "sphere", "global"]
+  },
+  "user-profile.svg": {
+    "tags": [
+      "user",
+      "profile",
+      "person",
+      "account",
+      "avatar",
+      "human",
+      "contact",
+      "member",
+      "login"
+    ]
+  },
+  "thumbs-up.svg": {
+    "tags": [
+      "thumbs up",
+      "like",
+      "approve",
+      "agree",
+      "positive",
+      "hand gesture",
+      "good",
+      "social media",
+      "feedback"
+    ]
+  },
+  "highlight-off.svg": {
+    "tags": [
+      "highlight",
+      "marker",
+      "pen",
+      "off",
+      "disable",
+      "deactivate",
+      "clear",
+      "remove",
+      "text editor",
+      "formatting",
+      "writing",
+      "annotation"
+    ]
+  },
+  "play.svg": {
+    "tags": [
+      "play",
+      "media",
+      "video",
+      "audio",
+      "start",
+      "circle",
+      "button",
+      "control"
+    ]
+  },
+  "unlocked.svg": {
+    "tags": [
+      "unlocked",
+      "open",
+      "padlock",
+      "security",
+      "access",
+      "lock",
+      "unsecure",
+      "permission",
+      "authorized"
+    ]
+  },
+  "canvas.svg": {
+    "tags": [
+      "canvas",
+      "art",
+      "painting",
+      "drawing",
+      "picture",
+      "artwork",
+      "graphic",
+      "frame",
+      "layers",
+      "creative"
+    ]
+  },
+  "security-tick.svg": {
+    "tags": [
+      "security",
+      "shield",
+      "check",
+      "tick",
+      "verified",
+      "safe",
+      "protected",
+      "validation",
+      "secure",
+      "approval"
+    ]
+  },
+  "profiles.svg": {
+    "tags": [
+      "profiles",
+      "users",
+      "people",
+      "group",
+      "team",
+      "multiple",
+      "layered",
+      "social",
+      "heads",
+      "silhouettes"
+    ]
+  },
+  "facebook.svg": {
+    "tags": [
+      "facebook",
+      "social media",
+      "network",
+      "app",
+      "share",
+      "f",
+      "communication",
+      "connection"
+    ]
+  },
+  "units.svg": {
+    "tags": [
+      "units",
+      "boxes",
+      "containers",
+      "modules",
+      "blocks",
+      "components",
+      "sections",
+      "segments"
+    ]
+  },
+  "security.svg": {
+    "tags": [
+      "shield",
+      "security",
+      "protection",
+      "secure",
+      "defense",
+      "privacy",
+      "guard",
+      "safeguard",
+      "safety"
+    ]
+  },
+  "iso.svg": {
+    "tags": [
+      "photography",
+      "camera",
+      "iso",
+      "aperture",
+      "lens",
+      "settings",
+      "focus",
+      "circular",
+      "gear"
+    ]
+  },
+  "unmount.svg": {
+    "tags": [
+      "unmount",
+      "eject",
+      "disconnect",
+      "drive",
+      "storage",
+      "usb",
+      "remove",
+      "detach",
+      "device"
+    ]
+  },
+  "pods.svg": {
+    "tags": [
+      "pod",
+      "container",
+      "module",
+      "unit",
+      "block",
+      "storage",
+      "resource",
+      "3d",
+      "geometric"
+    ]
+  },
+  "certification.svg": {
+    "tags": [
+      "certification",
+      "shield",
+      "checkmark",
+      "award",
+      "badge",
+      "guarantee",
+      "approval",
+      "quality",
+      "verified",
+      "official",
+      "license",
+      "achievement",
+      "success"
+    ]
+  },
+  "starred-off.svg": {
+    "tags": ["star", "off", "unstarred", "favorite", "bookmark", "rating"]
+  },
+  "edit.svg": {
+    "tags": [
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "change",
+      "update",
+      "create",
+      "document",
+      "tool",
+      "compose"
+    ]
+  },
+  "anchor.svg": {
+    "tags": [
+      "anchor",
+      "boat",
+      "ship",
+      "sea",
+      "ocean",
+      "marine",
+      "nautical",
+      "port",
+      "harbor",
+      "secure",
+      "stability",
+      "maritime"
+    ]
+  },
+  "bug.svg": {
+    "tags": [
+      "bug",
+      "insect",
+      "error",
+      "problem",
+      "debugging",
+      "software",
+      "creature",
+      "animal"
+    ]
+  },
+  "priority-unknown.svg": {
+    "tags": [
+      "priority",
+      "unknown",
+      "question mark",
+      "query",
+      "information",
+      "status",
+      "help",
+      "level",
+      "importance",
+      "undecided",
+      "undefined",
+      "unclear"
+    ]
+  },
+  "youtube.svg": {
+    "tags": [
+      "youtube",
+      "video",
+      "play",
+      "social media",
+      "streaming",
+      "platform",
+      "media"
+    ]
+  },
+  "spinner.svg": {
+    "tags": [
+      "spinner",
+      "loading",
+      "progress",
+      "indicator",
+      "wait",
+      "refresh",
+      "circle",
+      "processing",
+      "loop",
+      "asynchronous"
+    ]
+  },
+  "applications.svg": {
+    "tags": [
+      "applications",
+      "network",
+      "connections",
+      "distributed",
+      "services",
+      "nodes",
+      "platform",
+      "architecture",
+      "structure",
+      "app"
+    ]
+  },
+  "machines.svg": {
+    "tags": [
+      "machine",
+      "device",
+      "industrial",
+      "technology",
+      "hardware",
+      "equipment",
+      "system",
+      "control",
+      "box",
+      "component"
+    ]
+  },
+  "select.svg": {
+    "tags": [
+      "select",
+      "selection",
+      "dashed",
+      "outline",
+      "area",
+      "border",
+      "tool",
+      "highlight"
+    ]
+  },
+  "user-group.svg": {
+    "tags": [
+      "user",
+      "group",
+      "people",
+      "team",
+      "community",
+      "social",
+      "network",
+      "crowd",
+      "profiles"
+    ]
+  },
+  "revisions.svg": {
+    "tags": [
+      "revisions",
+      "version",
+      "history",
+      "undo",
+      "redo",
+      "refresh",
+      "changes",
+      "updates",
+      "document",
+      "file",
+      "restore",
+      "revert",
+      "timeline",
+      "progress"
+    ]
+  },
+  "delete.svg": {
+    "tags": [
+      "delete",
+      "trash",
+      "bin",
+      "remove",
+      "garbage",
+      "erase",
+      "dispose",
+      "delete button"
+    ]
+  },
+  "waiting.svg": {
+    "tags": [
+      "waiting",
+      "loading",
+      "processing",
+      "ellipsis",
+      "dots",
+      "progress",
+      "indicator",
+      "busy",
+      "circle"
+    ]
+  },
+  "success.svg": {
+    "tags": [
+      "success",
+      "check",
+      "complete",
+      "done",
+      "tick",
+      "approve",
+      "confirm",
+      "accept",
+      "correct",
+      "right",
+      "mark",
+      "circle"
+    ]
+  },
+  "error-fill.svg": {
+    "tags": [
+      "error",
+      "close",
+      "wrong",
+      "deny",
+      "stop",
+      "delete",
+      "cancel",
+      "alert",
+      "notification",
+      "warning",
+      "fail",
+      "exit",
+      "problem",
+      "issue",
+      "cross",
+      "circle",
+      "filled"
+    ]
+  },
+  "play-pending.svg": {
+    "tags": [
+      "play",
+      "pending",
+      "loading",
+      "buffer",
+      "waiting",
+      "media",
+      "video",
+      "audio",
+      "stream",
+      "progress",
+      "circle",
+      "refresh"
+    ]
+  },
+  "change-version.svg": {
+    "tags": [
+      "change",
+      "version",
+      "update",
+      "refresh",
+      "history",
+      "revert",
+      "rollback",
+      "cycle",
+      "arrow",
+      "rotate"
+    ]
+  },
+  "location.svg": {
+    "tags": [
+      "location",
+      "pin",
+      "map",
+      "marker",
+      "pointer",
+      "navigation",
+      "address",
+      "position",
+      "geotag"
+    ]
+  },
+  "gift.svg": {
+    "tags": [
+      "gift",
+      "present",
+      "birthday",
+      "christmas",
+      "celebration",
+      "surprise",
+      "package",
+      "ribbon",
+      "holiday"
+    ]
+  },
+  "external-link.svg": {
+    "tags": [
+      "external link",
+      "link",
+      "new tab",
+      "new window",
+      "open",
+      "arrow",
+      "outbound",
+      "redirect"
+    ]
+  },
+  "share.svg": {
+    "tags": [
+      "share",
+      "social",
+      "network",
+      "connect",
+      "link",
+      "distribute",
+      "send",
+      "upload",
+      "export",
+      "internet",
+      "media",
+      "content"
+    ]
+  },
+  "arrow-up.svg": {
+    "tags": [
+      "arrow",
+      "up",
+      "direction",
+      "indicator",
+      "move up",
+      "scroll up",
+      "sort up",
+      "increase",
+      "top",
+      "north"
+    ]
+  },
+  "linkedin.svg": {
+    "tags": [
+      "linkedin",
+      "social media",
+      "network",
+      "professional",
+      "job",
+      "career",
+      "business",
+      "connection"
+    ]
+  },
+  "file-blank.svg": {
+    "tags": [
+      "file",
+      "document",
+      "blank",
+      "empty",
+      "new",
+      "paper",
+      "page",
+      "sheet",
+      "note"
+    ]
+  },
+  "filter.svg": {
+    "tags": [
+      "filter",
+      "sort",
+      "options",
+      "funnel",
+      "organize",
+      "adjust",
+      "preferences"
+    ]
+  },
+  "cluster-host.svg": {
+    "tags": [
+      "cluster",
+      "host",
+      "network",
+      "connection",
+      "data",
+      "server",
+      "computing",
+      "infrastructure",
+      "grid",
+      "hexagonal",
+      "system",
+      "group",
+      "distributed"
+    ]
+  },
+  "arrow-left.svg": {
+    "tags": [
+      "arrow",
+      "left",
+      "previous",
+      "back",
+      "direction",
+      "move",
+      "navigate"
+    ]
+  },
+  "power-off.svg": {
+    "tags": [
+      "power",
+      "off",
+      "switch",
+      "button",
+      "stop",
+      "shutdown",
+      "turn off",
+      "energy",
+      "disable",
+      "disconnect",
+      "standby",
+      "indicator"
+    ]
+  },
+  "notifications.svg": {
+    "tags": [
+      "notifications",
+      "bell",
+      "alert",
+      "reminder",
+      "alarm",
+      "message",
+      "sound",
+      "signal"
+    ]
+  },
+  "error.svg": {
+    "tags": [
+      "error",
+      "wrong",
+      "close",
+      "delete",
+      "cross",
+      "fail",
+      "incorrect",
+      "warning",
+      "caution",
+      "alert"
+    ]
+  },
+  "upload.svg": {
+    "tags": [
+      "upload",
+      "share",
+      "send",
+      "transfer",
+      "data",
+      "file",
+      "cloud",
+      "arrow",
+      "up",
+      "save"
+    ]
+  },
+  "pause.svg": {
+    "tags": [
+      "pause",
+      "stop",
+      "media",
+      "player",
+      "control",
+      "music",
+      "video",
+      "audio",
+      "sound"
+    ]
+  },
+  "help.svg": {
+    "tags": [
+      "help",
+      "question",
+      "info",
+      "information",
+      "support",
+      "assistance",
+      "query",
+      "faq",
+      "ask",
+      "problem"
+    ]
+  },
+  "status.svg": {
+    "tags": [
+      "status",
+      "graph",
+      "line",
+      "data",
+      "chart",
+      "signal",
+      "activity",
+      "monitoring"
+    ]
+  },
+  "warning-fill.svg": {
+    "tags": [
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "danger",
+      "exclamation",
+      "triangle",
+      "problem",
+      "issue",
+      "attention",
+      "important"
+    ]
+  },
+  "add-partition.svg": {
+    "tags": [
+      "add",
+      "partition",
+      "plus",
+      "block",
+      "segment",
+      "create",
+      "new",
+      "storage",
+      "disk",
+      "layout",
+      "section",
+      "divide",
+      "split"
+    ]
+  },
+  "priority-high.svg": {
+    "tags": [
+      "priority",
+      "high",
+      "important",
+      "urgent",
+      "exclamation",
+      "alert",
+      "information",
+      "notice"
+    ]
+  },
+  "menu.svg": {
+    "tags": ["menu", "hamburger", "navigation", "lines", "list", "options"]
+  },
+  "containers.svg": {
+    "tags": ["container", "box", "storage", "stack", "package", "cargo"]
+  },
+  "statistics.svg": {
+    "tags": [
+      "statistics",
+      "chart",
+      "graph",
+      "data",
+      "analysis",
+      "growth",
+      "trend",
+      "progress",
+      "report",
+      "business",
+      "finance",
+      "performance",
+      "analytics",
+      "line chart",
+      "up",
+      "increase",
+      "arrow",
+      "visual",
+      "information"
+    ]
+  },
+  "locked.svg": {
+    "tags": [
+      "locked",
+      "lock",
+      "padlock",
+      "secure",
+      "security",
+      "private",
+      "privacy",
+      "closed",
+      "restricted"
+    ]
+  },
+  "queued.svg": {
+    "tags": [
+      "queued",
+      "queue",
+      "pending",
+      "waiting",
+      "status",
+      "circle",
+      "item",
+      "list",
+      "sequence",
+      "next"
+    ]
+  },
+  "folder.svg": {
+    "tags": ["folder", "directory", "file", "document", "storage", "organize"]
+  },
+  "play-fill.svg": {
+    "tags": [
+      "play",
+      "button",
+      "media",
+      "start",
+      "circle",
+      "multimedia",
+      "video",
+      "audio",
+      "player",
+      "triangle",
+      "filled"
+    ]
+  },
+  "minus.svg": {
+    "tags": [
+      "minus",
+      "subtract",
+      "remove",
+      "decrease",
+      "hyphen",
+      "dash",
+      "horizontal line",
+      "math",
+      "arithmetic",
+      "reduction"
+    ]
+  },
+  "chevron-left.svg": {
+    "tags": [
+      "chevron",
+      "left",
+      "arrow",
+      "back",
+      "previous",
+      "direction",
+      "navigation",
+      "pointer"
+    ]
+  },
+  "select-remove.svg": {
+    "tags": [
+      "select",
+      "remove",
+      "delete",
+      "selection",
+      "minus",
+      "dashed",
+      "border",
+      "area"
+    ]
+  }
+}

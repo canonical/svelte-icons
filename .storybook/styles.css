@@ -1,3 +1,5 @@
+/* biome-ignore-all lint/complexity/noImportantStyles: we need to override storybook and vanilla framework styles */
+
 @font-face {
   font-family: "Ubuntu Sans";
   src: url("./assets/fonts/UbuntuSans/UbuntuSans.ttf") format("truetype");
@@ -38,4 +40,14 @@
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-ubuntu-sans-mono:
     "Ubuntu Sans Mono", "Courier New", Courier, monospace;
+}
+
+.borderless {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* vanilla framework modal fixe, 100vh overflows inside SB canvas */
+.p-modal {
+  height: 100% !important;
 }

@@ -1,8 +1,8 @@
 import type { Preview } from "@storybook/svelte-vite";
 import { getPreferredColorScheme } from "storybook/theming";
-import { withThemeFromSvelteProvider } from "./components/decorators/withThemeFromSvelteProvider.decorator";
 import { DocsContainer } from "./components/docs/DocsContainer";
 import VanillaFrameworkThemeProvider from "./components/stories/VanillaFrameworkThemeProvider.svelte";
+import { withThemeFromSvelteProvider } from "./decorators/withThemeFromSvelteProvider.decorator";
 import "./styles.css";
 import { DARK_THEME, LIGHT_THEME } from "./theme";
 import "./vanillaframework.scss";
@@ -10,6 +10,11 @@ import "./vanillaframework.scss";
 const preview: Preview = {
   tags: ["autodocs"],
   parameters: {
+    options: {
+      storySort: {
+        order: ["Getting Started", "All Icons"],
+      },
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,

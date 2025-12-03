@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import type { ThemeName } from "../../theme";
-import { CLASS_MAP } from "./constants";
+import { VANILLA_THEME_CLASS_MAP } from "./constants";
 
 const VanillaFrameworkThemeProvider = ({
   theme,
@@ -10,7 +10,7 @@ const VanillaFrameworkThemeProvider = ({
   children: React.ReactNode;
 }) => {
   useEffect(() => {
-    const vanillaClassName = CLASS_MAP[theme];
+    const vanillaClassName = VANILLA_THEME_CLASS_MAP[theme];
     document.documentElement.classList.add(vanillaClassName);
     return () => {
       document.documentElement.classList.remove(vanillaClassName);
