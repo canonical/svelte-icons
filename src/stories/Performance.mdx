@@ -1,0 +1,123 @@
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Performance" />
+
+# Performance
+
+Svelte Icons embed the SVG definition directly in the DOM. This means icons render immediately without additional HTTP requests—unlike external SVG files.
+
+## The Problem: Duplicate SVG Definitions
+
+When rendering the same icon multiple times, each instance includes the full SVG path data in the DOM. For pages with many repeated icons (lists, tables, navigation), this can add significant weight to your HTML.
+
+```html
+<!-- Without optimization: 3 UserProfileIcons = 3 full SVG definitions -->
+<svg viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 2c-2.67..."></path>
+</svg>
+<svg viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 2c-2.67..."></path>
+</svg>
+<svg viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 2c-2.67..."></path>
+</svg>
+```
+
+## The Solution: IconsOptimizationProvider
+
+Wrap your application (or a section of it) with `IconsOptimizationProvider` to automatically deduplicate SVG definitions.
+
+```html
+<script>
+  import {
+    IconsOptimizationProvider,
+    UserProfileIcon,
+  } from "@canonical/svelte-icons";
+</script>
+
+<IconsOptimizationProvider>
+  <Navigation>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/users">Profile <UserProfileIcon /></a>
+  </Navigation>
+
+  <main>
+    <h1>Welcome</h1>
+    <p>This is the home page</p>
+    <UserProfileIcon />
+  </main>
+
+  <footer>
+    <p>Copyright 2025</p>
+    <UserProfileIcon />
+  </footer>
+</IconsOptimizationProvider>
+```
+
+With the provider, the generated HTML becomes much smaller:
+
+```html
+<!-- With optimization: 3 UserProfileIcons = 1 definition + 3 references -->
+<svg viewBox="0 0 16 16">
+  <defs>
+    <symbol id="UserProfileIcon-svelte-icon">
+      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 2c-2.67..."></path>
+    </symbol>
+  </defs>
+  <use href="#UserProfileIcon-svelte-icon"></use>
+</svg>
+<svg viewBox="0 0 16 16">
+  <use href="#UserProfileIcon-svelte-icon"></use>
+</svg>
+<svg viewBox="0 0 16 16">
+  <use href="#UserProfileIcon-svelte-icon"></use>
+</svg>
+```
+
+> **See it in action:** Check out the [Node tree size comparison](?path=/story/advanced-iconsoptimizationprovider--node-tree-size-comparison) story to see the DOM size difference between optimized and non-optimized rendering.
+
+## How It Works
+
+The `IconsOptimizationProvider` uses a **leader-follower pattern**:
+
+1. **Registration**: Each icon instance registers itself with the provider when mounted
+2. **Leader election**: The first instance of each icon type becomes the "leader"
+3. **Definition sharing**: Only the leader renders the SVG `<symbol>` in `<defs>`
+4. **Reference**: All instances (including the leader) use `<use href="...">` to reference the symbol
+5. **Cleanup**: When icons unmount, they unregister. If the leader unmounts, a new leader is elected
+
+This approach is fully reactive—icons can be dynamically added and removed, and the optimization adapts automatically.
+
+> **Try it yourself:** The [Reactivity playground](?path=/story/advanced-iconsoptimizationprovider--reactivity-playground) lets you interactively mount, unmount, and rename icons to see how leader election works in real-time.
+
+## When to Use It
+
+**Recommended for:**
+
+- Pages with many repeated icons (data tables, lists, navigation)
+- Applications where the same icons appear across multiple components
+- SPAs where icons persist across route changes
+
+**Not necessary for:**
+
+- Pages with few icons or mostly unique icons
+- Server-rendered pages where HTML size is less critical
+- Situations where icons are rendered in isolation (e.g., separate iframes)
+
+## Best Practice: App-Level Provider
+
+For most applications, wrap your root layout with the provider:
+
+```html
+<script>
+  // +layout.svelte
+  import { IconsOptimizationProvider } from "@canonical/svelte-icons";
+  const { children } = $props();
+</script>
+
+<IconsOptimizationProvider> {@render children()} </IconsOptimizationProvider>
+```
+
+This ensures all icons throughout your app benefit from deduplication without any additional configuration.
