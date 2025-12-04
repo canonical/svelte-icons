@@ -11,6 +11,8 @@
     "emitDeclarationOnly": true,
     "declaration": true,
     "declarationMap": false,
+    "jsx": "react-jsx",
+
     /**
      * Typecheck JS in `.svelte` and `.js` files by default.
      * Disable checkJs if you'd like to use dynamic types in JS.
@@ -21,5 +23,12 @@
     "checkJs": true,
     "moduleDetection": "force"
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js",
+    "src/**/*.svelte",
+    ".storybook/**/*.ts",
+    ".storybook/**/*.svelte",
+    ".storybook/**/*.tsx"
+  ]
 }

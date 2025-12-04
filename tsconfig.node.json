@@ -3,9 +3,9 @@
     "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "target": "ES2023",
-    "lib": ["ES2023"],
+    "lib": ["ES2023", "DOM"],
     "module": "ESNext",
-    "types": ["node", "bun", "vite/client"],
+    "types": ["node", "bun"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -23,5 +23,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["vite.config.ts", "scripts/**/*.ts", ".storybook/**/*.ts"]
+  "include": ["vite.config.ts", "scripts/**/*.ts"]
 }
