@@ -3,7 +3,7 @@
   import IconBase from "../lib/IconBase.svelte";
 
   const { Story } = defineMeta({
-    title: "IconBase",
+    title: "Advanced/IconBase",
     component: IconBase,
   });
 </script>

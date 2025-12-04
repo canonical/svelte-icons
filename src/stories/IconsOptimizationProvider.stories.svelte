@@ -4,7 +4,7 @@
   import IconsOptimizationProvider from "../lib/IconsOptimizationProvider.svelte";
 
   const { Story } = defineMeta({
-    title: "IconsOptimizationProvider",
+    title: "Advanced/IconsOptimizationProvider",
     component: IconsOptimizationProvider,
   });
 </script>
@@ -21,8 +21,8 @@
         content: String.fromCharCode(97 + i),
         name: i.toString(),
         mounted: true,
-      })),
-    ).flatMap((x) => x),
+      }))
+    ).flatMap((x) => x)
   );
 </script>
 
@@ -69,7 +69,7 @@
       </IconsOptimizationProvider>
       <div>
         Nodes subtree size with optimization: {withOptimizationContainer?.querySelectorAll(
-          "*",
+          "*"
         ).length}
       </div>
     </div>
@@ -84,7 +84,7 @@
       {/each}
       <div>
         Nodes subtree size without optimization: {withoutOptimizationContainer?.querySelectorAll(
-          "*",
+          "*"
         ).length}
       </div>
     </div>
@@ -110,7 +110,10 @@
           unmount them.
         </li>
         <li>
-          Icons in <span style="outline: 1px solid red;">red outlines</span>
+          Icons in <span
+            style="outline: 1px solid var(--vf-color-border-negative);"
+            >negative outlines</span
+          >
           indicate that they are the ones that currently define the SVG structure
           for all the icons with the matching name.
         </li>
@@ -118,20 +121,21 @@
     </div>
     <IconsOptimizationProvider>
       <div
+        class="reset-vanilla-framework"
         style="display: grid; grid-template-columns: repeat(4, 1fr 1fr auto); gap: 0.5rem;"
       >
         {#each icons as icon (icon)}
           <div
-            style="display: grid; grid-template-columns: subgrid; grid-column: span 3;"
+            style="display: grid; grid-template-columns: subgrid; grid-column: span 3; align-items: center; padding: 0.5rem;"
             class="icon-controls-wrapper"
           >
             <div
-              style="display: grid; grid-template-columns: subgrid; grid-column: span 2; font-size: x-small;"
+              style="display: grid; grid-template-columns: subgrid; grid-column: span 2; font-size: small;"
             >
               <label>
                 <div>Icon name:</div>
                 <input
-                  style="font-size: x-small; width: 100%;"
+                  style="font-size: small; width: 100%;"
                   type="text"
                   size="1"
                   bind:value={icon.name}
@@ -141,7 +145,7 @@
               <label>
                 <div>Icon content:</div>
                 <input
-                  style="font-size: x-small; width: 100%;"
+                  style="font-size: small; width: 100%;"
                   type="text"
                   size="1"
                   bind:value={icon.content}
@@ -152,7 +156,7 @@
             <button
               onclick={() => (icon.mounted = !icon.mounted)}
               title="Mount / Unmount Icon"
-              style="display: grid; place-content: center;"
+              style="display: grid; place-content: center;aspect-ratio: 1/1; font-size: 1rem; padding: 0.5rem;"
             >
               {#if icon.mounted}
                 <IconBase iconName={icon.name}>
@@ -174,7 +178,7 @@
       </div>
       <style>
         .icon-controls-wrapper:has(svg.svelte-icon > defs) {
-          outline: 1px solid red;
+          outline: 1px solid var(--vf-color-border-negative);
         }
       </style>
     </IconsOptimizationProvider>
