@@ -1,5 +1,5 @@
 {
-  "arrow-bottom-left.svg": {
+  "arrow-bottom-left": {
     "tags": [
       "arrow",
       "bottom",
@@ -8,9 +8,10 @@
       "down-left",
       "direction",
       "indicator"
-    ]
+    ],
+    "file": "arrow-bottom-left.svg"
   },
-  "search.svg": {
+  "search": {
     "tags": [
       "search",
       "find",
@@ -21,9 +22,10 @@
       "looking",
       "investigate",
       "discover"
-    ]
+    ],
+    "file": "search.svg"
   },
-  "controllers.svg": {
+  "controllers": {
     "tags": [
       "controller",
       "game",
@@ -32,9 +34,10 @@
       "gamepad",
       "play",
       "entertainment"
-    ]
+    ],
+    "file": "controllers.svg"
   },
-  "checkmark.svg": {
+  "checkmark": {
     "tags": [
       "checkmark",
       "check",
@@ -48,9 +51,10 @@
       "validation",
       "verified",
       "correct"
-    ]
+    ],
+    "file": "checkmark.svg"
   },
-  "arrow-bottom-right.svg": {
+  "arrow-bottom-right": {
     "tags": [
       "arrow",
       "bottom right",
@@ -61,9 +65,10 @@
       "navigation",
       "download",
       "external"
-    ]
+    ],
+    "file": "arrow-bottom-right.svg"
   },
-  "arrow-down.svg": {
+  "arrow-down": {
     "tags": [
       "arrow",
       "down",
@@ -72,12 +77,14 @@
       "collapse",
       "navigate",
       "south"
-    ]
+    ],
+    "file": "arrow-down.svg"
   },
-  "switcher.svg": {
-    "tags": ["switcher", "switch", "layout", "change", "rearrange", "swap"]
+  "switcher": {
+    "tags": ["switcher", "switch", "layout", "change", "rearrange", "swap"],
+    "file": "switcher.svg"
   },
-  "priority-negligible.svg": {
+  "priority-negligible": {
     "tags": [
       "priority",
       "negligible",
@@ -94,9 +101,10 @@
       "default",
       "trend",
       "decrease"
-    ]
+    ],
+    "file": "priority-negligible.svg"
   },
-  "priority-medium.svg": {
+  "priority-medium": {
     "tags": [
       "priority",
       "medium",
@@ -107,9 +115,10 @@
       "moderate",
       "grade",
       "ranking"
-    ]
+    ],
+    "file": "priority-medium.svg"
   },
-  "debug.svg": {
+  "debug": {
     "tags": [
       "debug",
       "bug",
@@ -121,9 +130,10 @@
       "development",
       "magnifying glass",
       "inspect"
-    ]
+    ],
+    "file": "debug.svg"
   },
-  "restart.svg": {
+  "restart": {
     "tags": [
       "restart",
       "refresh",
@@ -133,9 +143,10 @@
       "undo",
       "arrow",
       "cycle"
-    ]
+    ],
+    "file": "restart.svg"
   },
-  "information.svg": {
+  "information": {
     "tags": [
       "information",
       "info",
@@ -145,9 +156,10 @@
       "query",
       "guide",
       "support"
-    ]
+    ],
+    "file": "information.svg"
   },
-  "arrow-top-right.svg": {
+  "arrow-top-right": {
     "tags": [
       "arrow",
       "top-right",
@@ -158,9 +170,10 @@
       "up",
       "right",
       "navigation"
-    ]
+    ],
+    "file": "arrow-top-right.svg"
   },
-  "user.svg": {
+  "user": {
     "tags": [
       "user",
       "profile",
@@ -170,9 +183,10 @@
       "contact",
       "human",
       "member"
-    ]
+    ],
+    "file": "user.svg"
   },
-  "fullscreen.svg": {
+  "fullscreen": {
     "tags": [
       "fullscreen",
       "expand",
@@ -183,9 +197,10 @@
       "view",
       "cinema",
       "video"
-    ]
+    ],
+    "file": "fullscreen.svg"
   },
-  "success-fill.svg": {
+  "success-fill": {
     "tags": [
       "success",
       "check",
@@ -199,9 +214,10 @@
       "correct",
       "circle",
       "ok"
-    ]
+    ],
+    "file": "success-fill.svg"
   },
-  "disconnected.svg": {
+  "disconnected": {
     "tags": [
       "disconnected",
       "broken",
@@ -213,9 +229,10 @@
       "wire",
       "not working",
       "interrupted"
-    ]
+    ],
+    "file": "disconnected.svg"
   },
-  "bundle.svg": {
+  "bundle": {
     "tags": [
       "bundle",
       "group",
@@ -229,12 +246,14 @@
       "products",
       "inventory",
       "assembly"
-    ]
+    ],
+    "file": "bundle.svg"
   },
-  "home.svg": {
-    "tags": ["home", "house", "building", "residence", "homepage"]
+  "home": {
+    "tags": ["home", "house", "building", "residence", "homepage"],
+    "file": "home.svg"
   },
-  "timed-out.svg": {
+  "timed-out": {
     "tags": [
       "timed out",
       "timeout",
@@ -250,9 +269,10 @@
       "process",
       "waiting",
       "delay"
-    ]
+    ],
+    "file": "timed-out.svg"
   },
-  "chevron-down.svg": {
+  "chevron-down": {
     "tags": [
       "chevron",
       "down",
@@ -263,9 +283,10 @@
       "caret",
       "indicator",
       "fold"
-    ]
+    ],
+    "file": "chevron-down.svg"
   },
-  "github.svg": {
+  "github": {
     "tags": [
       "github",
       "code",
@@ -279,9 +300,10 @@
       "repository",
       "programming",
       "software"
-    ]
+    ],
+    "file": "github.svg"
   },
-  "open-terminal.svg": {
+  "open-terminal": {
     "tags": [
       "terminal",
       "console",
@@ -296,9 +318,10 @@
       "prompt",
       "script",
       "open"
-    ]
+    ],
+    "file": "open-terminal.svg"
   },
-  "usb.svg": {
+  "usb": {
     "tags": [
       "usb",
       "universal serial bus",
@@ -310,9 +333,10 @@
       "electronic",
       "device",
       "interface"
-    ]
+    ],
+    "file": "usb.svg"
   },
-  "export.svg": {
+  "export": {
     "tags": [
       "export",
       "share",
@@ -325,9 +349,10 @@
       "move",
       "transfer",
       "file"
-    ]
+    ],
+    "file": "export.svg"
   },
-  "tag.svg": {
+  "tag": {
     "tags": [
       "tag",
       "label",
@@ -356,9 +381,10 @@
       "marker",
       "notice",
       "flag"
-    ]
+    ],
+    "file": "tag.svg"
   },
-  "snapshot.svg": {
+  "snapshot": {
     "tags": [
       "camera",
       "photo",
@@ -370,9 +396,10 @@
       "lens",
       "digital",
       "media"
-    ]
+    ],
+    "file": "snapshot.svg"
   },
-  "show.svg": {
+  "show": {
     "tags": [
       "eye",
       "show",
@@ -384,9 +411,10 @@
       "see",
       "unhide",
       "watch"
-    ]
+    ],
+    "file": "show.svg"
   },
-  "highlight-on.svg": {
+  "highlight-on": {
     "tags": [
       "light",
       "bulb",
@@ -400,9 +428,10 @@
       "electric",
       "illuminate",
       "glow"
-    ]
+    ],
+    "file": "highlight-on.svg"
   },
-  "map.svg": {
+  "map": {
     "tags": [
       "map",
       "navigation",
@@ -414,9 +443,10 @@
       "direction",
       "discover",
       "journey"
-    ]
+    ],
+    "file": "map.svg"
   },
-  "comments.svg": {
+  "comments": {
     "tags": [
       "comments",
       "speech",
@@ -427,12 +457,14 @@
       "talk",
       "communication",
       "feedback"
-    ]
+    ],
+    "file": "comments.svg"
   },
-  "drag.svg": {
-    "tags": ["drag", "reorder", "move", "handle", "grip", "sort", "draggable"]
+  "drag": {
+    "tags": ["drag", "reorder", "move", "handle", "grip", "sort", "draggable"],
+    "file": "drag.svg"
   },
-  "security-error.svg": {
+  "security-error": {
     "tags": [
       "security",
       "error",
@@ -451,12 +483,14 @@
       "security error",
       "problem",
       "access denied"
-    ]
+    ],
+    "file": "security-error.svg"
   },
-  "power-on.svg": {
-    "tags": ["power", "on", "off", "standby", "button", "switch", "start"]
+  "power-on": {
+    "tags": ["power", "on", "off", "standby", "button", "switch", "start"],
+    "file": "power-on.svg"
   },
-  "add-logical-volume.svg": {
+  "add-logical-volume": {
     "tags": [
       "volume",
       "logical volume",
@@ -469,9 +503,10 @@
       "create",
       "new",
       "lvm"
-    ]
+    ],
+    "file": "add-logical-volume.svg"
   },
-  "file.svg": {
+  "file": {
     "tags": [
       "file",
       "document",
@@ -483,9 +518,10 @@
       "note",
       "report",
       "data"
-    ]
+    ],
+    "file": "file.svg"
   },
-  "tidy.svg": {
+  "tidy": {
     "tags": [
       "tidy",
       "clean",
@@ -497,12 +533,14 @@
       "sort",
       "housekeeping",
       "dust"
-    ]
+    ],
+    "file": "tidy.svg"
   },
-  "chevron-up.svg": {
-    "tags": ["chevron", "up", "arrow", "direction", "indicator", "caret"]
+  "chevron-up": {
+    "tags": ["chevron", "up", "arrow", "direction", "indicator", "caret"],
+    "file": "chevron-up.svg"
   },
-  "switcher-environments.svg": {
+  "switcher-environments": {
     "tags": [
       "switcher",
       "environments",
@@ -515,9 +553,10 @@
       "stages",
       "choose",
       "multiple"
-    ]
+    ],
+    "file": "switcher-environments.svg"
   },
-  "x.svg": {
+  "x": {
     "tags": [
       "x",
       "social media",
@@ -530,9 +569,10 @@
       "website",
       "symbol",
       "logo"
-    ]
+    ],
+    "file": "x.svg"
   },
-  "plans.svg": {
+  "plans": {
     "tags": [
       "plan",
       "goals",
@@ -545,9 +585,10 @@
       "checked",
       "completed",
       "important"
-    ]
+    ],
+    "file": "plans.svg"
   },
-  "menu-contextual.svg": {
+  "menu-contextual": {
     "tags": [
       "menu",
       "contextual",
@@ -557,9 +598,10 @@
       "dots",
       "vertical ellipsis",
       "kebab menu"
-    ]
+    ],
+    "file": "menu-contextual.svg"
   },
-  "chevron-right.svg": {
+  "chevron-right": {
     "tags": [
       "chevron",
       "right",
@@ -571,9 +613,10 @@
       "direction",
       "indicator",
       "caret"
-    ]
+    ],
+    "file": "chevron-right.svg"
   },
-  "connected.svg": {
+  "connected": {
     "tags": [
       "connected",
       "link",
@@ -582,9 +625,10 @@
       "join",
       "relationship",
       "connect"
-    ]
+    ],
+    "file": "connected.svg"
   },
-  "instagram.svg": {
+  "instagram": {
     "tags": [
       "instagram",
       "social media",
@@ -597,9 +641,10 @@
       "logo",
       "platform",
       "photography"
-    ]
+    ],
+    "file": "instagram.svg"
   },
-  "link.svg": {
+  "link": {
     "tags": [
       "link",
       "chain",
@@ -610,9 +655,10 @@
       "attach",
       "share",
       "website"
-    ]
+    ],
+    "file": "link.svg"
   },
-  "certificate.svg": {
+  "certificate": {
     "tags": [
       "certificate",
       "document",
@@ -633,9 +679,10 @@
       "trust",
       "guarantee",
       "badge"
-    ]
+    ],
+    "file": "certificate.svg"
   },
-  "arrow-right.svg": {
+  "arrow-right": {
     "tags": [
       "arrow",
       "right",
@@ -647,9 +694,10 @@
       "indicator",
       "go",
       "move"
-    ]
+    ],
+    "file": "arrow-right.svg"
   },
-  "log-out.svg": {
+  "log-out": {
     "tags": [
       "log out",
       "exit",
@@ -661,12 +709,14 @@
       "quit",
       "account",
       "session"
-    ]
+    ],
+    "file": "log-out.svg"
   },
-  "add-canvas.svg": {
-    "tags": ["add", "canvas", "new", "create", "page", "document", "artboard"]
+  "add-canvas": {
+    "tags": ["add", "canvas", "new", "create", "page", "document", "artboard"],
+    "file": "add-canvas.svg"
   },
-  "mount.svg": {
+  "mount": {
     "tags": [
       "mount",
       "hard drive",
@@ -681,9 +731,10 @@
       "server",
       "computer",
       "hardware"
-    ]
+    ],
+    "file": "mount.svg"
   },
-  "settings.svg": {
+  "settings": {
     "tags": [
       "settings",
       "gear",
@@ -694,9 +745,10 @@
       "tools",
       "adjust",
       "customize"
-    ]
+    ],
+    "file": "settings.svg"
   },
-  "blueprint.svg": {
+  "blueprint": {
     "tags": [
       "blueprint",
       "plan",
@@ -707,9 +759,10 @@
       "engineering",
       "construction",
       "document"
-    ]
+    ],
+    "file": "blueprint.svg"
   },
-  "website.svg": {
+  "website": {
     "tags": [
       "website",
       "browser",
@@ -721,9 +774,10 @@
       "screen",
       "ui",
       "interface"
-    ]
+    ],
+    "file": "website.svg"
   },
-  "thumbs-down.svg": {
+  "thumbs-down": {
     "tags": [
       "dislike",
       "disapproval",
@@ -735,9 +789,10 @@
       "thumb down",
       "social media",
       "feedback"
-    ]
+    ],
+    "file": "thumbs-down.svg"
   },
-  "archive.svg": {
+  "archive": {
     "tags": [
       "archive",
       "box",
@@ -749,9 +804,10 @@
       "container",
       "inbox",
       "outbox"
-    ]
+    ],
+    "file": "archive.svg"
   },
-  "in-progress.svg": {
+  "in-progress": {
     "tags": [
       "progress",
       "loading",
@@ -759,9 +815,10 @@
       "pending",
       "processing",
       "status"
-    ]
+    ],
+    "file": "in-progress.svg"
   },
-  "notifications-off.svg": {
+  "notifications-off": {
     "tags": [
       "notifications",
       "off",
@@ -772,9 +829,10 @@
       "bell",
       "silent",
       "no notifications"
-    ]
+    ],
+    "file": "notifications-off.svg"
   },
-  "desktop.svg": {
+  "desktop": {
     "tags": [
       "desktop",
       "computer",
@@ -785,9 +843,10 @@
       "office",
       "device",
       "technology"
-    ]
+    ],
+    "file": "desktop.svg"
   },
-  "download.svg": {
+  "download": {
     "tags": [
       "download",
       "arrow",
@@ -797,9 +856,10 @@
       "retrieve",
       "get",
       "data"
-    ]
+    ],
+    "file": "download.svg"
   },
-  "pin.svg": {
+  "pin": {
     "tags": [
       "pin",
       "pushpin",
@@ -814,12 +874,14 @@
       "stationery",
       "office",
       "board"
-    ]
+    ],
+    "file": "pin.svg"
   },
-  "import.svg": {
-    "tags": ["import", "download", "arrow", "down", "box", "document", "entry"]
+  "import": {
+    "tags": ["import", "download", "arrow", "down", "box", "document", "entry"],
+    "file": "import.svg"
   },
-  "select-add.svg": {
+  "select-add": {
     "tags": [
       "select",
       "add",
@@ -830,12 +892,14 @@
       "mark",
       "tool",
       "new"
-    ]
+    ],
+    "file": "select-add.svg"
   },
-  "arrow-top-left.svg": {
-    "tags": ["arrow", "top-left", "diagonal", "direction", "up-left"]
+  "arrow-top-left": {
+    "tags": ["arrow", "top-left", "diagonal", "direction", "up-left"],
+    "file": "arrow-top-left.svg"
   },
-  "starred.svg": {
+  "starred": {
     "tags": [
       "star",
       "favorite",
@@ -846,12 +910,14 @@
       "mark",
       "highlighted",
       "selected"
-    ]
+    ],
+    "file": "starred.svg"
   },
-  "models.svg": {
-    "tags": ["models", "people", "group", "team", "users", "human", "persons"]
+  "models": {
+    "tags": ["models", "people", "group", "team", "users", "human", "persons"],
+    "file": "models.svg"
   },
-  "book.svg": {
+  "book": {
     "tags": [
       "book",
       "reading",
@@ -861,9 +927,10 @@
       "knowledge",
       "story",
       "novel"
-    ]
+    ],
+    "file": "book.svg"
   },
-  "security-warning.svg": {
+  "security-warning": {
     "tags": [
       "security",
       "warning",
@@ -876,9 +943,10 @@
       "caution",
       "exclamation",
       "error"
-    ]
+    ],
+    "file": "security-warning.svg"
   },
-  "code.svg": {
+  "code": {
     "tags": [
       "code",
       "coding",
@@ -889,9 +957,10 @@
       "brackets",
       "terminal",
       "markup"
-    ]
+    ],
+    "file": "code.svg"
   },
-  "priority-low.svg": {
+  "priority-low": {
     "tags": [
       "priority",
       "low",
@@ -901,9 +970,10 @@
       "level",
       "minimal",
       "lesser"
-    ]
+    ],
+    "file": "priority-low.svg"
   },
-  "priority-critical.svg": {
+  "priority-critical": {
     "tags": [
       "priority",
       "critical",
@@ -915,9 +985,10 @@
       "danger",
       "severe",
       "indicator"
-    ]
+    ],
+    "file": "priority-critical.svg"
   },
-  "stop.svg": {
+  "stop": {
     "tags": [
       "stop",
       "square",
@@ -928,9 +999,10 @@
       "end",
       "finish",
       "halt"
-    ]
+    ],
+    "file": "stop.svg"
   },
-  "cursor.svg": {
+  "cursor": {
     "tags": [
       "cursor",
       "mouse",
@@ -941,9 +1013,10 @@
       "computer",
       "interface",
       "ui"
-    ]
+    ],
+    "file": "cursor.svg"
   },
-  "toggle-side-nav.svg": {
+  "toggle-side-nav": {
     "tags": [
       "toggle",
       "side nav",
@@ -959,9 +1032,10 @@
       "left",
       "arrow",
       "bar"
-    ]
+    ],
+    "file": "toggle-side-nav.svg"
   },
-  "plus.svg": {
+  "plus": {
     "tags": [
       "plus",
       "add",
@@ -973,9 +1047,10 @@
       "sum",
       "cross",
       "positive"
-    ]
+    ],
+    "file": "plus.svg"
   },
-  "warning.svg": {
+  "warning": {
     "tags": [
       "warning",
       "alert",
@@ -987,9 +1062,10 @@
       "exclamation",
       "sign",
       "symbol"
-    ]
+    ],
+    "file": "warning.svg"
   },
-  "rss.svg": {
+  "rss": {
     "tags": [
       "rss",
       "feed",
@@ -999,9 +1075,10 @@
       "content",
       "syndication",
       "web feed"
-    ]
+    ],
+    "file": "rss.svg"
   },
-  "email.svg": {
+  "email": {
     "tags": [
       "email",
       "mail",
@@ -1011,9 +1088,10 @@
       "receive",
       "communication",
       "inbox"
-    ]
+    ],
+    "file": "email.svg"
   },
-  "private-key.svg": {
+  "private-key": {
     "tags": [
       "key",
       "private",
@@ -1025,9 +1103,10 @@
       "locked",
       "secure",
       "cryptographic"
-    ]
+    ],
+    "file": "private-key.svg"
   },
-  "close.svg": {
+  "close": {
     "tags": [
       "close",
       "cancel",
@@ -1037,9 +1116,10 @@
       "stop",
       "cross",
       "x mark"
-    ]
+    ],
+    "file": "close.svg"
   },
-  "switcher-dashboard.svg": {
+  "switcher-dashboard": {
     "tags": [
       "dashboard",
       "grid",
@@ -1050,9 +1130,10 @@
       "overview",
       "control panel",
       "interface"
-    ]
+    ],
+    "file": "switcher-dashboard.svg"
   },
-  "copy.svg": {
+  "copy": {
     "tags": [
       "document",
       "file",
@@ -1062,9 +1143,10 @@
       "new",
       "plus",
       "create"
-    ]
+    ],
+    "file": "copy.svg"
   },
-  "repository.svg": {
+  "repository": {
     "tags": [
       "repository",
       "storage",
@@ -1084,9 +1166,10 @@
       "backup",
       "secure",
       "organized"
-    ]
+    ],
+    "file": "repository.svg"
   },
-  "snooze.svg": {
+  "snooze": {
     "tags": [
       "snooze",
       "sleep",
@@ -1096,9 +1179,10 @@
       "zzz",
       "slumber",
       "alarm"
-    ]
+    ],
+    "file": "snooze.svg"
   },
-  "hide.svg": {
+  "hide": {
     "tags": [
       "hide",
       "invisible",
@@ -1114,12 +1198,14 @@
       "concealed",
       "unseen",
       "visibility"
-    ]
+    ],
+    "file": "hide.svg"
   },
-  "back-to-top.svg": {
-    "tags": ["arrow", "up", "top", "back", "scroll", "elevate", "return"]
+  "back-to-top": {
+    "tags": ["arrow", "up", "top", "back", "scroll", "elevate", "return"],
+    "file": "back-to-top.svg"
   },
-  "image.svg": {
+  "image": {
     "tags": [
       "copyright",
       "symbol",
@@ -1128,9 +1214,10 @@
       "ownership",
       "brand",
       "registered"
-    ]
+    ],
+    "file": "image.svg"
   },
-  "single-host.svg": {
+  "single-host": {
     "tags": [
       "host",
       "server",
@@ -1139,9 +1226,10 @@
       "hexagon",
       "single",
       "network"
-    ]
+    ],
+    "file": "single-host.svg"
   },
-  "fork.svg": {
+  "fork": {
     "tags": [
       "fork",
       "tuning fork",
@@ -1150,12 +1238,14 @@
       "vibration",
       "physics",
       "instrument"
-    ]
+    ],
+    "file": "fork.svg"
   },
-  "exposed.svg": {
-    "tags": ["globe", "world", "earth", "map", "sphere", "global"]
+  "exposed": {
+    "tags": ["globe", "world", "earth", "map", "sphere", "global"],
+    "file": "exposed.svg"
   },
-  "user-profile.svg": {
+  "user-profile": {
     "tags": [
       "user",
       "profile",
@@ -1166,9 +1256,10 @@
       "contact",
       "member",
       "login"
-    ]
+    ],
+    "file": "user-profile.svg"
   },
-  "thumbs-up.svg": {
+  "thumbs-up": {
     "tags": [
       "thumbs up",
       "like",
@@ -1179,9 +1270,10 @@
       "good",
       "social media",
       "feedback"
-    ]
+    ],
+    "file": "thumbs-up.svg"
   },
-  "highlight-off.svg": {
+  "highlight-off": {
     "tags": [
       "highlight",
       "marker",
@@ -1195,9 +1287,10 @@
       "formatting",
       "writing",
       "annotation"
-    ]
+    ],
+    "file": "highlight-off.svg"
   },
-  "play.svg": {
+  "play": {
     "tags": [
       "play",
       "media",
@@ -1207,9 +1300,10 @@
       "circle",
       "button",
       "control"
-    ]
+    ],
+    "file": "play.svg"
   },
-  "unlocked.svg": {
+  "unlocked": {
     "tags": [
       "unlocked",
       "open",
@@ -1220,9 +1314,10 @@
       "unsecure",
       "permission",
       "authorized"
-    ]
+    ],
+    "file": "unlocked.svg"
   },
-  "canvas.svg": {
+  "canvas": {
     "tags": [
       "canvas",
       "art",
@@ -1234,9 +1329,10 @@
       "frame",
       "layers",
       "creative"
-    ]
+    ],
+    "file": "canvas.svg"
   },
-  "security-tick.svg": {
+  "security-tick": {
     "tags": [
       "security",
       "shield",
@@ -1248,9 +1344,10 @@
       "validation",
       "secure",
       "approval"
-    ]
+    ],
+    "file": "security-tick.svg"
   },
-  "profiles.svg": {
+  "profiles": {
     "tags": [
       "profiles",
       "users",
@@ -1262,9 +1359,10 @@
       "social",
       "heads",
       "silhouettes"
-    ]
+    ],
+    "file": "profiles.svg"
   },
-  "facebook.svg": {
+  "facebook": {
     "tags": [
       "facebook",
       "social media",
@@ -1274,9 +1372,10 @@
       "f",
       "communication",
       "connection"
-    ]
+    ],
+    "file": "facebook.svg"
   },
-  "units.svg": {
+  "units": {
     "tags": [
       "units",
       "boxes",
@@ -1286,9 +1385,10 @@
       "components",
       "sections",
       "segments"
-    ]
+    ],
+    "file": "units.svg"
   },
-  "security.svg": {
+  "security": {
     "tags": [
       "shield",
       "security",
@@ -1299,9 +1399,10 @@
       "guard",
       "safeguard",
       "safety"
-    ]
+    ],
+    "file": "security.svg"
   },
-  "iso.svg": {
+  "iso": {
     "tags": [
       "photography",
       "camera",
@@ -1312,9 +1413,10 @@
       "focus",
       "circular",
       "gear"
-    ]
+    ],
+    "file": "iso.svg"
   },
-  "unmount.svg": {
+  "unmount": {
     "tags": [
       "unmount",
       "eject",
@@ -1325,9 +1427,10 @@
       "remove",
       "detach",
       "device"
-    ]
+    ],
+    "file": "unmount.svg"
   },
-  "pods.svg": {
+  "pods": {
     "tags": [
       "pod",
       "container",
@@ -1338,9 +1441,10 @@
       "resource",
       "3d",
       "geometric"
-    ]
+    ],
+    "file": "pods.svg"
   },
-  "certification.svg": {
+  "certification": {
     "tags": [
       "certification",
       "shield",
@@ -1355,12 +1459,14 @@
       "license",
       "achievement",
       "success"
-    ]
+    ],
+    "file": "certification.svg"
   },
-  "starred-off.svg": {
-    "tags": ["star", "off", "unstarred", "favorite", "bookmark", "rating"]
+  "starred-off": {
+    "tags": ["star", "off", "unstarred", "favorite", "bookmark", "rating"],
+    "file": "starred-off.svg"
   },
-  "edit.svg": {
+  "edit": {
     "tags": [
       "edit",
       "pencil",
@@ -1372,9 +1478,10 @@
       "document",
       "tool",
       "compose"
-    ]
+    ],
+    "file": "edit.svg"
   },
-  "anchor.svg": {
+  "anchor": {
     "tags": [
       "anchor",
       "boat",
@@ -1388,9 +1495,10 @@
       "secure",
       "stability",
       "maritime"
-    ]
+    ],
+    "file": "anchor.svg"
   },
-  "bug.svg": {
+  "bug": {
     "tags": [
       "bug",
       "insect",
@@ -1400,9 +1508,10 @@
       "software",
       "creature",
       "animal"
-    ]
+    ],
+    "file": "bug.svg"
   },
-  "priority-unknown.svg": {
+  "priority-unknown": {
     "tags": [
       "priority",
       "unknown",
@@ -1416,9 +1525,10 @@
       "undecided",
       "undefined",
       "unclear"
-    ]
+    ],
+    "file": "priority-unknown.svg"
   },
-  "youtube.svg": {
+  "youtube": {
     "tags": [
       "youtube",
       "video",
@@ -1427,9 +1537,10 @@
       "streaming",
       "platform",
       "media"
-    ]
+    ],
+    "file": "youtube.svg"
   },
-  "spinner.svg": {
+  "spinner": {
     "tags": [
       "spinner",
       "loading",
@@ -1441,9 +1552,10 @@
       "processing",
       "loop",
       "asynchronous"
-    ]
+    ],
+    "file": "spinner.svg"
   },
-  "applications.svg": {
+  "applications": {
     "tags": [
       "applications",
       "network",
@@ -1455,9 +1567,10 @@
       "architecture",
       "structure",
       "app"
-    ]
+    ],
+    "file": "applications.svg"
   },
-  "machines.svg": {
+  "machines": {
     "tags": [
       "machine",
       "device",
@@ -1469,9 +1582,10 @@
       "control",
       "box",
       "component"
-    ]
+    ],
+    "file": "machines.svg"
   },
-  "select.svg": {
+  "select": {
     "tags": [
       "select",
       "selection",
@@ -1481,9 +1595,10 @@
       "border",
       "tool",
       "highlight"
-    ]
+    ],
+    "file": "select.svg"
   },
-  "user-group.svg": {
+  "user-group": {
     "tags": [
       "user",
       "group",
@@ -1494,9 +1609,10 @@
       "network",
       "crowd",
       "profiles"
-    ]
+    ],
+    "file": "user-group.svg"
   },
-  "revisions.svg": {
+  "revisions": {
     "tags": [
       "revisions",
       "version",
@@ -1512,9 +1628,10 @@
       "revert",
       "timeline",
       "progress"
-    ]
+    ],
+    "file": "revisions.svg"
   },
-  "delete.svg": {
+  "delete": {
     "tags": [
       "delete",
       "trash",
@@ -1524,9 +1641,10 @@
       "erase",
       "dispose",
       "delete button"
-    ]
+    ],
+    "file": "delete.svg"
   },
-  "waiting.svg": {
+  "waiting": {
     "tags": [
       "waiting",
       "loading",
@@ -1537,9 +1655,10 @@
       "indicator",
       "busy",
       "circle"
-    ]
+    ],
+    "file": "waiting.svg"
   },
-  "success.svg": {
+  "success": {
     "tags": [
       "success",
       "check",
@@ -1553,9 +1672,10 @@
       "right",
       "mark",
       "circle"
-    ]
+    ],
+    "file": "success.svg"
   },
-  "error-fill.svg": {
+  "error-fill": {
     "tags": [
       "error",
       "close",
@@ -1574,9 +1694,10 @@
       "cross",
       "circle",
       "filled"
-    ]
+    ],
+    "file": "error-fill.svg"
   },
-  "play-pending.svg": {
+  "play-pending": {
     "tags": [
       "play",
       "pending",
@@ -1590,9 +1711,10 @@
       "progress",
       "circle",
       "refresh"
-    ]
+    ],
+    "file": "play-pending.svg"
   },
-  "change-version.svg": {
+  "change-version": {
     "tags": [
       "change",
       "version",
@@ -1604,9 +1726,10 @@
       "cycle",
       "arrow",
       "rotate"
-    ]
+    ],
+    "file": "change-version.svg"
   },
-  "location.svg": {
+  "location": {
     "tags": [
       "location",
       "pin",
@@ -1617,9 +1740,10 @@
       "address",
       "position",
       "geotag"
-    ]
+    ],
+    "file": "location.svg"
   },
-  "gift.svg": {
+  "gift": {
     "tags": [
       "gift",
       "present",
@@ -1630,9 +1754,10 @@
       "package",
       "ribbon",
       "holiday"
-    ]
+    ],
+    "file": "gift.svg"
   },
-  "external-link.svg": {
+  "external-link": {
     "tags": [
       "external link",
       "link",
@@ -1642,9 +1767,10 @@
       "arrow",
       "outbound",
       "redirect"
-    ]
+    ],
+    "file": "external-link.svg"
   },
-  "share.svg": {
+  "share": {
     "tags": [
       "share",
       "social",
@@ -1658,9 +1784,10 @@
       "internet",
       "media",
       "content"
-    ]
+    ],
+    "file": "share.svg"
   },
-  "arrow-up.svg": {
+  "arrow-up": {
     "tags": [
       "arrow",
       "up",
@@ -1672,9 +1799,10 @@
       "increase",
       "top",
       "north"
-    ]
+    ],
+    "file": "arrow-up.svg"
   },
-  "linkedin.svg": {
+  "linkedin": {
     "tags": [
       "linkedin",
       "social media",
@@ -1684,9 +1812,10 @@
       "career",
       "business",
       "connection"
-    ]
+    ],
+    "file": "linkedin.svg"
   },
-  "file-blank.svg": {
+  "file-blank": {
     "tags": [
       "file",
       "document",
@@ -1697,9 +1826,10 @@
       "page",
       "sheet",
       "note"
-    ]
+    ],
+    "file": "file-blank.svg"
   },
-  "filter.svg": {
+  "filter": {
     "tags": [
       "filter",
       "sort",
@@ -1708,9 +1838,10 @@
       "organize",
       "adjust",
       "preferences"
-    ]
+    ],
+    "file": "filter.svg"
   },
-  "cluster-host.svg": {
+  "cluster-host": {
     "tags": [
       "cluster",
       "host",
@@ -1725,9 +1856,10 @@
       "system",
       "group",
       "distributed"
-    ]
+    ],
+    "file": "cluster-host.svg"
   },
-  "arrow-left.svg": {
+  "arrow-left": {
     "tags": [
       "arrow",
       "left",
@@ -1736,9 +1868,10 @@
       "direction",
       "move",
       "navigate"
-    ]
+    ],
+    "file": "arrow-left.svg"
   },
-  "power-off.svg": {
+  "power-off": {
     "tags": [
       "power",
       "off",
@@ -1752,9 +1885,10 @@
       "disconnect",
       "standby",
       "indicator"
-    ]
+    ],
+    "file": "power-off.svg"
   },
-  "notifications.svg": {
+  "notifications": {
     "tags": [
       "notifications",
       "bell",
@@ -1764,9 +1898,10 @@
       "message",
       "sound",
       "signal"
-    ]
+    ],
+    "file": "notifications.svg"
   },
-  "error.svg": {
+  "error": {
     "tags": [
       "error",
       "wrong",
@@ -1778,9 +1913,10 @@
       "warning",
       "caution",
       "alert"
-    ]
+    ],
+    "file": "error.svg"
   },
-  "upload.svg": {
+  "upload": {
     "tags": [
       "upload",
       "share",
@@ -1792,9 +1928,10 @@
       "arrow",
       "up",
       "save"
-    ]
+    ],
+    "file": "upload.svg"
   },
-  "pause.svg": {
+  "pause": {
     "tags": [
       "pause",
       "stop",
@@ -1805,9 +1942,10 @@
       "video",
       "audio",
       "sound"
-    ]
+    ],
+    "file": "pause.svg"
   },
-  "help.svg": {
+  "help": {
     "tags": [
       "help",
       "question",
@@ -1819,9 +1957,10 @@
       "faq",
       "ask",
       "problem"
-    ]
+    ],
+    "file": "help.svg"
   },
-  "status.svg": {
+  "status": {
     "tags": [
       "status",
       "graph",
@@ -1831,9 +1970,10 @@
       "signal",
       "activity",
       "monitoring"
-    ]
+    ],
+    "file": "status.svg"
   },
-  "warning-fill.svg": {
+  "warning-fill": {
     "tags": [
       "warning",
       "alert",
@@ -1846,9 +1986,10 @@
       "issue",
       "attention",
       "important"
-    ]
+    ],
+    "file": "warning-fill.svg"
   },
-  "add-partition.svg": {
+  "add-partition": {
     "tags": [
       "add",
       "partition",
@@ -1863,9 +2004,10 @@
       "section",
       "divide",
       "split"
-    ]
+    ],
+    "file": "add-partition.svg"
   },
-  "priority-high.svg": {
+  "priority-high": {
     "tags": [
       "priority",
       "high",
@@ -1875,15 +2017,18 @@
       "alert",
       "information",
       "notice"
-    ]
+    ],
+    "file": "priority-high.svg"
   },
-  "menu.svg": {
-    "tags": ["menu", "hamburger", "navigation", "lines", "list", "options"]
+  "menu": {
+    "tags": ["menu", "hamburger", "navigation", "lines", "list", "options"],
+    "file": "menu.svg"
   },
-  "containers.svg": {
-    "tags": ["container", "box", "storage", "stack", "package", "cargo"]
+  "containers": {
+    "tags": ["container", "box", "storage", "stack", "package", "cargo"],
+    "file": "containers.svg"
   },
-  "statistics.svg": {
+  "statistics": {
     "tags": [
       "statistics",
       "chart",
@@ -1904,9 +2049,10 @@
       "arrow",
       "visual",
       "information"
-    ]
+    ],
+    "file": "statistics.svg"
   },
-  "locked.svg": {
+  "locked": {
     "tags": [
       "locked",
       "lock",
@@ -1917,9 +2063,10 @@
       "privacy",
       "closed",
       "restricted"
-    ]
+    ],
+    "file": "locked.svg"
   },
-  "queued.svg": {
+  "queued": {
     "tags": [
       "queued",
       "queue",
@@ -1931,12 +2078,14 @@
       "list",
       "sequence",
       "next"
-    ]
+    ],
+    "file": "queued.svg"
   },
-  "folder.svg": {
-    "tags": ["folder", "directory", "file", "document", "storage", "organize"]
+  "folder": {
+    "tags": ["folder", "directory", "file", "document", "storage", "organize"],
+    "file": "folder.svg"
   },
-  "play-fill.svg": {
+  "play-fill": {
     "tags": [
       "play",
       "button",
@@ -1949,9 +2098,10 @@
       "player",
       "triangle",
       "filled"
-    ]
+    ],
+    "file": "play-fill.svg"
   },
-  "minus.svg": {
+  "minus": {
     "tags": [
       "minus",
       "subtract",
@@ -1963,9 +2113,10 @@
       "math",
       "arithmetic",
       "reduction"
-    ]
+    ],
+    "file": "minus.svg"
   },
-  "chevron-left.svg": {
+  "chevron-left": {
     "tags": [
       "chevron",
       "left",
@@ -1975,9 +2126,10 @@
       "direction",
       "navigation",
       "pointer"
-    ]
+    ],
+    "file": "chevron-left.svg"
   },
-  "select-remove.svg": {
+  "select-remove": {
     "tags": [
       "select",
       "remove",
@@ -1987,6 +2139,7 @@
       "dashed",
       "border",
       "area"
-    ]
+    ],
+    "file": "select-remove.svg"
   }
 }

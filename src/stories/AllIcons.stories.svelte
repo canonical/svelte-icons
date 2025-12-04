@@ -15,18 +15,13 @@
 
   let search = $state("");
   let selectedIcon = $state<keyof typeof icons | null>(null);
-  let pascalCaseIconName = $derived(
-    selectedIcon ? pascalToKebabCase(selectedIcon) : "",
-  );
   let searchElement = $state<HTMLInputElement>();
-  let selectedIconMetadata = $derived(
-    metadata[
-      (pascalCaseIconName
-        ? `${pascalCaseIconName}.svg`
-        : "") as keyof typeof metadata
-    ],
+  const selectedIconMetadata = $derived(
+    selectedIcon
+      ? metadata[pascalToKebabCase(selectedIcon) as keyof typeof metadata]
+      : null,
   );
-  let SelectedIconComponent: Component | null = $derived(
+  const SelectedIconComponent: Component | null = $derived(
     selectedIcon ? icons[selectedIcon] : null,
   );
 
@@ -82,20 +77,17 @@
   // filtering
   const iconsWithMetadata = (Object.keys(icons) as (keyof typeof icons)[]).map(
     (iconName) => {
-      const svgFileName = `${pascalToKebabCase(iconName)}.svg`;
       return {
         name: iconName,
-        svgFileName,
-        metadata: metadata[svgFileName as keyof typeof metadata] || {
-          tags: [],
-        },
+        metadata:
+          metadata[pascalToKebabCase(iconName) as keyof typeof metadata],
         Component: icons[iconName] as Component,
       };
     },
   );
 
   const fuse = new Fuse(iconsWithMetadata, {
-    keys: ["name", "svgFileName", "metadata.tags"],
+    keys: ["name", "metadata.file", "metadata.tags"],
     threshold: 0.2,
     ignoreLocation: true,
     findAllMatches: true,
@@ -134,9 +126,6 @@
           bind:value={search}
           bind:this={searchElement}
         />
-        <button type="reset" class="p-search-box__reset"
-          ><icons.CloseIcon />
-        </button>
         <button type="submit" class="p-search-box__button"
           ><icons.SearchIcon /></button
         >
@@ -155,8 +144,10 @@
             onclick={(event) => handleIconSelect(event, icon.name)}
           >
             <icon.Component />
-            <span class="p-tooltip__message" role="tooltip"
-              >{pascalToKebabCase(icon.name)}</span
+            <span
+              class="p-tooltip__message"
+              role="tooltip"
+              style="z-index: 1000;">{pascalToKebabCase(icon.name)}</span
             >
           </button>
         {/each}
@@ -196,7 +187,7 @@
             <div class="icon-info">
               <div>
                 <h3>
-                  {pascalCaseIconName}
+                  {pascalToKebabCase(selectedIcon)}
                 </h3>
                 <span>
                   <code>
@@ -248,7 +239,7 @@
 
       .icons-explorer {
         min-height: 32rem;
-
+        overflow-x: hidden;
         .icons-grid {
           /* SB is lagging when there is no inline margin */
           margin: 1rem 1px 0;

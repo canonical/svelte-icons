@@ -55,11 +55,13 @@ const metadataFile = Bun.file(outputFile);
 const metadata = (await metadataFile.exists()) ? await metadataFile.json() : {};
 
 for (const svgFileName of svgFiles) {
+  const iconName = svgFileName.replace(/\.svg$/, "");
+  metadata[iconName] = { ...(metadata[iconName] || {}), file: svgFileName };
   const shouldGenerateTags = clean || !metadata[svgFileName];
   if (shouldGenerateTags) {
     const svg = await Bun.file(path.join(inputDir, svgFileName)).text();
-    const tags = await generateTags({ name: svgFileName, content: svg });
-    metadata[svgFileName] = { tags };
+    const tags = await generateTags({ name: iconName, content: svg });
+    metadata[iconName].tags = tags;
   }
 }
 
