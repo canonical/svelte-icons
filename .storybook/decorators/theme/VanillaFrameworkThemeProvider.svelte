@@ -1,8 +1,7 @@
 <script lang="ts">
-  import { setContext } from "svelte";
-  import type { WithThemeFromSvelteProviderProps } from "../../decorators/withThemeFromSvelteProvider.decorator";
   import type { ThemeName } from "../../theme";
   import { VANILLA_THEME_CLASS_MAP } from "./constants";
+  import type { WithThemeFromSvelteProviderProps } from "./withThemeFromSvelteProvider.decorator";
 
   let { theme, children }: WithThemeFromSvelteProviderProps = $props();
   const vanillaClassName = $derived(
@@ -14,10 +13,6 @@
     return () => {
       document.documentElement.classList.remove(vanillaClassName);
     };
-  });
-
-  $effect(() => {
-    setContext("vanilla-framework-theme", { theme, vanillaClassName });
   });
 </script>
 

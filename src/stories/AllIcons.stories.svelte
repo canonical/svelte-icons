@@ -3,7 +3,7 @@
   import { defineMeta } from "@storybook/addon-svelte-csf";
   import Fuse from "fuse.js";
   import { type Component } from "svelte";
-  import { VANILLA_THEME_CLASS_MAP } from "../../.storybook/components/stories/constants.js";
+  import { VANILLA_THEME_CLASS_MAP } from "../../.storybook/decorators/theme/constants.js";
   import metadata from "../../metadata.json" with { type: "json" };
   import * as icons from "../lib/icons/index.js";
   import { IconsOptimizationProvider } from "../lib/index.js";
