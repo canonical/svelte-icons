@@ -1,7 +1,7 @@
 import type { Preview } from "@storybook/svelte-vite";
 import { getPreferredColorScheme } from "storybook/theming";
-import { DocsContainer } from "./components/docs/DocsContainer";
 import {
+  DocsContainer,
   VanillaFrameworkThemeProvider,
   withThemeFromSvelteProvider,
 } from "./decorators/theme";
@@ -12,6 +12,11 @@ import "./vanillaframework.scss";
 const preview: Preview = {
   tags: ["autodocs"],
   parameters: {
+    options: {
+      storySort: {
+        order: ["Getting Started", "All Icons"],
+      },
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,

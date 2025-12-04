@@ -56,7 +56,7 @@ const DARK_THEME = create({
 
   // Toolbar default and active colors
   barTextColor: "#FFF",
-  barSelectedColor: "#777",
+  barSelectedColor: "#E8541F",
   barHoverColor: "#FFF",
   barBg: "#262626",
 

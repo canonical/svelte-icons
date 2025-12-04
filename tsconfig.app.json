@@ -28,6 +28,7 @@
     "src/**/*.js",
     "src/**/*.svelte",
     ".storybook/**/*.ts",
+    ".storybook/**/*.js",
     ".storybook/**/*.svelte",
     ".storybook/**/*.tsx"
   ]

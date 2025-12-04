@@ -1,0 +1,24 @@
+import { Meta, Canvas } from "@storybook/addon-docs/blocks";
+import * as Icons from "./AllIcons.stories.svelte";
+
+<Meta title="All Icons" />
+
+### Usage
+
+```html
+<script lang="ts">
+  import { ClusterHostIcon } from "@canonical/svelte-icons";
+</script>
+
+<ClusterHostIcon />
+```
+
+### All Icons
+
+<Canvas
+  of={Icons.AllIcons}
+  sourceState="none"
+  layout="fullscreen"
+  withToolbar={false}
+  className="borderless"
+/>
