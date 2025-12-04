@@ -1,7 +1,7 @@
 import type { Preview } from "@storybook/svelte-vite";
 import { getPreferredColorScheme } from "storybook/theming";
-import { DocsContainer } from "./components/docs/DocsContainer";
 import {
+  DocsContainer,
   VanillaFrameworkThemeProvider,
   withThemeFromSvelteProvider,
 } from "./decorators/theme";

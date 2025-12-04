@@ -42,6 +42,10 @@
     "Ubuntu Sans Mono", "Courier New", Courier, monospace;
 }
 
+.docs-story {
+  background-color: var(--vf-color-background-default);
+}
+
 .borderless {
   border: none !important;
   box-shadow: none !important;
