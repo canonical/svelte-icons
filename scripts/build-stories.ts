@@ -1,11 +1,22 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
+import { parseArgs } from "node:util";
 import { Eta } from "eta";
 
-const [, , inputDir, outputDir] = process.argv;
+const {
+  values: { inputDir, outputDir },
+} = parseArgs({
+  args: Bun.argv,
+  options: {
+    inputDir: { type: "string", short: "i" },
+    outputDir: { type: "string", short: "o" },
+  },
+  allowPositionals: true,
+  strict: true,
+});
 
 if (!inputDir || !outputDir) {
-  console.error("Usage: bun build-stories.ts <inputDir> <outputDir>");
+  console.error("Usage: bun build-stories.ts -i <inputDir> -o <outputDir>");
   process.exit(1);
 }
 
