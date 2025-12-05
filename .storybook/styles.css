@@ -55,3 +55,14 @@
 .p-modal {
   height: 100% !important;
 }
+
+.reset-vanilla-framework {
+  input,
+  label,
+  button {
+    margin: 0 !important;
+  }
+  label {
+    padding: 0 !important;
+  }
+}

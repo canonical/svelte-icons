@@ -14,7 +14,7 @@ const preview: Preview = {
   parameters: {
     options: {
       storySort: {
-        order: ["Getting Started", "All Icons"],
+        order: ["Getting Started", "All Icons", "Performance"],
       },
     },
     controls: {
