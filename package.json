@@ -1,6 +1,6 @@
 {
   "name": "@canonical/svelte-icons",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Canonical's icons as Svelte components",
   "private": false,
   "repository": {
