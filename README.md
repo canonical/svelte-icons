@@ -19,11 +19,12 @@ Import icons individually and use them as components:
 
 ```html
 <script>
-  import { Home, Settings, User } from "@canonical/svelte-icons";
+  import { HomeIcon, SettingsIcon, UserIcon } from "@canonical/svelte-icons";
 </script>
 
-<Home />
-<Settings class="custom-class" />
+<HomeIcon />
+<SettingsIcon class="custom-class" />
+<UserIcon />
 ```
 
 ### Styling Icons
@@ -32,10 +33,10 @@ Icons by default inherit the current text color and size.
 
 ```html
 <script>
-  import { Search } from "@canonical/svelte-icons";
+  import { SearchIcon } from "@canonical/svelte-icons";
 </script>
 
-<Search style="color: red; width: 2em; height: 2em;" />
+<SearchIcon style="color: red; width: 2em; height: 2em;" />
 ```
 
 ### Performance Optimization
@@ -44,15 +45,15 @@ When using the same icon multiple times, you may use `IconsOptimizationProvider`
 
 ```html
 <script>
-  import { IconsOptimizationProvider, Home } from "@canonical/svelte-icons";
+  import { IconsOptimizationProvider, HomeIcon } from "@canonical/svelte-icons";
 </script>
 
 <IconsOptimizationProvider>
   <nav>
-    <Home />
+    <HomeIcon />
     <!-- All instances share the same SVG definition -->
-    <Home />
-    <Home />
+    <HomeIcon />
+    <HomeIcon />
   </nav>
 </IconsOptimizationProvider>
 ```
