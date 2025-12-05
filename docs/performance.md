@@ -1,9 +1,3 @@
-import { Markdown, Meta } from "@storybook/addon-docs/blocks";
-import Performance from "../../docs/performance.md?raw";
-
-<Meta title="Performance" />
-<<<<<<< Updated upstream
-
 # Performance
 
 Svelte Icons embed the SVG definition directly in the DOM. This means icons render immediately without additional HTTP requests—unlike external SVG files.
@@ -64,17 +58,17 @@ With the provider, the generated HTML becomes much smaller:
 <!-- With optimization: 3 UserProfileIcons = 1 definition + 3 references -->
 <svg viewBox="0 0 16 16">
   <defs>
-    <symbol id="user-profile-svelte-icon">
+    <symbol id="UserProfileIcon-svelte-icon">
       <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 2c-2.67..."></path>
     </symbol>
   </defs>
-  <use href="#user-profile-svelte-icon"></use>
+  <use href="#UserProfileIcon-svelte-icon"></use>
 </svg>
 <svg viewBox="0 0 16 16">
-  <use href="#user-profile-svelte-icon"></use>
+  <use href="#UserProfileIcon-svelte-icon"></use>
 </svg>
 <svg viewBox="0 0 16 16">
-  <use href="#user-profile-svelte-icon"></use>
+  <use href="#UserProfileIcon-svelte-icon"></use>
 </svg>
 ```
 
@@ -105,7 +99,6 @@ This approach is fully reactive—icons can be dynamically added and removed, an
 **Not necessary for:**
 
 - Pages with few icons or mostly unique icons
-- Server-rendered pages where HTML size is less critical
 - Situations where icons are rendered in isolation (e.g., separate iframes)
 
 ## Best Practice: App-Level Provider
@@ -123,6 +116,3 @@ For most applications, wrap your root layout with the provider:
 ```
 
 This ensures all icons throughout your app benefit from deduplication without any additional configuration.
-=======
-<Markdown>{Performance}</Markdown>
->>>>>>> Stashed changes
