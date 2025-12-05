@@ -59,7 +59,7 @@ When using the same icon multiple times, you may use `IconsOptimizationProvider`
 
 This is especially useful when rendering the same icon many times.
 
-//TODO: Add link to _Node tree size comparison_ story
+> Check out the [Node tree size comparison](https://main--693121d8204f530975a41c27.chromatic.com?path=/story/advanced-iconsoptimizationprovider--node-tree-size-comparison) story to see the DOM size difference between optimized and non-optimized rendering.
 
 ### Custom Icons
 
@@ -83,7 +83,7 @@ You can also create custom icon components using the `IconBase` component:
 > - ensure that the `iconName` prop is unique for each custom icon to avoid collisions,
 > - modifying the SVG content inside `IconBase` during runtime may lead to unexpected behaviors.
 >
-> Check out the _Reactivity playground_ story to learn more. //TODO: link to story.
+> Check out the [Reactivity playground](https://main--693121d8204f530975a41c27.chromatic.com?path=/story/advanced-iconsoptimizationprovider--reactivity-playground) story to learn more.
 
 ## Icon Source
 
