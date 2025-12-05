@@ -5,11 +5,6 @@ on:
       - main
     paths:
       - "package.json"
-      - "src/**"
-      - "scripts/**"
-      - "svelte.config.js"
-      - "tsconfig.app.json"
-      - ".github/workflows/publish.yml"
 
 # https://docs.npmjs.com/trusted-publishers#github-actions-configuration
 permissions:
@@ -17,11 +12,41 @@ permissions:
   contents: write
 
 jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      is_new_version: ${{ steps.check.outputs.is_new_version }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # Only download package.json. Nothing else.
+          sparse-checkout: package.json
+          sparse-checkout-cone-mode: false
+
+      - name: Check if version exists in registry
+        id: check
+        run: |
+          PACKAGE_NAME=$(npm pkg get name | tr -d '"')
+          PACKAGE_VERSION=$(npm pkg get version | tr -d '"')
+
+          echo "Checking $PACKAGE_NAME@$PACKAGE_VERSION..."
+
+          if npm view "$PACKAGE_NAME@$PACKAGE_VERSION" version > /dev/null 2>&1; then
+            echo "Version found. Skipping..."
+            echo "is_new_version=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Version not found. Proceeding..."
+            echo "is_new_version=true" >> "$GITHUB_OUTPUT"
+          fi
+
   ci:
+    needs: check-version
+    if: needs.check-version.outputs.is_new_version == 'true'
     uses: ./.github/workflows/ci.yml
 
   publish:
-    needs: ci
+    needs: [check-version, ci]
+    if: needs.check-version.outputs.is_new_version == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -39,33 +64,10 @@ jobs:
 
       - run: bun run build
 
-      - name: Bump patch version if needed
-        run: |
-          PACKAGE_VERSION=$(npm pkg get version | tr -d '"')
-          PACKAGE_NAME=$(npm pkg get name | tr -d '"')
-
-          # Check if version already exists on npm
-          if npm view "$PACKAGE_NAME@$PACKAGE_VERSION" version 2>/dev/null; then
-            echo "Version $PACKAGE_VERSION already exists, bumping patch version"
-            
-            npm version patch --no-git-tag-version
-          else
-            echo "Version $PACKAGE_VERSION is new, proceeding with current version"
-          fi
-
       # Required for Trusted publishing (https://docs.npmjs.com/trusted-publishers#step-2-configure-your-cicd-workflow)
       - uses: actions/setup-node@v4
         with:
           node-version: "24"
           registry-url: "https://registry.npmjs.org"
 
-      # TODO: Enable back the provenance when repository gets public
-      - run: NPM_CONFIG_PROVENANCE=false npm publish --access public
-
-      - name: Commit version bump
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add package.json
-          git commit -m "Bump version after publish" || exit 0
-          git push || exit 0
+      - run: npm publish --access public
