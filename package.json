@@ -32,9 +32,9 @@
   },
   "scripts": {
     "build": "bun run clean:icons && bun run build:icons && bun run build:package",
-    "build:icons": "bun run scripts/build-icons.ts node_modules/@canonical/ds-assets/icons/ src/lib/icons",
+    "build:icons": "bun run scripts/build-icons.ts -i node_modules/@canonical/ds-assets/icons/ -o src/lib/icons",
     "build:package": "svelte-package -o dist -i src/lib --tsconfig ./tsconfig.app.json",
-    "build:stories": "bun run scripts/build-stories.ts src/lib/icons src/stories/icons",
+    "build:stories": "bun run scripts/build-stories.ts -i src/lib/icons -o src/stories/icons",
     "build:metadata": "bun run scripts/build-metadata.ts -i node_modules/@canonical/ds-assets/icons/ -o metadata.json",
     "clean": "bun run clean:icons && bun run clean:stories",
     "clean:icons": "rm -f src/lib/icons/*.svelte src/lib/icons/index.ts",
