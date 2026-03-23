@@ -6,6 +6,10 @@ on:
       - "main"
   pull_request:
 
+permissions:
+  contents: read
+  statuses: write
+
 jobs:
   chromatic:
     runs-on: ubuntu-latest
