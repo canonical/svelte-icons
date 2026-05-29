@@ -23,7 +23,7 @@ jobs:
 
       - run: bun install
 
-      - uses: chromaui/action@f191a0224b10e1a38b2091cefb7b7a2337009116 # latest
+      - uses: chromaui/action@7aca53e7aa87489020a97f633c1e7e82c12e5973 # latest
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           autoAcceptChanges: ${{ github.ref_name == 'main' && 'main' || '' }}
