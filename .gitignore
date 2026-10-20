@@ -29,3 +29,5 @@ src/stories/icons
 
 *storybook.log
 storybook-static
+
+.env
