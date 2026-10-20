@@ -54,10 +54,12 @@ async function generateTags(svg: { name: string; content: string }) {
 const metadataFile = Bun.file(outputFile);
 const metadata = (await metadataFile.exists()) ? await metadataFile.json() : {};
 
+const iconNames = new Set<string>();
 for (const svgFileName of svgFiles) {
   const iconName = svgFileName.replace(/\.svg$/, "");
+  iconNames.add(iconName);
+  const shouldGenerateTags = clean || !metadata[iconName];
   metadata[iconName] = { ...(metadata[iconName] || {}), file: svgFileName };
-  const shouldGenerateTags = clean || !metadata[svgFileName];
   if (shouldGenerateTags) {
     const svg = await Bun.file(path.join(inputDir, svgFileName)).text();
     const tags = await generateTags({ name: iconName, content: svg });
@@ -65,4 +67,10 @@ for (const svgFileName of svgFiles) {
   }
 }
 
-await metadataFile.write(JSON.stringify(metadata, null, 2));
+const outputMetadata = Object.fromEntries(
+  Object.entries(metadata)
+    .filter(([name]) => iconNames.has(name))
+    .sort(),
+);
+
+await metadataFile.write(JSON.stringify(outputMetadata, null, 2));
