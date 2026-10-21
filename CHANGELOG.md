@@ -18,6 +18,10 @@ When @canonical/ds-assets is changed, note the version used under the release he
 
 ## [Unreleased]
 
+### Changed
+
+- Icons no longer render a redundant nested `<svg>` element inside their `<symbol>`, reducing markup size.
+
 ### Internal
 
 - Generate icon metadata from rendered icon images, using any OpenAI-compatible Chat Completions endpoint (OpenRouter by default, or a custom `--base-url` such as Ollama or llama.cpp).

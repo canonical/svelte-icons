@@ -4,7 +4,6 @@ import { Eta } from "eta";
 import { readIconSvgs } from "../utils.ts";
 import { parseIconsArgs } from "./args.ts";
 import { TEMPLATES_DIR } from "./constants.ts";
-import { indent, kebabToPascalCase } from "./utils.ts";
 
 const { inputDir, outputDir } = parseIconsArgs(Bun.argv);
 
@@ -16,11 +15,15 @@ const components = await Promise.all(
     const component = `${kebabToPascalCase(iconName)}Icon`;
     const outputPath = path.join(outputDir, `${component}.svelte`);
 
-    const svgContent = svgRaw.replace(/<\?xml[^?]*\?>\s*/g, "");
+    const svgInner = svgRaw.match(/<svg\b[^>]*>([\s\S]*)<\/svg>/)?.[1];
+    if (svgInner === undefined) {
+      throw new Error(`Could not find <svg> root element in ${iconName}`);
+    }
+    const svgContent = svgInner.replace(/^\s*\n|\s+$/g, "");
 
     const componentContent = eta.render("./Icon", {
       iconName,
-      svgContent: indent(svgContent, 1),
+      svgContent,
     });
 
     await Bun.write(outputPath, componentContent);
@@ -34,3 +37,9 @@ const indexContent = eta.render("./index", {
 });
 
 await Bun.write(indexPath, indexContent);
+
+function kebabToPascalCase(str: string): string {
+  return str.replace(/(^\w|-\w)/g, (match) =>
+    match.replace("-", "").toUpperCase(),
+  );
+}
