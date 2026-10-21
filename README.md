@@ -109,21 +109,23 @@ bun run check
 ### Generating icon metadata
 
 The metadata generator accepts any endpoint supporting OpenAI-compatible Chat
-Completions. By default, it uses OpenRouter with `google/gemini-2.5-flash`:
+Completions. Each icon is rendered to a PNG and sent to the model together with
+its name, so the model **must support image input**. By default, it uses
+OpenRouter with `google/gemma-4-26b-a4b-it`:
 
 ```bash
 # Set OPENROUTER_API_KEY in your environment or ignored .env file.
 bun run build:metadata
 
 # Override the OpenRouter model.
-bun run build:metadata --model google/gemini-2.5-flash
+bun run build:metadata --model google/gemini-3.1-flash-lite
 ```
 
 For a custom endpoint, pass its **API base URL** and an explicit model:
 
 ```bash
 # Ollama: start the server and download the chosen model beforehand.
-bun run build:metadata --base-url http://localhost:11434/v1 --model qwen3:8b
+bun run build:metadata --base-url http://localhost:11434/v1 --model gemma4:26b
 
 # llama.cpp: start llama-server with your model; use its served model ID.
 bun run build:metadata --base-url http://localhost:8080/v1 --model your-served-model-id
@@ -132,9 +134,12 @@ bun run build:metadata --base-url http://localhost:8080/v1 --model your-served-m
 Custom endpoints use only `METADATA_API_KEY` when supplied, otherwise no
 authentication header is sent.
 
+Requests time out after 120 seconds and are retried up to 3 times. Increase
+the timeout for slow local models with `--timeout <seconds>`.
+
 Existing non-empty tags are reused. Add `--clean` (or `-c`) to regenerate them,
 including when switching endpoints or models:
 
 ```bash
-bun run build:metadata --base-url http://localhost:11434/v1 --model qwen3:8b --clean
+bun run build:metadata --base-url http://localhost:11434/v1 --model gemma4:26b --clean
 ```
