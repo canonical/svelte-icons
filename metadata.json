@@ -2,232 +2,255 @@
   "add-canvas": {
     "tags": [
       "add",
-      "canvas",
-      "new",
       "create",
+      "new",
+      "canvas",
+      "workspace",
+      "board",
       "page",
-      "document",
-      "artboard"
+      "sheet",
+      "plus",
+      "editor",
+      "drawing"
     ]
   },
   "add-logical-volume": {
     "tags": [
-      "volume",
-      "logical volume",
-      "add",
-      "plus",
       "storage",
+      "volume",
       "disk",
-      "block",
-      "data",
+      "add",
       "create",
-      "new",
-      "lvm"
+      "expand",
+      "partition",
+      "drive",
+      "capacity",
+      "lvm",
+      "block storage"
     ]
   },
   "add-partition": {
     "tags": [
-      "add",
       "partition",
-      "plus",
-      "block",
-      "segment",
-      "create",
-      "new",
+      "add",
       "storage",
       "disk",
-      "layout",
-      "section",
-      "divide",
-      "split"
+      "drive",
+      "volume",
+      "create",
+      "expand",
+      "filesystem",
+      "segment",
+      "allocation"
     ]
   },
   "anchor": {
     "tags": [
       "anchor",
-      "boat",
-      "ship",
-      "sea",
-      "ocean",
-      "marine",
-      "nautical",
-      "port",
-      "harbor",
-      "secure",
       "stability",
-      "maritime"
+      "fixed",
+      "base",
+      "connection",
+      "hold",
+      "secure",
+      "static",
+      "attachment",
+      "foundation"
     ]
   },
   "applications": {
     "tags": [
       "applications",
-      "network",
-      "connections",
-      "distributed",
+      "apps",
+      "software",
       "services",
+      "connected",
+      "network",
+      "distribution",
       "nodes",
-      "platform",
-      "architecture",
-      "structure",
-      "app"
+      "cluster",
+      "integration",
+      "modules"
     ]
   },
   "archive": {
     "tags": [
-      "archive",
-      "box",
       "storage",
+      "files",
+      "folder",
+      "data",
       "save",
-      "organize",
-      "document",
-      "file",
+      "history",
+      "collection",
+      "box",
       "container",
-      "inbox",
-      "outbox"
+      "backup"
     ]
   },
   "arrow-bottom-left": {
     "tags": [
       "arrow",
-      "bottom",
+      "direction",
+      "down",
       "left",
       "diagonal",
-      "down-left",
-      "direction",
-      "indicator"
+      "pointer",
+      "move",
+      "navigation",
+      "southwest"
     ]
   },
   "arrow-bottom-right": {
     "tags": [
       "arrow",
-      "bottom right",
+      "down",
+      "right",
       "diagonal",
       "direction",
+      "southeast",
+      "move",
       "pointer",
-      "indicate",
-      "navigation",
-      "download",
-      "external"
+      "navigation"
     ]
   },
   "arrow-down": {
     "tags": [
-      "arrow",
       "down",
+      "arrow",
       "direction",
+      "decrease",
       "download",
-      "collapse",
-      "navigate",
-      "south"
+      "descend",
+      "lower",
+      "drop",
+      "fall",
+      "move down"
     ]
   },
   "arrow-left": {
     "tags": [
-      "arrow",
       "left",
-      "previous",
       "back",
+      "previous",
+      "return",
+      "rewind",
+      "undo",
+      "go back",
       "direction",
-      "move",
-      "navigate"
+      "navigation",
+      "arrow"
     ]
   },
   "arrow-right": {
     "tags": [
       "arrow",
       "right",
-      "forward",
       "next",
+      "forward",
+      "proceed",
+      "continue",
       "direction",
-      "pointer",
-      "navigation",
-      "indicator",
-      "go",
-      "move"
+      "move",
+      "advance",
+      "skip"
     ]
   },
   "arrow-top-left": {
     "tags": [
       "arrow",
-      "top-left",
+      "up",
+      "left",
       "diagonal",
       "direction",
-      "up-left"
+      "northwest",
+      "move",
+      "pointer",
+      "navigation",
+      "back"
     ]
   },
   "arrow-top-right": {
     "tags": [
       "arrow",
-      "top-right",
-      "diagonal",
-      "direction",
-      "point",
-      "northeast",
       "up",
       "right",
+      "diagonal",
+      "direction",
+      "northeast",
+      "move",
+      "pointer",
       "navigation"
     ]
   },
   "arrow-up": {
     "tags": [
-      "arrow",
       "up",
+      "arrow",
       "direction",
-      "indicator",
-      "move up",
-      "scroll up",
-      "sort up",
       "increase",
+      "rise",
+      "upload",
       "top",
-      "north"
+      "above",
+      "ascend",
+      "north",
+      "pointer",
+      "growth"
     ]
   },
   "back-to-top": {
     "tags": [
-      "arrow",
       "up",
       "top",
-      "back",
+      "return",
       "scroll",
-      "elevate",
-      "return"
+      "arrow",
+      "navigation",
+      "header",
+      "beginning",
+      "jump",
+      "upward"
     ]
   },
   "blueprint": {
     "tags": [
-      "blueprint",
       "plan",
-      "drawing",
-      "scheme",
       "architecture",
-      "design",
-      "engineering",
-      "construction",
-      "document"
+      "layout",
+      "draft",
+      "schema",
+      "specification",
+      "structure",
+      "template",
+      "engineering"
     ]
   },
   "book": {
     "tags": [
       "book",
-      "reading",
-      "literature",
-      "education",
-      "library",
+      "documentation",
+      "manual",
+      "guide",
+      "help",
+      "read",
       "knowledge",
-      "story",
-      "novel"
+      "library",
+      "reference",
+      "instructions"
     ]
   },
   "bug": {
     "tags": [
       "bug",
-      "insect",
       "error",
+      "glitch",
+      "issue",
+      "defect",
       "problem",
-      "debugging",
       "software",
-      "creature",
-      "animal"
+      "debug",
+      "fix",
+      "troubleshoot"
     ]
   },
   "bundle": {
@@ -236,273 +259,295 @@
       "group",
       "package",
       "collection",
-      "modules",
-      "components",
-      "items",
-      "multiple",
-      "services",
-      "products",
-      "inventory",
-      "assembly"
+      "cluster",
+      "set",
+      "aggregation",
+      "unit",
+      "combined",
+      "connection"
     ]
   },
   "canvas": {
     "tags": [
-      "canvas",
-      "art",
-      "painting",
+      "workspace",
+      "board",
       "drawing",
-      "picture",
-      "artwork",
-      "graphic",
+      "layout",
+      "surface",
+      "area",
       "frame",
-      "layers",
-      "creative"
+      "background",
+      "editor",
+      "composition"
     ]
   },
   "certificate": {
     "tags": [
       "certificate",
+      "credential",
+      "security",
+      "verification",
+      "authentication",
       "document",
-      "diploma",
       "award",
-      "medal",
       "seal",
       "validation",
-      "achievement",
-      "quality",
-      "official",
-      "authentic",
       "license",
-      "permit",
-      "honor",
-      "recognition",
-      "success",
-      "trust",
-      "guarantee",
-      "badge"
+      "compliance",
+      "trust"
     ]
   },
   "certification": {
     "tags": [
       "certification",
-      "shield",
-      "checkmark",
-      "award",
       "badge",
-      "guarantee",
-      "approval",
-      "quality",
+      "award",
       "verified",
-      "official",
-      "license",
+      "guarantee",
+      "quality",
       "achievement",
-      "success"
+      "seal",
+      "approved",
+      "success",
+      "compliance",
+      "certificate"
     ]
   },
   "change-version": {
     "tags": [
-      "change",
-      "version",
       "update",
       "refresh",
-      "history",
-      "revert",
-      "rollback",
+      "sync",
       "cycle",
-      "arrow",
-      "rotate"
+      "rotate",
+      "version",
+      "switch",
+      "repeat",
+      "reload",
+      "iteration",
+      "loop",
+      "change"
     ]
   },
   "checkmark": {
     "tags": [
-      "checkmark",
       "check",
-      "tick",
-      "complete",
       "done",
       "success",
+      "correct",
+      "complete",
+      "verify",
       "approve",
-      "confirm",
+      "yes",
       "mark",
-      "validation",
-      "verified",
-      "correct"
+      "valid",
+      "ok"
     ]
   },
   "chevron-down": {
     "tags": [
-      "chevron",
       "down",
       "arrow",
       "expand",
       "collapse",
+      "dropdown",
       "direction",
-      "caret",
-      "indicator",
-      "fold"
+      "decrease",
+      "select",
+      "menu",
+      "pointer"
     ]
   },
   "chevron-left": {
     "tags": [
-      "chevron",
       "left",
-      "arrow",
       "back",
       "previous",
+      "arrow",
       "direction",
       "navigation",
-      "pointer"
+      "return",
+      "chevron",
+      "pointer",
+      "rewind"
     ]
   },
   "chevron-right": {
     "tags": [
-      "chevron",
       "right",
-      "arrow",
       "next",
-      "navigate",
+      "arrow",
+      "expand",
       "forward",
-      "pointer",
       "direction",
-      "indicator",
-      "caret"
+      "chevron",
+      "proceed",
+      "collapse",
+      "submenu",
+      "navigation"
     ]
   },
   "chevron-up": {
     "tags": [
-      "chevron",
       "up",
       "arrow",
       "direction",
-      "indicator",
-      "caret"
+      "expand",
+      "collapse",
+      "ascend",
+      "top",
+      "increase",
+      "above",
+      "pointer",
+      "navigation"
     ]
   },
   "close": {
     "tags": [
       "close",
-      "cancel",
       "exit",
+      "cancel",
+      "dismiss",
       "remove",
       "delete",
       "stop",
-      "cross",
-      "x mark"
+      "abort",
+      "error",
+      "wrong",
+      "cross"
     ]
   },
   "cluster-host": {
     "tags": [
       "cluster",
       "host",
-      "network",
-      "connection",
-      "data",
+      "nodes",
       "server",
+      "group",
+      "network",
       "computing",
       "infrastructure",
-      "grid",
-      "hexagonal",
+      "distributed",
+      "connection",
       "system",
-      "group",
-      "distributed"
+      "topology"
     ]
   },
   "code": {
     "tags": [
       "code",
-      "coding",
-      "programming",
-      "developer",
-      "develop",
-      "script",
-      "brackets",
       "terminal",
-      "markup"
+      "shell",
+      "command",
+      "prompt",
+      "cli",
+      "bash",
+      "console",
+      "script",
+      "programming",
+      "developer"
     ]
   },
   "comments": {
     "tags": [
       "comments",
-      "speech",
-      "bubble",
       "chat",
-      "message",
       "discussion",
-      "talk",
-      "communication",
-      "feedback"
+      "feedback",
+      "message",
+      "speech",
+      "conversation",
+      "reply",
+      "text",
+      "communication"
     ]
   },
   "connected": {
     "tags": [
-      "connected",
-      "link",
       "connection",
-      "network",
+      "link",
+      "plug",
+      "cable",
+      "interface",
       "join",
-      "relationship",
-      "connect"
+      "attach",
+      "hardware",
+      "network",
+      "adapter",
+      "connector"
     ]
   },
   "containers": {
     "tags": [
       "container",
-      "box",
-      "storage",
-      "stack",
+      "docker",
       "package",
-      "cargo"
+      "deployment",
+      "isolation",
+      "microservice",
+      "runtime",
+      "software",
+      "app",
+      "instance",
+      "virtualization",
+      "infrastructure"
     ]
   },
   "controllers": {
     "tags": [
-      "controller",
-      "game",
-      "gaming",
-      "joystick",
-      "gamepad",
-      "play",
-      "entertainment"
+      "control",
+      "management",
+      "settings",
+      "configuration",
+      "adjust",
+      "operator",
+      "interface",
+      "dashboard",
+      "handle",
+      "tweak"
     ]
   },
   "copy": {
     "tags": [
-      "document",
-      "file",
       "copy",
       "duplicate",
-      "add",
+      "clone",
       "new",
-      "plus",
-      "create"
+      "add",
+      "create",
+      "clipboard",
+      "document",
+      "task",
+      "list",
+      "plus"
     ]
   },
   "cursor": {
     "tags": [
       "cursor",
-      "mouse",
-      "arrow",
       "pointer",
+      "arrow",
       "click",
       "select",
-      "computer",
-      "interface",
-      "ui"
+      "mouse",
+      "navigation",
+      "selection",
+      "interact",
+      "control"
     ]
   },
   "debug": {
     "tags": [
       "debug",
-      "bug",
+      "troubleshoot",
       "fix",
       "error",
-      "search",
-      "tool",
-      "troubleshoot",
+      "bug",
+      "inspect",
+      "diagnose",
       "development",
-      "magnifying glass",
-      "inspect"
+      "software",
+      "correction"
     ]
   },
   "delete": {
@@ -511,10 +556,12 @@
       "trash",
       "bin",
       "remove",
-      "garbage",
+      "discard",
       "erase",
-      "dispose",
-      "delete button"
+      "garbage",
+      "clear",
+      "destroy",
+      "cleanup"
     ]
   },
   "desktop": {
@@ -523,62 +570,71 @@
       "computer",
       "monitor",
       "screen",
+      "workstation",
+      "pc",
       "display",
-      "work",
-      "office",
-      "device",
-      "technology"
+      "hardware",
+      "terminal"
     ]
   },
   "disconnected": {
     "tags": [
       "disconnected",
-      "broken",
-      "connection",
-      "network",
-      "signal",
-      "error",
+      "unplugged",
       "offline",
-      "wire",
-      "not working",
+      "broken",
+      "error",
+      "separation",
+      "disconnect",
+      "link",
+      "connection",
+      "failure",
       "interrupted"
     ]
   },
   "download": {
     "tags": [
       "download",
-      "arrow",
-      "save",
-      "file",
-      "install",
-      "retrieve",
+      "import",
       "get",
-      "data"
+      "save",
+      "receive",
+      "retrieve",
+      "transfer",
+      "incoming",
+      "pull",
+      "storage",
+      "file"
     ]
   },
   "drag": {
     "tags": [
       "drag",
-      "reorder",
-      "move",
       "handle",
       "grip",
+      "reorder",
+      "move",
+      "rearrange",
       "sort",
-      "draggable"
+      "drag and drop",
+      "grab",
+      "dots"
     ]
   },
   "edit": {
     "tags": [
       "edit",
-      "pencil",
       "write",
       "modify",
+      "pencil",
+      "compose",
       "change",
       "update",
+      "input",
+      "markup",
+      "pen",
       "create",
-      "document",
-      "tool",
-      "compose"
+      "revise"
     ]
   },
   "email": {
@@ -587,94 +643,103 @@
       "mail",
       "message",
       "envelope",
-      "send",
-      "receive",
+      "inbox",
       "communication",
-      "inbox"
+      "contact",
+      "notification",
+      "letter",
+      "send"
     ]
   },
   "error": {
     "tags": [
       "error",
+      "failure",
       "wrong",
+      "cancel",
       "close",
-      "delete",
-      "cross",
-      "fail",
+      "remove",
       "incorrect",
-      "warning",
-      "caution",
-      "alert"
+      "stop",
+      "alert",
+      "problem",
+      "invalid",
+      "delete"
     ]
   },
   "error-fill": {
     "tags": [
       "error",
-      "close",
+      "failure",
       "wrong",
-      "deny",
-      "stop",
-      "delete",
-      "cancel",
-      "alert",
-      "notification",
-      "warning",
-      "fail",
-      "exit",
+      "incorrect",
       "problem",
-      "issue",
-      "cross",
-      "circle",
-      "filled"
+      "alert",
+      "stop",
+      "cancel",
+      "close",
+      "remove",
+      "danger",
+      "critical"
     ]
   },
   "export": {
     "tags": [
       "export",
-      "share",
       "upload",
-      "save",
-      "download",
-      "arrow",
-      "box",
+      "outbound",
       "send",
-      "move",
       "transfer",
-      "file"
+      "share",
+      "exit",
+      "output",
+      "move",
+      "external"
     ]
   },
   "exposed": {
     "tags": [
       "globe",
       "world",
-      "earth",
-      "map",
-      "sphere",
-      "global"
+      "internet",
+      "network",
+      "public",
+      "global",
+      "web",
+      "connection",
+      "worldwide",
+      "exposed",
+      "external",
+      "online"
     ]
   },
   "external-link": {
     "tags": [
-      "external link",
+      "external",
       "link",
-      "new tab",
-      "new window",
-      "open",
-      "arrow",
       "outbound",
-      "redirect"
+      "export",
+      "open",
+      "redirect",
+      "new tab",
+      "popout",
+      "exit",
+      "share",
+      "move",
+      "outgoing"
     ]
   },
   "facebook": {
     "tags": [
       "facebook",
-      "social media",
+      "social",
+      "media",
       "network",
-      "app",
+      "connect",
+      "profile",
+      "community",
       "share",
-      "f",
-      "communication",
-      "connection"
+      "login"
     ]
   },
   "file": {
@@ -682,13 +747,13 @@
       "file",
       "document",
       "page",
-      "paper",
-      "content",
       "text",
-      "form",
+      "data",
+      "content",
+      "paper",
       "note",
-      "report",
-      "data"
+      "record",
+      "information"
     ]
   },
   "file-blank": {
@@ -696,44 +761,56 @@
       "file",
       "document",
       "blank",
+      "page",
+      "paper",
       "empty",
       "new",
-      "paper",
-      "page",
-      "sheet",
-      "note"
+      "text",
+      "data",
+      "content"
     ]
   },
   "filter": {
     "tags": [
       "filter",
+      "refine",
       "sort",
-      "options",
-      "funnel",
-      "organize",
+      "narrow",
       "adjust",
-      "preferences"
+      "options",
+      "settings",
+      "funnel",
+      "selection",
+      "organize"
     ]
   },
   "folder": {
     "tags": [
       "folder",
       "directory",
-      "file",
-      "document",
+      "files",
       "storage",
-      "organize"
+      "documents",
+      "organization",
+      "management",
+      "container",
+      "navigation",
+      "data"
     ]
   },
   "fork": {
     "tags": [
       "fork",
-      "tuning fork",
-      "sound",
-      "music",
-      "vibration",
-      "physics",
-      "instrument"
+      "branch",
+      "split",
+      "diverge",
+      "separation",
+      "version control",
+      "git",
+      "flow",
+      "path",
+      "direction",
+      "branching"
     ]
   },
   "fullscreen": {
@@ -741,146 +818,155 @@
       "fullscreen",
       "expand",
       "maximize",
-      "screen",
-      "arrows",
-      "display",
+      "focus",
+      "frame",
+      "boundary",
       "view",
-      "cinema",
-      "video"
+      "display",
+      "enlarge",
+      "border"
     ]
   },
   "gift": {
     "tags": [
       "gift",
       "present",
-      "birthday",
-      "christmas",
-      "celebration",
+      "reward",
+      "bonus",
+      "offer",
+      "promotion",
       "surprise",
       "package",
-      "ribbon",
-      "holiday"
+      "box",
+      "prize",
+      "incentive"
     ]
   },
   "github": {
     "tags": [
       "github",
-      "code",
-      "development",
-      "programmer",
-      "developer",
-      "social coding",
-      "version control",
       "git",
-      "platform",
       "repository",
-      "programming",
-      "software"
+      "code",
+      "developer",
+      "version control",
+      "software",
+      "hosting",
+      "source code",
+      "collaboration"
     ]
   },
   "help": {
     "tags": [
       "help",
       "question",
-      "info",
-      "information",
       "support",
-      "assistance",
-      "query",
       "faq",
-      "ask",
-      "problem"
+      "info",
+      "assistance",
+      "guide",
+      "query",
+      "problem",
+      "ask"
     ]
   },
   "hide": {
     "tags": [
       "hide",
+      "visibility",
       "invisible",
+      "conceal",
       "eye",
-      "slash",
-      "disabled",
+      "eye off",
+      "obscure",
       "private",
-      "secret",
-      "off",
-      "view",
-      "toggle",
-      "mask",
-      "concealed",
-      "unseen",
-      "visibility"
+      "password",
+      "mask"
     ]
   },
   "highlight-off": {
     "tags": [
-      "highlight",
-      "marker",
-      "pen",
+      "idea",
+      "suggestion",
+      "tip",
+      "insight",
+      "knowledge",
+      "disabled",
       "off",
-      "disable",
-      "deactivate",
-      "clear",
-      "remove",
-      "text editor",
-      "formatting",
-      "writing",
-      "annotation"
+      "unavailable",
+      "lightbulb",
+      "intelligence"
     ]
   },
   "highlight-on": {
     "tags": [
-      "light",
-      "bulb",
-      "lightbulb",
-      "lamp",
-      "on",
       "idea",
+      "lightbulb",
+      "insight",
+      "suggestion",
       "innovation",
-      "bright",
-      "electricity",
-      "electric",
-      "illuminate",
-      "glow"
+      "creative",
+      "solution",
+      "intelligence",
+      "discovery",
+      "knowledge",
+      "inspiration",
+      "brainstorming"
     ]
   },
   "home": {
     "tags": [
       "home",
-      "house",
-      "building",
-      "residence",
-      "homepage"
+      "main",
+      "start",
+      "dashboard",
+      "base",
+      "root",
+      "landing",
+      "house"
     ]
   },
   "image": {
     "tags": [
-      "copyright",
-      "symbol",
-      "circle",
-      "legal",
-      "ownership",
-      "brand",
-      "registered"
+      "os",
+      "operating system",
+      "software",
+      "system",
+      "platform",
+      "kernel",
+      "environment",
+      "core"
     ]
   },
   "import": {
     "tags": [
       "import",
       "download",
-      "arrow",
-      "down",
-      "box",
-      "document",
-      "entry"
+      "receive",
+      "input",
+      "inbound",
+      "get",
+      "load",
+      "fetch",
+      "transfer",
+      "add",
+      "incoming",
+      "save"
     ]
   },
   "in-progress": {
     "tags": [
-      "progress",
       "loading",
-      "in progress",
-      "pending",
+      "progress",
       "processing",
-      "status"
+      "status",
+      "running",
+      "incomplete",
+      "waiting",
+      "buffer",
+      "circle",
+      "cycle",
+      "ongoing"
     ]
   },
   "information": {
@@ -888,118 +974,128 @@
       "information",
       "info",
       "help",
-      "about",
       "details",
-      "query",
+      "about",
+      "notice",
       "guide",
-      "support"
+      "instruction",
+      "query",
+      "knowledge",
+      "faq"
     ]
   },
   "instagram": {
     "tags": [
       "instagram",
       "social media",
-      "photo",
-      "sharing",
-      "app",
-      "network",
       "camera",
-      "brand",
-      "logo",
-      "platform",
-      "photography"
+      "photo",
+      "photography",
+      "media",
+      "network",
+      "app",
+      "social"
     ]
   },
   "iso": {
     "tags": [
-      "photography",
-      "camera",
       "iso",
-      "aperture",
-      "lens",
-      "settings",
-      "focus",
-      "circular",
-      "gear"
+      "disk",
+      "image",
+      "disc",
+      "storage",
+      "file",
+      "format",
+      "optical",
+      "archive",
+      "data"
     ]
   },
   "link": {
     "tags": [
       "link",
-      "chain",
-      "URL",
-      "hyperlink",
       "connection",
-      "web",
+      "url",
+      "hyperlink",
       "attach",
-      "share",
-      "website"
+      "chain",
+      "connect",
+      "web",
+      "anchor",
+      "relationship",
+      "binding"
     ]
   },
   "linkedin": {
     "tags": [
       "linkedin",
-      "social media",
-      "network",
+      "social",
       "professional",
-      "job",
+      "networking",
       "career",
       "business",
-      "connection"
+      "profile",
+      "connection",
+      "media",
+      "social media"
     ]
   },
   "location": {
     "tags": [
       "location",
-      "pin",
       "map",
+      "pin",
       "marker",
-      "pointer",
-      "navigation",
-      "address",
+      "place",
       "position",
-      "geotag"
+      "gps",
+      "destination",
+      "address",
+      "point",
+      "navigation",
+      "coordinates"
     ]
   },
   "locked": {
     "tags": [
-      "locked",
       "lock",
-      "padlock",
       "secure",
-      "security",
-      "private",
       "privacy",
+      "protection",
+      "safety",
+      "encrypted",
+      "access",
       "closed",
-      "restricted"
+      "authentication",
+      "security"
     ]
   },
   "log-out": {
     "tags": [
-      "log out",
-      "exit",
       "logout",
+      "exit",
       "sign out",
       "leave",
-      "arrow",
-      "door",
-      "quit",
-      "account",
-      "session"
+      "session end",
+      "departure",
+      "out",
+      "disconnect",
+      "close session"
     ]
   },
   "machines": {
     "tags": [
-      "machine",
-      "device",
-      "industrial",
-      "technology",
+      "server",
       "hardware",
-      "equipment",
-      "system",
-      "control",
-      "box",
-      "component"
+      "compute",
+      "node",
+      "host",
+      "infrastructure",
+      "rack",
+      "computer",
+      "datacenter",
+      "instance",
+      "machine"
     ]
   },
   "map": {
@@ -1007,35 +1103,45 @@
       "map",
       "navigation",
       "location",
-      "geography",
-      "atlas",
-      "travel",
-      "guide",
       "direction",
-      "discover",
-      "journey"
+      "route",
+      "atlas",
+      "folded",
+      "guide",
+      "geography",
+      "travel",
+      "destination",
+      "wayfinding"
     ]
   },
   "menu": {
     "tags": [
       "menu",
-      "hamburger",
       "navigation",
-      "lines",
       "list",
-      "options"
+      "hamburger",
+      "options",
+      "more",
+      "drawer",
+      "main",
+      "toggle",
+      "expand",
+      "settings",
+      "sidebar"
     ]
   },
   "menu-contextual": {
     "tags": [
       "menu",
-      "contextual",
-      "options",
       "more",
-      "overflow",
+      "options",
+      "vertical",
       "dots",
-      "vertical ellipsis",
-      "kebab menu"
+      "settings",
+      "actions",
+      "overflow",
+      "context",
+      "more-vert"
     ]
   },
   "minus": {
@@ -1044,404 +1150,406 @@
       "subtract",
       "remove",
       "decrease",
-      "hyphen",
-      "dash",
-      "horizontal line",
-      "math",
-      "arithmetic",
-      "reduction"
+      "less",
+      "negative",
+      "delete",
+      "subtraction",
+      "reduction",
+      "dash"
     ]
   },
   "models": {
     "tags": [
       "models",
-      "people",
-      "group",
-      "team",
-      "users",
-      "human",
-      "persons"
+      "network",
+      "nodes",
+      "connections",
+      "structure",
+      "topology",
+      "graph",
+      "data",
+      "relationship",
+      "system",
+      "architecture"
     ]
   },
   "mount": {
     "tags": [
       "mount",
-      "hard drive",
+      "add",
       "storage",
       "disk",
-      "add",
-      "connect",
-      "filesystem",
-      "external drive",
-      "hdd",
-      "ssd",
-      "server",
-      "computer",
-      "hardware"
+      "drive",
+      "volume",
+      "hardware",
+      "attach",
+      "plug",
+      "device",
+      "filesystem"
     ]
   },
   "notifications": {
     "tags": [
       "notifications",
+      "alerts",
       "bell",
-      "alert",
-      "reminder",
-      "alarm",
-      "message",
-      "sound",
-      "signal"
+      "reminders",
+      "announcements",
+      "updates",
+      "attention",
+      "activity",
+      "incoming",
+      "alarm"
     ]
   },
   "notifications-off": {
     "tags": [
       "notifications",
-      "off",
-      "disable",
       "mute",
-      "quiet",
+      "silence",
+      "off",
       "alert",
       "bell",
-      "silent",
-      "no notifications"
+      "disabled",
+      "do not disturb",
+      "quiet",
+      "suppress",
+      "none",
+      "inactive"
     ]
   },
   "open-terminal": {
     "tags": [
       "terminal",
-      "console",
       "command line",
-      "cli",
       "shell",
-      "developer",
-      "code",
-      "programmer",
-      "window",
-      "execute",
+      "console",
       "prompt",
-      "script",
-      "open"
+      "cli",
+      "bash",
+      "command",
+      "input",
+      "programming",
+      "developer",
+      "interface"
     ]
   },
   "pause": {
     "tags": [
       "pause",
       "stop",
-      "media",
-      "player",
-      "control",
-      "music",
-      "video",
-      "audio",
-      "sound"
+      "halt",
+      "wait",
+      "interrupt",
+      "break",
+      "pause button",
+      "playback",
+      "suspend",
+      "hold"
     ]
   },
   "pin": {
     "tags": [
       "pin",
       "pushpin",
-      "thumbtack",
-      "map",
-      "location",
-      "mark",
-      "marker",
-      "point",
+      "anchor",
+      "fix",
       "attach",
-      "fasten",
-      "stationery",
-      "office",
-      "board"
+      "stick",
+      "mark",
+      "location",
+      "spot",
+      "pinned",
+      "bookmark"
     ]
   },
   "plans": {
     "tags": [
-      "plan",
-      "goals",
-      "success",
-      "achievement",
-      "star",
-      "favorite",
-      "checklist",
       "verified",
-      "checked",
-      "completed",
-      "important"
+      "approved",
+      "success",
+      "plan",
+      "subscription",
+      "check",
+      "badge",
+      "guarantee",
+      "confirmed",
+      "valid",
+      "premium",
+      "agreement"
     ]
   },
   "play": {
     "tags": [
       "play",
+      "start",
+      "run",
+      "execute",
+      "resume",
       "media",
       "video",
       "audio",
-      "start",
-      "circle",
-      "button",
-      "control"
+      "trigger",
+      "begin"
     ]
   },
   "play-fill": {
     "tags": [
       "play",
-      "button",
-      "media",
       "start",
-      "circle",
-      "multimedia",
+      "resume",
+      "media",
       "video",
       "audio",
-      "player",
-      "triangle",
-      "filled"
+      "run",
+      "execute",
+      "button",
+      "triangle"
     ]
   },
   "play-pending": {
     "tags": [
       "play",
       "pending",
-      "loading",
-      "buffer",
+      "queued",
       "waiting",
+      "buffer",
       "media",
-      "video",
-      "audio",
-      "stream",
-      "progress",
-      "circle",
-      "refresh"
+      "start",
+      "loading",
+      "ready",
+      "process"
     ]
   },
   "plus": {
     "tags": [
-      "plus",
       "add",
       "create",
       "new",
-      "increment",
-      "addition",
-      "math",
-      "sum",
-      "cross",
-      "positive"
+      "plus",
+      "insert",
+      "positive",
+      "increase",
+      "expand",
+      "join",
+      "append"
     ]
   },
   "pods": {
     "tags": [
-      "pod",
+      "kubernetes",
       "container",
-      "module",
-      "unit",
-      "block",
-      "storage",
-      "resource",
-      "3d",
-      "geometric"
+      "pod",
+      "cluster",
+      "deployment",
+      "orchestration",
+      "workload",
+      "compute",
+      "node",
+      "microservice",
+      "infrastructure"
     ]
   },
   "power-off": {
     "tags": [
       "power",
       "off",
-      "switch",
-      "button",
-      "stop",
       "shutdown",
+      "stop",
+      "exit",
+      "sleep",
+      "deactivate",
       "turn off",
-      "energy",
-      "disable",
-      "disconnect",
-      "standby",
-      "indicator"
+      "system",
+      "control"
     ]
   },
   "power-on": {
     "tags": [
       "power",
       "on",
-      "off",
-      "standby",
-      "button",
+      "start",
+      "activate",
+      "boot",
       "switch",
-      "start"
+      "system",
+      "running",
+      "enable",
+      "status"
     ]
   },
   "priority-critical": {
     "tags": [
-      "priority",
       "critical",
-      "urgency",
-      "important",
+      "priority",
       "alert",
-      "warning",
-      "high priority",
+      "emergency",
       "danger",
-      "severe",
-      "indicator"
+      "warning",
+      "error",
+      "urgent",
+      "attention",
+      "hazard"
     ]
   },
   "priority-high": {
     "tags": [
-      "priority",
-      "high",
-      "important",
       "urgent",
-      "exclamation",
+      "important",
+      "critical",
+      "high",
       "alert",
-      "information",
-      "notice"
+      "attention",
+      "priority",
+      "status",
+      "warning",
+      "flag"
     ]
   },
   "priority-low": {
     "tags": [
-      "priority",
       "low",
+      "priority",
       "importance",
-      "status",
-      "task",
       "level",
+      "gauge",
+      "scale",
+      "status",
       "minimal",
-      "lesser"
+      "slight",
+      "degree"
     ]
   },
   "priority-medium": {
     "tags": [
       "priority",
       "medium",
-      "arrow",
-      "up",
-      "level",
       "importance",
-      "moderate",
-      "grade",
-      "ranking"
+      "level",
+      "status",
+      "task",
+      "issue",
+      "order",
+      "urgency",
+      "middle"
     ]
   },
   "priority-negligible": {
     "tags": [
-      "priority",
       "negligible",
       "low",
-      "importance",
-      "status",
-      "indicator",
-      "arrow",
       "minimal",
-      "trivial",
-      "ranking",
       "minor",
-      "unimportant",
-      "default",
-      "trend",
-      "decrease"
+      "insignificant",
+      "low priority",
+      "importance",
+      "level",
+      "rank",
+      "order"
     ]
   },
   "priority-unknown": {
     "tags": [
       "priority",
       "unknown",
-      "question mark",
-      "query",
-      "information",
-      "status",
-      "help",
-      "level",
-      "importance",
-      "undecided",
+      "question",
       "undefined",
-      "unclear"
+      "uncertain",
+      "unspecified",
+      "help",
+      "status",
+      "indeterminable",
+      "task"
     ]
   },
   "private-key": {
     "tags": [
       "key",
-      "private",
       "security",
-      "access",
-      "password",
+      "private",
       "encryption",
+      "authentication",
+      "access",
+      "credential",
+      "password",
       "secret",
-      "locked",
-      "secure",
-      "cryptographic"
+      "cryptography",
+      "authorization"
     ]
   },
   "profiles": {
     "tags": [
       "profiles",
-      "users",
-      "people",
-      "group",
-      "team",
-      "multiple",
-      "layered",
-      "social",
-      "heads",
-      "silhouettes"
+      "profile",
+      "configuration",
+      "settings",
+      "template",
+      "preset",
+      "cube",
+      "container",
+      "instance",
+      "lxd"
     ]
   },
   "queued": {
     "tags": [
-      "queued",
       "queue",
-      "pending",
       "waiting",
-      "status",
-      "circle",
-      "item",
+      "pending",
+      "buffer",
       "list",
+      "order",
       "sequence",
-      "next"
+      "process",
+      "stack",
+      "hold"
     ]
   },
   "repository": {
     "tags": [
       "repository",
       "storage",
-      "archive",
-      "code",
-      "version control",
-      "git",
-      "data",
       "database",
-      "vault",
-      "folder",
-      "directory",
+      "stack",
+      "collection",
+      "archive",
       "files",
-      "documents",
-      "project",
-      "history",
-      "backup",
-      "secure",
-      "organized"
+      "data",
+      "server",
+      "registry",
+      "library"
     ]
   },
   "restart": {
     "tags": [
       "restart",
+      "reset",
+      "reboot",
       "refresh",
       "reload",
-      "reset",
-      "update",
-      "undo",
-      "arrow",
-      "cycle"
+      "cycle",
+      "redo",
+      "return",
+      "loop",
+      "retry",
+      "revert",
+      "initialize"
     ]
   },
   "revisions": {
     "tags": [
-      "revisions",
-      "version",
       "history",
+      "version",
+      "back",
+      "previous",
       "undo",
-      "redo",
-      "refresh",
-      "changes",
-      "updates",
-      "document",
-      "file",
-      "restore",
-      "revert",
       "timeline",
-      "progress"
+      "log",
+      "change",
+      "restore",
+      "archive",
+      "time",
+      "past"
     ]
   },
   "rss": {
@@ -1449,123 +1557,131 @@
       "rss",
       "feed",
       "subscribe",
+      "broadcast",
+      "updates",
       "news",
+      "stream",
+      "notification",
       "blog",
-      "content",
-      "syndication",
-      "web feed"
+      "syndication"
     ]
   },
   "search": {
     "tags": [
       "search",
       "find",
+      "lookup",
+      "inspect",
       "explore",
-      "magnify",
+      "magnifying glass",
       "zoom",
-      "glass",
-      "looking",
-      "investigate",
-      "discover"
+      "scan",
+      "query",
+      "discovery"
     ]
   },
   "security": {
     "tags": [
-      "shield",
       "security",
       "protection",
-      "secure",
+      "safety",
+      "shield",
       "defense",
-      "privacy",
       "guard",
-      "safeguard",
-      "safety"
+      "privacy",
+      "secure",
+      "firewall",
+      "safe",
+      "armor"
     ]
   },
   "security-error": {
     "tags": [
       "security",
       "error",
-      "shield",
-      "fail",
-      "protection",
-      "warning",
+      "failure",
       "danger",
-      "incorrect",
       "threat",
-      "malware",
-      "virus",
-      "defense",
-      "denied",
-      "security fail",
-      "security error",
-      "problem",
-      "access denied"
+      "vulnerability",
+      "breach",
+      "protection",
+      "shield",
+      "warning",
+      "risk",
+      "unprotected"
     ]
   },
   "security-tick": {
     "tags": [
       "security",
       "shield",
-      "check",
-      "tick",
+      "protection",
       "verified",
       "safe",
-      "protected",
-      "validation",
-      "secure",
-      "approval"
+      "check",
+      "success",
+      "passed",
+      "guaranteed",
+      "privacy",
+      "compliance"
     ]
   },
   "security-warning": {
     "tags": [
       "security",
       "warning",
-      "shield",
       "alert",
       "danger",
+      "threat",
       "protection",
-      "privacy",
-      "secure",
+      "shield",
+      "error",
+      "risk",
       "caution",
-      "exclamation",
-      "error"
+      "vulnerability",
+      "safety"
     ]
   },
   "select": {
     "tags": [
       "select",
       "selection",
-      "dashed",
-      "outline",
       "area",
-      "border",
-      "tool",
-      "highlight"
+      "boundary",
+      "region",
+      "highlight",
+      "crop",
+      "frame",
+      "box",
+      "capture",
+      "range"
     ]
   },
   "select-add": {
     "tags": [
-      "select",
       "add",
+      "create",
+      "new",
       "plus",
       "selection",
-      "choose",
-      "create",
-      "mark",
-      "tool",
-      "new"
+      "insert",
+      "item",
+      "square",
+      "dashed",
+      "box"
     ]
   },
   "select-remove": {
     "tags": [
-      "select",
       "remove",
+      "deselect",
       "delete",
+      "clear",
+      "unselect",
       "selection",
-      "minus",
-      "dashed",
-      "border",
+      "cancel",
+      "discard",
+      "boundary",
       "area"
     ]
   },
@@ -1575,179 +1691,190 @@
       "gear",
       "cog",
       "configuration",
-      "preferences",
       "options",
+      "preferences",
+      "setup",
       "tools",
-      "adjust",
-      "customize"
+      "management",
+      "engine",
+      "control",
+      "adjustment"
     ]
   },
   "share": {
     "tags": [
       "share",
-      "social",
-      "network",
-      "connect",
-      "link",
       "distribute",
+      "connect",
+      "network",
+      "social",
       "send",
-      "upload",
       "export",
-      "internet",
-      "media",
-      "content"
+      "link",
+      "branch",
+      "transfer"
     ]
   },
   "show": {
     "tags": [
-      "eye",
-      "show",
-      "visible",
       "visibility",
       "view",
+      "show",
+      "eye",
+      "display",
+      "reveal",
       "look",
-      "open",
-      "see",
-      "unhide",
-      "watch"
+      "inspect",
+      "monitor",
+      "watch",
+      "preview",
+      "see"
     ]
   },
   "single-host": {
     "tags": [
       "host",
+      "node",
       "server",
-      "computer",
+      "instance",
       "machine",
-      "hexagon",
+      "computer",
       "single",
-      "network"
+      "unit",
+      "hexagon",
+      "endpoint",
+      "compute"
     ]
   },
   "snapshot": {
     "tags": [
-      "camera",
-      "photo",
-      "picture",
       "snapshot",
-      "photography",
-      "image",
+      "camera",
       "capture",
-      "lens",
-      "digital",
-      "media"
+      "backup",
+      "image",
+      "save",
+      "state",
+      "point in time",
+      "recovery",
+      "storage"
     ]
   },
   "snooze": {
     "tags": [
       "snooze",
       "sleep",
-      "nap",
+      "pause",
+      "delay",
+      "quiet",
       "rest",
-      "tired",
-      "zzz",
-      "slumber",
+      "nap",
+      "dormant",
+      "reminder",
       "alarm"
     ]
   },
   "spinner": {
     "tags": [
-      "spinner",
       "loading",
       "progress",
-      "indicator",
-      "wait",
-      "refresh",
-      "circle",
+      "waiting",
       "processing",
-      "loop",
-      "asynchronous"
+      "buffer",
+      "status",
+      "sync",
+      "cycle",
+      "refresh",
+      "indeterminate"
     ]
   },
   "starred": {
     "tags": [
       "star",
       "favorite",
-      "important",
       "bookmark",
+      "important",
+      "highlight",
       "rating",
-      "achievement",
+      "special",
       "mark",
-      "highlighted",
-      "selected"
+      "save",
+      "preference"
     ]
   },
   "starred-off": {
     "tags": [
       "star",
-      "off",
       "unstarred",
+      "remove",
+      "deselect",
       "favorite",
       "bookmark",
-      "rating"
+      "rating",
+      "empty",
+      "outline",
+      "not favorite"
     ]
   },
   "statistics": {
     "tags": [
       "statistics",
+      "analytics",
       "chart",
       "graph",
-      "data",
-      "analysis",
-      "growth",
       "trend",
-      "progress",
-      "report",
-      "business",
-      "finance",
+      "data",
+      "growth",
       "performance",
-      "analytics",
-      "line chart",
-      "up",
-      "increase",
-      "arrow",
-      "visual",
-      "information"
+      "metrics",
+      "progress",
+      "measurement",
+      "reporting"
     ]
   },
   "status": {
     "tags": [
       "status",
-      "graph",
-      "line",
-      "data",
-      "chart",
-      "signal",
+      "health",
       "activity",
-      "monitoring"
+      "pulse",
+      "monitoring",
+      "performance",
+      "metrics",
+      "heartbeat",
+      "signal",
+      "wave",
+      "vitals"
     ]
   },
   "stop": {
     "tags": [
       "stop",
-      "square",
-      "media",
-      "player",
-      "button",
-      "control",
+      "halt",
+      "terminate",
       "end",
-      "finish",
-      "halt"
+      "square",
+      "pause",
+      "cancel",
+      "abort",
+      "exit",
+      "finish"
     ]
   },
   "success": {
     "tags": [
       "success",
-      "check",
       "complete",
       "done",
-      "tick",
-      "approve",
-      "confirm",
-      "accept",
+      "check",
+      "checkmark",
       "correct",
-      "right",
-      "mark",
-      "circle"
+      "approved",
+      "valid",
+      "finished",
+      "ok",
+      "pass",
+      "yes"
     ]
   },
   "success-fill": {
@@ -1756,277 +1883,276 @@
       "check",
       "done",
       "complete",
-      "mark",
-      "tick",
-      "verified",
-      "approved",
-      "good",
       "correct",
-      "circle",
-      "ok"
+      "approved",
+      "finished",
+      "ok",
+      "valid",
+      "confirm",
+      "completed",
+      "pass"
     ]
   },
   "switcher": {
     "tags": [
       "switcher",
       "switch",
-      "layout",
-      "change",
-      "rearrange",
-      "swap"
+      "toggle",
+      "grid",
+      "apps",
+      "off",
+      "disable",
+      "deactivate",
+      "inactive"
     ]
   },
   "switcher-dashboard": {
     "tags": [
       "dashboard",
       "grid",
+      "menu",
+      "apps",
+      "switcher",
       "layout",
-      "squares",
-      "modules",
-      "widgets",
       "overview",
+      "navigation",
       "control panel",
-      "interface"
+      "modules"
     ]
   },
   "switcher-environments": {
     "tags": [
-      "switcher",
       "environments",
       "switch",
-      "options",
       "list",
-      "select",
+      "menu",
+      "selection",
+      "options",
       "settings",
       "configuration",
-      "stages",
-      "choose",
-      "multiple"
+      "context",
+      "toggle"
     ]
   },
   "tag": {
     "tags": [
       "tag",
       "label",
-      "price",
-      "sale",
-      "discount",
-      "special offer",
-      "identification",
-      "mark",
-      "brand",
-      "product",
       "category",
-      "pricing",
-      "marketing",
-      "commerce",
-      "shopping",
-      "retail",
-      "bookmark",
-      "favorite",
-      "organize",
       "metadata",
-      "key",
-      "symbol",
+      "classification",
       "identifier",
-      "badge",
+      "organize",
+      "group",
       "marker",
-      "notice",
-      "flag"
+      "taxonomy"
     ]
   },
   "thumbs-down": {
     "tags": [
       "dislike",
-      "disapproval",
+      "thumbs down",
+      "disapprove",
       "negative",
       "no",
       "bad",
-      "vote down",
-      "hand",
-      "thumb down",
-      "social media",
-      "feedback"
+      "reject",
+      "downvote",
+      "low quality",
+      "unfavorable"
     ]
   },
   "thumbs-up": {
     "tags": [
-      "thumbs up",
       "like",
       "approve",
+      "yes",
+      "success",
+      "good",
       "agree",
       "positive",
-      "hand gesture",
-      "good",
-      "social media",
-      "feedback"
+      "vote",
+      "upvote",
+      "favourite",
+      "ok",
+      "correct"
     ]
   },
   "tidy": {
     "tags": [
-      "tidy",
       "clean",
-      "organize",
+      "cleanup",
+      "maintenance",
+      "tidy",
       "broom",
+      "organize",
       "sweep",
-      "neat",
-      "arrange",
-      "sort",
-      "housekeeping",
-      "dust"
+      "reset",
+      "remove",
+      "optimize"
     ]
   },
   "timed-out": {
     "tags": [
-      "timed out",
       "timeout",
-      "time",
-      "clock",
-      "timer",
       "expired",
-      "overdue",
-      "stop",
-      "cancelled",
       "deadline",
-      "out of time",
-      "process",
-      "waiting",
-      "delay"
+      "clock",
+      "time",
+      "error",
+      "failure",
+      "limit",
+      "stop",
+      "interrupted"
     ]
   },
   "toggle-side-nav": {
     "tags": [
-      "toggle",
-      "side nav",
       "sidebar",
       "navigation",
       "menu",
       "collapse",
-      "expand",
       "hide",
-      "show",
-      "panel",
       "drawer",
-      "left",
-      "arrow",
-      "bar"
+      "panel",
+      "toggle",
+      "close",
+      "expand"
     ]
   },
   "units": {
     "tags": [
       "units",
-      "boxes",
-      "containers",
+      "nodes",
+      "instances",
+      "components",
       "modules",
       "blocks",
-      "components",
-      "sections",
-      "segments"
+      "elements",
+      "parts",
+      "items",
+      "clusters"
     ]
   },
   "unlocked": {
     "tags": [
       "unlocked",
       "open",
-      "padlock",
       "security",
       "access",
-      "lock",
-      "unsecure",
       "permission",
-      "authorized"
+      "unsecured",
+      "privacy",
+      "protection",
+      "padlock",
+      "safety",
+      "disabled"
     ]
   },
   "unmount": {
     "tags": [
       "unmount",
-      "eject",
       "disconnect",
-      "drive",
-      "storage",
-      "usb",
+      "eject",
       "remove",
       "detach",
-      "device"
+      "storage",
+      "drive",
+      "disk",
+      "volume",
+      "hardware",
+      "external"
     ]
   },
   "upload": {
     "tags": [
       "upload",
-      "share",
+      "export",
       "send",
       "transfer",
+      "outbound",
+      "share",
+      "uploading",
       "data",
-      "file",
+      "storage",
       "cloud",
-      "arrow",
-      "up",
-      "save"
+      "server"
     ]
   },
   "usb": {
     "tags": [
       "usb",
-      "universal serial bus",
-      "connector",
+      "connection",
       "port",
+      "hardware",
+      "interface",
+      "plug",
+      "peripheral",
       "data",
       "cable",
-      "peripheral",
-      "electronic",
-      "device",
-      "interface"
+      "connector",
+      "transfer",
+      "device"
     ]
   },
   "user": {
     "tags": [
       "user",
-      "profile",
-      "person",
-      "avatar",
       "account",
-      "contact",
+      "person",
+      "profile",
+      "avatar",
+      "member",
       "human",
-      "member"
+      "identity",
+      "individual",
+      "login",
+      "customer"
     ]
   },
   "user-group": {
     "tags": [
-      "user",
+      "users",
       "group",
       "people",
       "team",
       "community",
+      "account",
+      "members",
+      "collaboration",
       "social",
-      "network",
-      "crowd",
-      "profiles"
+      "audience",
+      "profile"
     ]
   },
   "user-profile": {
     "tags": [
       "user",
       "profile",
-      "person",
       "account",
+      "person",
       "avatar",
-      "human",
-      "contact",
       "member",
-      "login"
+      "identity",
+      "individual",
+      "human",
+      "login",
+      "customer",
+      "user account"
     ]
   },
   "waiting": {
     "tags": [
-      "waiting",
       "loading",
-      "processing",
-      "ellipsis",
-      "dots",
       "progress",
-      "indicator",
+      "processing",
+      "waiting",
       "busy",
-      "circle"
+      "ellipsis",
+      "status",
+      "pending",
+      "buffering",
+      "indeterminate"
     ]
   },
   "warning": {
@@ -2035,12 +2161,12 @@
       "alert",
       "error",
       "caution",
-      "danger",
+      "attention",
+      "hazard",
       "problem",
-      "triangle",
+      "notice",
       "exclamation",
-      "sign",
-      "symbol"
+      "danger"
     ]
   },
   "warning-fill": {
@@ -2049,42 +2175,42 @@
       "alert",
       "error",
       "caution",
-      "danger",
-      "exclamation",
-      "triangle",
-      "problem",
-      "issue",
       "attention",
-      "important"
+      "problem",
+      "hazard",
+      "critical",
+      "notice",
+      "danger",
+      "issue"
     ]
   },
   "website": {
     "tags": [
-      "website",
+      "web",
       "browser",
       "internet",
-      "web",
-      "page",
-      "layout",
       "window",
-      "screen",
-      "ui",
-      "interface"
+      "page",
+      "site",
+      "online",
+      "application",
+      "url",
+      "interface",
+      "viewport"
     ]
   },
   "x": {
     "tags": [
       "x",
-      "social media",
       "twitter",
-      "platform",
+      "social media",
+      "social",
+      "logo",
+      "brand",
       "network",
-      "share",
-      "communication",
-      "app",
-      "website",
-      "symbol",
-      "logo"
+      "post",
+      "tweet",
+      "share"
     ]
   },
   "youtube": {
@@ -2092,10 +2218,13 @@
       "youtube",
       "video",
       "play",
-      "social media",
+      "media",
+      "player",
+      "watch",
+      "content",
       "streaming",
-      "platform",
-      "media"
+      "multimedia",
+      "movie"
     ]
   }
 }
