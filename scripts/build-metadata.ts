@@ -1,8 +1,12 @@
-import { readdir } from "node:fs/promises";
-import path from "node:path";
 import { parseArgs } from "node:util";
 import { Resvg } from "@resvg/resvg-js";
 import { z } from "zod";
+import {
+  hashSvg,
+  type Metadata,
+  parseMetadata,
+  readIconSvgs,
+} from "./utils.ts";
 
 const OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1";
 const DEFAULT_MODEL = "google/gemma-4-26b-a4b-it";
@@ -136,30 +140,29 @@ if (!selectedModel?.trim()) {
 
 baseUrl.pathname = `${baseUrl.pathname.replace(/\/+$/, "")}/chat/completions`;
 
-const svgFiles = (await readdir(inputDir)).filter((file) =>
-  file.endsWith(".svg"),
-);
+const icons = await readIconSvgs(inputDir);
 
 const metadataFile = Bun.file(outputFile);
-const metadata = (await metadataFile.exists()) ? await metadataFile.json() : {};
+const metadata: Metadata = (await metadataFile.exists())
+  ? parseMetadata(await metadataFile.text())
+  : {};
 
-const iconNames = new Set<string>();
 const pendingIcons: string[] = [];
-for (const svgFileName of svgFiles) {
-  const iconName = svgFileName.replace(/\.svg$/, "");
-  iconNames.add(iconName);
-  metadata[iconName] ??= {};
+for (const [iconName, svg] of icons) {
+  const hash = hashSvg(svg);
+  const entry = metadata[iconName] ?? {};
   // Existing tags are normalized too, so config changes apply without regenerating.
-  const existingTags = clean ? [] : normalizeTags(metadata[iconName].tags);
-  if (existingTags.length) {
-    metadata[iconName].tags = existingTags;
+  const existingTags = clean ? [] : normalizeTags(entry.tags);
+  if (existingTags.length && entry.hash === hash) {
+    metadata[iconName] = { hash, tags: existingTags };
   } else {
+    metadata[iconName] = entry;
     pendingIcons.push(iconName);
   }
 }
 
 console.log(
-  `Generating tags for ${pendingIcons.length} of ${iconNames.size} icons with ${selectedModel} at ${baseUrl.origin} (concurrency: ${concurrency})`,
+  `Generating tags for ${pendingIcons.length} of ${icons.size} icons with ${selectedModel} at ${baseUrl.origin} (concurrency: ${concurrency})`,
 );
 
 const reporter = createReporter(pendingIcons);
@@ -167,22 +170,22 @@ const failedIcons: string[] = [];
 await runWithConcurrency(pendingIcons, concurrency, async (iconName) => {
   const startedAt = performance.now();
   try {
-    const svg = await Bun.file(path.join(inputDir, `${iconName}.svg`)).text();
+    const svg = icons.get(iconName) ?? "";
     const result = await generateTags(iconName, svg, (message) =>
       reporter.warn(iconName, message),
     );
-    metadata[iconName].tags = result.tags;
+    metadata[iconName] = { hash: hashSvg(svg), tags: result.tags };
     reporter.succeed(iconName, result, performance.now() - startedAt);
   } catch (error) {
     failedIcons.push(iconName);
     reporter.fail(iconName, error);
   }
 });
-reporter.finish(iconNames.size - pendingIcons.length, failedIcons);
+reporter.finish(icons.size - pendingIcons.length, failedIcons);
 
 const outputMetadata = Object.fromEntries(
   Object.entries(metadata)
-    .filter(([name]) => iconNames.has(name))
+    .filter(([name]) => icons.has(name))
     .sort(),
 );
 

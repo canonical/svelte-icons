@@ -1,5 +1,6 @@
 {
   "add-canvas": {
+    "hash": "b98b4038ab88e4cf",
     "tags": [
       "add",
       "create",
@@ -15,6 +16,7 @@
     ]
   },
   "add-logical-volume": {
+    "hash": "fa70f6c71b314e57",
     "tags": [
       "storage",
       "volume",
@@ -30,6 +32,7 @@
     ]
   },
   "add-partition": {
+    "hash": "87402d34a5862257",
     "tags": [
       "partition",
       "add",
@@ -45,6 +48,7 @@
     ]
   },
   "anchor": {
+    "hash": "ac272cca0cad53f3",
     "tags": [
       "anchor",
       "stability",
@@ -59,6 +63,7 @@
     ]
   },
   "applications": {
+    "hash": "cbe30f2c8640ee47",
     "tags": [
       "applications",
       "apps",
@@ -74,6 +79,7 @@
     ]
   },
   "archive": {
+    "hash": "712628d2669d674b",
     "tags": [
       "storage",
       "files",
@@ -88,6 +94,7 @@
     ]
   },
   "arrow-bottom-left": {
+    "hash": "7c67bc1adbaedcc5",
     "tags": [
       "arrow",
       "direction",
@@ -101,6 +108,7 @@
     ]
   },
   "arrow-bottom-right": {
+    "hash": "b83a67e4a3a20f73",
     "tags": [
       "arrow",
       "down",
@@ -114,6 +122,7 @@
     ]
   },
   "arrow-down": {
+    "hash": "66e6106505228eda",
     "tags": [
       "down",
       "arrow",
@@ -128,6 +137,7 @@
     ]
   },
   "arrow-left": {
+    "hash": "c20a43c85f3d143a",
     "tags": [
       "left",
       "back",
@@ -142,6 +152,7 @@
     ]
   },
   "arrow-right": {
+    "hash": "b88ab1e771119639",
     "tags": [
       "arrow",
       "right",
@@ -156,6 +167,7 @@
     ]
   },
   "arrow-top-left": {
+    "hash": "bd58cf0b5e380320",
     "tags": [
       "arrow",
       "up",
@@ -170,6 +182,7 @@
     ]
   },
   "arrow-top-right": {
+    "hash": "a494c9cb505d8c1d",
     "tags": [
       "arrow",
       "up",
@@ -183,6 +196,7 @@
     ]
   },
   "arrow-up": {
+    "hash": "4b51b5006172a7ce",
     "tags": [
       "up",
       "arrow",
@@ -199,6 +213,7 @@
     ]
   },
   "back-to-top": {
+    "hash": "d64b3d807fbbf488",
     "tags": [
       "up",
       "top",
@@ -213,6 +228,7 @@
     ]
   },
   "blueprint": {
+    "hash": "13a0c173a5190d03",
     "tags": [
       "plan",
       "architecture",
@@ -226,6 +242,7 @@
     ]
   },
   "book": {
+    "hash": "cdb4cc6e725bec44",
     "tags": [
       "book",
       "documentation",
@@ -240,6 +257,7 @@
     ]
   },
   "bug": {
+    "hash": "f3e249e2b2b87265",
     "tags": [
       "bug",
       "error",
@@ -254,6 +272,7 @@
     ]
   },
   "bundle": {
+    "hash": "a630c779b2921065",
     "tags": [
       "bundle",
       "group",
@@ -268,6 +287,7 @@
     ]
   },
   "canvas": {
+    "hash": "6266a40e0c6758a3",
     "tags": [
       "workspace",
       "board",
@@ -282,6 +302,7 @@
     ]
   },
   "certificate": {
+    "hash": "0c7e43c3e941980c",
     "tags": [
       "certificate",
       "credential",
@@ -298,6 +319,7 @@
     ]
   },
   "certification": {
+    "hash": "1b57bf78dbb96e59",
     "tags": [
       "certification",
       "badge",
@@ -314,6 +336,7 @@
     ]
   },
   "change-version": {
+    "hash": "343461dc581dcd1b",
     "tags": [
       "update",
       "refresh",
@@ -330,6 +353,7 @@
     ]
   },
   "checkmark": {
+    "hash": "980d4621ab66d444",
     "tags": [
       "check",
       "done",
@@ -345,6 +369,7 @@
     ]
   },
   "chevron-down": {
+    "hash": "5255adc6d7c08e37",
     "tags": [
       "down",
       "arrow",
@@ -359,6 +384,7 @@
     ]
   },
   "chevron-left": {
+    "hash": "7b4db50efd27c8be",
     "tags": [
       "left",
       "back",
@@ -373,6 +399,7 @@
     ]
   },
   "chevron-right": {
+    "hash": "92899e057eb1ec39",
     "tags": [
       "right",
       "next",
@@ -388,6 +415,7 @@
     ]
   },
   "chevron-up": {
+    "hash": "3fb8d69d3654c0ac",
     "tags": [
       "up",
       "arrow",
@@ -403,6 +431,7 @@
     ]
   },
   "close": {
+    "hash": "f34e3ab42375278b",
     "tags": [
       "close",
       "exit",
@@ -418,6 +447,7 @@
     ]
   },
   "cluster-host": {
+    "hash": "759b4d451531beea",
     "tags": [
       "cluster",
       "host",
@@ -434,6 +464,7 @@
     ]
   },
   "code": {
+    "hash": "810dcfbb7cab04c2",
     "tags": [
       "code",
       "terminal",
@@ -449,6 +480,7 @@
     ]
   },
   "comments": {
+    "hash": "82e3be2acc860f04",
     "tags": [
       "comments",
       "chat",
@@ -463,6 +495,7 @@
     ]
   },
   "connected": {
+    "hash": "3132cb6acf167f2e",
     "tags": [
       "connection",
       "link",
@@ -478,6 +511,7 @@
     ]
   },
   "containers": {
+    "hash": "56606eb01fd376c4",
     "tags": [
       "container",
       "docker",
@@ -494,6 +528,7 @@
     ]
   },
   "controllers": {
+    "hash": "44182bcfef92d450",
     "tags": [
       "control",
       "management",
@@ -508,6 +543,7 @@
     ]
   },
   "copy": {
+    "hash": "538f1d6195415bc2",
     "tags": [
       "copy",
       "duplicate",
@@ -523,6 +559,7 @@
     ]
   },
   "cursor": {
+    "hash": "6fcf8d322452a101",
     "tags": [
       "cursor",
       "pointer",
@@ -537,6 +574,7 @@
     ]
   },
   "debug": {
+    "hash": "a90de70659bd640a",
     "tags": [
       "debug",
       "troubleshoot",
@@ -551,6 +589,7 @@
     ]
   },
   "delete": {
+    "hash": "29cd19e9733808cb",
     "tags": [
       "delete",
       "trash",
@@ -565,6 +604,7 @@
     ]
   },
   "desktop": {
+    "hash": "733a13f9a8a9092f",
     "tags": [
       "desktop",
       "computer",
@@ -578,6 +618,7 @@
     ]
   },
   "disconnected": {
+    "hash": "f2293cfd43792222",
     "tags": [
       "disconnected",
       "unplugged",
@@ -593,6 +634,7 @@
     ]
   },
   "download": {
+    "hash": "dfa2600519978501",
     "tags": [
       "download",
       "import",
@@ -608,6 +650,7 @@
     ]
   },
   "drag": {
+    "hash": "a3d153aff1d35f8e",
     "tags": [
       "drag",
       "handle",
@@ -622,6 +665,7 @@
     ]
   },
   "edit": {
+    "hash": "fe47197a47b9e0cc",
     "tags": [
       "edit",
       "write",
@@ -638,6 +682,7 @@
     ]
   },
   "email": {
+    "hash": "23f9463557cb15d3",
     "tags": [
       "email",
       "mail",
@@ -652,6 +697,7 @@
     ]
   },
   "error": {
+    "hash": "651a95dba52c5f05",
     "tags": [
       "error",
       "failure",
@@ -668,6 +714,7 @@
     ]
   },
   "error-fill": {
+    "hash": "3f7deee0cd89eb1f",
     "tags": [
       "error",
       "failure",
@@ -684,6 +731,7 @@
     ]
   },
   "export": {
+    "hash": "54ae8f9d4659f9f0",
     "tags": [
       "export",
       "upload",
@@ -698,6 +746,7 @@
     ]
   },
   "exposed": {
+    "hash": "05a3969cfb579b03",
     "tags": [
       "globe",
       "world",
@@ -714,6 +763,7 @@
     ]
   },
   "external-link": {
+    "hash": "300d4bf1b94d570d",
     "tags": [
       "external",
       "link",
@@ -730,6 +780,7 @@
     ]
   },
   "facebook": {
+    "hash": "4a241ea8db0cf43f",
     "tags": [
       "facebook",
       "social",
@@ -743,6 +794,7 @@
     ]
   },
   "file": {
+    "hash": "f0854bfa1686747c",
     "tags": [
       "file",
       "document",
@@ -757,6 +809,7 @@
     ]
   },
   "file-blank": {
+    "hash": "fc8314fe069c2201",
     "tags": [
       "file",
       "document",
@@ -771,6 +824,7 @@
     ]
   },
   "filter": {
+    "hash": "73c27ed3c304d505",
     "tags": [
       "filter",
       "refine",
@@ -785,6 +839,7 @@
     ]
   },
   "folder": {
+    "hash": "657f956dd05ebb4b",
     "tags": [
       "folder",
       "directory",
@@ -799,6 +854,7 @@
     ]
   },
   "fork": {
+    "hash": "4c93ce78e29ad4a3",
     "tags": [
       "fork",
       "branch",
@@ -814,6 +870,7 @@
     ]
   },
   "fullscreen": {
+    "hash": "f24bbdc5a56e667c",
     "tags": [
       "fullscreen",
       "expand",
@@ -828,6 +885,7 @@
     ]
   },
   "gift": {
+    "hash": "6735e7a5c5092f10",
     "tags": [
       "gift",
       "present",
@@ -843,6 +901,7 @@
     ]
   },
   "github": {
+    "hash": "38acdb78803068ea",
     "tags": [
       "github",
       "git",
@@ -857,6 +916,7 @@
     ]
   },
   "help": {
+    "hash": "25972794a112ab24",
     "tags": [
       "help",
       "question",
@@ -871,6 +931,7 @@
     ]
   },
   "hide": {
+    "hash": "e0a94cc223392846",
     "tags": [
       "hide",
       "visibility",
@@ -885,6 +946,7 @@
     ]
   },
   "highlight-off": {
+    "hash": "5c2c5b06900c09cb",
     "tags": [
       "idea",
       "suggestion",
@@ -899,6 +961,7 @@
     ]
   },
   "highlight-on": {
+    "hash": "1de5268969b71f87",
     "tags": [
       "idea",
       "lightbulb",
@@ -915,6 +978,7 @@
     ]
   },
   "home": {
+    "hash": "757e61c74c2e0259",
     "tags": [
       "home",
       "main",
@@ -927,6 +991,7 @@
     ]
   },
   "image": {
+    "hash": "c17ac26f40c5f671",
     "tags": [
       "os",
       "operating system",
@@ -939,6 +1004,7 @@
     ]
   },
   "import": {
+    "hash": "d94f5a781ae9e931",
     "tags": [
       "import",
       "download",
@@ -955,6 +1021,7 @@
     ]
   },
   "in-progress": {
+    "hash": "5ebe44545f1b454e",
     "tags": [
       "loading",
       "progress",
@@ -970,6 +1037,7 @@
     ]
   },
   "information": {
+    "hash": "954997570147407a",
     "tags": [
       "information",
       "info",
@@ -985,6 +1053,7 @@
     ]
   },
   "instagram": {
+    "hash": "2592fc2bf5fb9bb1",
     "tags": [
       "instagram",
       "social media",
@@ -998,6 +1067,7 @@
     ]
   },
   "iso": {
+    "hash": "741382e3dd204515",
     "tags": [
       "iso",
       "disk",
@@ -1012,6 +1082,7 @@
     ]
   },
   "link": {
+    "hash": "3a54ad43abd86ee3",
     "tags": [
       "link",
       "connection",
@@ -1027,6 +1098,7 @@
     ]
   },
   "linkedin": {
+    "hash": "aec7e00ab47dec1d",
     "tags": [
       "linkedin",
       "social",
@@ -1041,6 +1113,7 @@
     ]
   },
   "location": {
+    "hash": "39a060ec69e766df",
     "tags": [
       "location",
       "map",
@@ -1057,6 +1130,7 @@
     ]
   },
   "locked": {
+    "hash": "737378c9114fc867",
     "tags": [
       "lock",
       "secure",
@@ -1071,6 +1145,7 @@
     ]
   },
   "log-out": {
+    "hash": "e997ce50973e253f",
     "tags": [
       "logout",
       "exit",
@@ -1084,6 +1159,7 @@
     ]
   },
   "machines": {
+    "hash": "4202f11874cc2513",
     "tags": [
       "server",
       "hardware",
@@ -1099,6 +1175,7 @@
     ]
   },
   "map": {
+    "hash": "e5d49d146713b44b",
     "tags": [
       "map",
       "navigation",
@@ -1115,6 +1192,7 @@
     ]
   },
   "menu": {
+    "hash": "7733e689998abadc",
     "tags": [
       "menu",
       "navigation",
@@ -1131,6 +1209,7 @@
     ]
   },
   "menu-contextual": {
+    "hash": "b047ce486219d7c7",
     "tags": [
       "menu",
       "more",
@@ -1145,6 +1224,7 @@
     ]
   },
   "minus": {
+    "hash": "49547574f2520115",
     "tags": [
       "minus",
       "subtract",
@@ -1159,6 +1239,7 @@
     ]
   },
   "models": {
+    "hash": "c2a43992b822f08c",
     "tags": [
       "models",
       "network",
@@ -1174,6 +1255,7 @@
     ]
   },
   "mount": {
+    "hash": "c20f02678a70c6ec",
     "tags": [
       "mount",
       "add",
@@ -1189,6 +1271,7 @@
     ]
   },
   "notifications": {
+    "hash": "84f257838141c6e2",
     "tags": [
       "notifications",
       "alerts",
@@ -1203,6 +1286,7 @@
     ]
   },
   "notifications-off": {
+    "hash": "99998dbd3a20b6ed",
     "tags": [
       "notifications",
       "mute",
@@ -1219,6 +1303,7 @@
     ]
   },
   "open-terminal": {
+    "hash": "51d673b68fdda9f8",
     "tags": [
       "terminal",
       "command line",
@@ -1235,6 +1320,7 @@
     ]
   },
   "pause": {
+    "hash": "e45fcde515e5cb1d",
     "tags": [
       "pause",
       "stop",
@@ -1249,6 +1335,7 @@
     ]
   },
   "pin": {
+    "hash": "5a969c8d41dba9ee",
     "tags": [
       "pin",
       "pushpin",
@@ -1264,6 +1351,7 @@
     ]
   },
   "plans": {
+    "hash": "cae099ba12de1339",
     "tags": [
       "verified",
       "approved",
@@ -1280,6 +1368,7 @@
     ]
   },
   "play": {
+    "hash": "5351c32b30c1cc23",
     "tags": [
       "play",
       "start",
@@ -1294,6 +1383,7 @@
     ]
   },
   "play-fill": {
+    "hash": "8bb45be16a6602a2",
     "tags": [
       "play",
       "start",
@@ -1308,6 +1398,7 @@
     ]
   },
   "play-pending": {
+    "hash": "597d473c05ce10fe",
     "tags": [
       "play",
       "pending",
@@ -1322,6 +1413,7 @@
     ]
   },
   "plus": {
+    "hash": "d413f10320fc845f",
     "tags": [
       "add",
       "create",
@@ -1336,6 +1428,7 @@
     ]
   },
   "pods": {
+    "hash": "03623ea38c70fecb",
     "tags": [
       "kubernetes",
       "container",
@@ -1351,6 +1444,7 @@
     ]
   },
   "power-off": {
+    "hash": "920dab6acff25e75",
     "tags": [
       "power",
       "off",
@@ -1365,6 +1459,7 @@
     ]
   },
   "power-on": {
+    "hash": "0a18ce3dfba0d610",
     "tags": [
       "power",
       "on",
@@ -1379,6 +1474,7 @@
     ]
   },
   "priority-critical": {
+    "hash": "94282cef57c7eabd",
     "tags": [
       "critical",
       "priority",
@@ -1393,6 +1489,7 @@
     ]
   },
   "priority-high": {
+    "hash": "3b43c6c62865835d",
     "tags": [
       "urgent",
       "important",
@@ -1407,6 +1504,7 @@
     ]
   },
   "priority-low": {
+    "hash": "4fee0a6e0b121593",
     "tags": [
       "low",
       "priority",
@@ -1421,6 +1519,7 @@
     ]
   },
   "priority-medium": {
+    "hash": "880e1c12f2f0238f",
     "tags": [
       "priority",
       "medium",
@@ -1435,6 +1534,7 @@
     ]
   },
   "priority-negligible": {
+    "hash": "41d7ca2ee9821745",
     "tags": [
       "negligible",
       "low",
@@ -1449,6 +1549,7 @@
     ]
   },
   "priority-unknown": {
+    "hash": "a3270eb763bbce66",
     "tags": [
       "priority",
       "unknown",
@@ -1463,6 +1564,7 @@
     ]
   },
   "private-key": {
+    "hash": "8c10482eb24ae8d6",
     "tags": [
       "key",
       "security",
@@ -1478,6 +1580,7 @@
     ]
   },
   "profiles": {
+    "hash": "f1caf43cf06fce79",
     "tags": [
       "profiles",
       "profile",
@@ -1492,6 +1595,7 @@
     ]
   },
   "queued": {
+    "hash": "b5f013387689cf1e",
     "tags": [
       "queue",
       "waiting",
@@ -1506,6 +1610,7 @@
     ]
   },
   "repository": {
+    "hash": "7e8c5cd7e59808ba",
     "tags": [
       "repository",
       "storage",
@@ -1521,6 +1626,7 @@
     ]
   },
   "restart": {
+    "hash": "be72dc78cce06078",
     "tags": [
       "restart",
       "reset",
@@ -1537,6 +1643,7 @@
     ]
   },
   "revisions": {
+    "hash": "d86ebacdc5439afc",
     "tags": [
       "history",
       "version",
@@ -1553,6 +1660,7 @@
     ]
   },
   "rss": {
+    "hash": "b5818e33b46aaee7",
     "tags": [
       "rss",
       "feed",
@@ -1567,6 +1675,7 @@
     ]
   },
   "search": {
+    "hash": "066d66cfce42b35e",
     "tags": [
       "search",
       "find",
@@ -1581,6 +1690,7 @@
     ]
   },
   "security": {
+    "hash": "9ebf1eecdae4dd86",
     "tags": [
       "security",
       "protection",
@@ -1596,6 +1706,7 @@
     ]
   },
   "security-error": {
+    "hash": "81ad4a1e11e286da",
     "tags": [
       "security",
       "error",
@@ -1612,6 +1723,7 @@
     ]
   },
   "security-tick": {
+    "hash": "24b9a3bd6596de5e",
     "tags": [
       "security",
       "shield",
@@ -1627,6 +1739,7 @@
     ]
   },
   "security-warning": {
+    "hash": "15c5cd359ad75f31",
     "tags": [
       "security",
       "warning",
@@ -1643,6 +1756,7 @@
     ]
   },
   "select": {
+    "hash": "3a08993aa087fc7f",
     "tags": [
       "select",
       "selection",
@@ -1658,6 +1772,7 @@
     ]
   },
   "select-add": {
+    "hash": "61c5df023f4600c6",
     "tags": [
       "add",
       "create",
@@ -1672,6 +1787,7 @@
     ]
   },
   "select-remove": {
+    "hash": "53b6d7ccad7dfd5d",
     "tags": [
       "remove",
       "deselect",
@@ -1686,6 +1802,7 @@
     ]
   },
   "settings": {
+    "hash": "f9d156a81232e98c",
     "tags": [
       "settings",
       "gear",
@@ -1702,6 +1819,7 @@
     ]
   },
   "share": {
+    "hash": "f8476f7b3b136058",
     "tags": [
       "share",
       "distribute",
@@ -1716,6 +1834,7 @@
     ]
   },
   "show": {
+    "hash": "4b3b36c85f960523",
     "tags": [
       "visibility",
       "view",
@@ -1732,6 +1851,7 @@
     ]
   },
   "single-host": {
+    "hash": "12001fcd1fcaae1a",
     "tags": [
       "host",
       "node",
@@ -1747,6 +1867,7 @@
     ]
   },
   "snapshot": {
+    "hash": "4b962012c1416961",
     "tags": [
       "snapshot",
       "camera",
@@ -1761,6 +1882,7 @@
     ]
   },
   "snooze": {
+    "hash": "eaa627e0a4056e12",
     "tags": [
       "snooze",
       "sleep",
@@ -1775,6 +1897,7 @@
     ]
   },
   "spinner": {
+    "hash": "59696fe4c95058a4",
     "tags": [
       "loading",
       "progress",
@@ -1789,6 +1912,7 @@
     ]
   },
   "starred": {
+    "hash": "6b3dbfdfd1177e9a",
     "tags": [
       "star",
       "favorite",
@@ -1803,6 +1927,7 @@
     ]
   },
   "starred-off": {
+    "hash": "a75813cf57dc4890",
     "tags": [
       "star",
       "unstarred",
@@ -1817,6 +1942,7 @@
     ]
   },
   "statistics": {
+    "hash": "387c68c6820d3717",
     "tags": [
       "statistics",
       "analytics",
@@ -1833,6 +1959,7 @@
     ]
   },
   "status": {
+    "hash": "4b7cca29a48e5d44",
     "tags": [
       "status",
       "health",
@@ -1848,6 +1975,7 @@
     ]
   },
   "stop": {
+    "hash": "b8af12b94c688bcc",
     "tags": [
       "stop",
       "halt",
@@ -1862,6 +1990,7 @@
     ]
   },
   "success": {
+    "hash": "0148827f518fcbef",
     "tags": [
       "success",
       "complete",
@@ -1878,6 +2007,7 @@
     ]
   },
   "success-fill": {
+    "hash": "75b6672eaf8dfd80",
     "tags": [
       "success",
       "check",
@@ -1894,6 +2024,7 @@
     ]
   },
   "switcher": {
+    "hash": "ecf1bda0caee7e1f",
     "tags": [
       "switcher",
       "switch",
@@ -1907,6 +2038,7 @@
     ]
   },
   "switcher-dashboard": {
+    "hash": "3c398c2cc947ffa3",
     "tags": [
       "dashboard",
       "grid",
@@ -1921,6 +2053,7 @@
     ]
   },
   "switcher-environments": {
+    "hash": "7ca59004d80c814c",
     "tags": [
       "environments",
       "switch",
@@ -1935,6 +2068,7 @@
     ]
   },
   "tag": {
+    "hash": "c9e6fc784cb75da3",
     "tags": [
       "tag",
       "label",
@@ -1949,6 +2083,7 @@
     ]
   },
   "thumbs-down": {
+    "hash": "7f08563de608bb20",
     "tags": [
       "dislike",
       "thumbs down",
@@ -1963,6 +2098,7 @@
     ]
   },
   "thumbs-up": {
+    "hash": "4fd5d558ebf17450",
     "tags": [
       "like",
       "approve",
@@ -1979,6 +2115,7 @@
     ]
   },
   "tidy": {
+    "hash": "9cfb6bfdddd668f6",
     "tags": [
       "clean",
       "cleanup",
@@ -1993,6 +2130,7 @@
     ]
   },
   "timed-out": {
+    "hash": "5e772ac7e7286f21",
     "tags": [
       "timeout",
       "expired",
@@ -2007,6 +2145,7 @@
     ]
   },
   "toggle-side-nav": {
+    "hash": "e4286503e3ab62b6",
     "tags": [
       "sidebar",
       "navigation",
@@ -2021,6 +2160,7 @@
     ]
   },
   "units": {
+    "hash": "f4b93384c943a017",
     "tags": [
       "units",
       "nodes",
@@ -2035,6 +2175,7 @@
     ]
   },
   "unlocked": {
+    "hash": "d247d377abb738ef",
     "tags": [
       "unlocked",
       "open",
@@ -2050,6 +2191,7 @@
     ]
   },
   "unmount": {
+    "hash": "a668354125b3384f",
     "tags": [
       "unmount",
       "disconnect",
@@ -2065,6 +2207,7 @@
     ]
   },
   "upload": {
+    "hash": "41c3a9546c0cc66c",
     "tags": [
       "upload",
       "export",
@@ -2080,6 +2223,7 @@
     ]
   },
   "usb": {
+    "hash": "e631162ef98426a2",
     "tags": [
       "usb",
       "connection",
@@ -2096,6 +2240,7 @@
     ]
   },
   "user": {
+    "hash": "41337b039f65bc11",
     "tags": [
       "user",
       "account",
@@ -2111,6 +2256,7 @@
     ]
   },
   "user-group": {
+    "hash": "7b23b843ecdb53f7",
     "tags": [
       "users",
       "group",
@@ -2126,6 +2272,7 @@
     ]
   },
   "user-profile": {
+    "hash": "3ac88d1008a38e5d",
     "tags": [
       "user",
       "profile",
@@ -2142,6 +2289,7 @@
     ]
   },
   "waiting": {
+    "hash": "65eb002ec1ef80ab",
     "tags": [
       "loading",
       "progress",
@@ -2156,6 +2304,7 @@
     ]
   },
   "warning": {
+    "hash": "8dfd6b55b9a7ab2a",
     "tags": [
       "warning",
       "alert",
@@ -2170,6 +2319,7 @@
     ]
   },
   "warning-fill": {
+    "hash": "4bc548b4f4c9a6a1",
     "tags": [
       "warning",
       "alert",
@@ -2185,6 +2335,7 @@
     ]
   },
   "website": {
+    "hash": "175dea4bfd62de34",
     "tags": [
       "web",
       "browser",
@@ -2200,6 +2351,7 @@
     ]
   },
   "x": {
+    "hash": "3954461a908a54ea",
     "tags": [
       "x",
       "twitter",
@@ -2214,6 +2366,7 @@
     ]
   },
   "youtube": {
+    "hash": "3bd402a6fc2944e0",
     "tags": [
       "youtube",
       "video",
