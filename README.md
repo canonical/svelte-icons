@@ -105,3 +105,36 @@ bun run storybook
 # Type check
 bun run check
 ```
+
+### Generating icon metadata
+
+The metadata generator accepts any endpoint supporting OpenAI-compatible Chat
+Completions. By default, it uses OpenRouter with `google/gemini-2.5-flash`:
+
+```bash
+# Set OPENROUTER_API_KEY in your environment or ignored .env file.
+bun run build:metadata
+
+# Override the OpenRouter model.
+bun run build:metadata --model google/gemini-2.5-flash
+```
+
+For a custom endpoint, pass its **API base URL** and an explicit model:
+
+```bash
+# Ollama: start the server and download the chosen model beforehand.
+bun run build:metadata --base-url http://localhost:11434/v1 --model qwen3:8b
+
+# llama.cpp: start llama-server with your model; use its served model ID.
+bun run build:metadata --base-url http://localhost:8080/v1 --model your-served-model-id
+```
+
+Custom endpoints use only `METADATA_API_KEY` when supplied, otherwise no
+authentication header is sent.
+
+Existing non-empty tags are reused. Add `--clean` (or `-c`) to regenerate them,
+including when switching endpoints or models:
+
+```bash
+bun run build:metadata --base-url http://localhost:11434/v1 --model qwen3:8b --clean
+```
