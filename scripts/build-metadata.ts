@@ -1,6 +1,7 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 import { parseArgs } from "node:util";
+import { z } from "zod";
 
 const {
   values: { inputDir, outputFile, clean, model, "base-url": customBaseUrl },
@@ -27,6 +28,7 @@ if (!inputDir || !outputFile) {
 let baseUrl: URL;
 let selectedModel: string | undefined;
 let apiKey: string | undefined;
+let providerOptions = {};
 
 if (customBaseUrl !== undefined) {
   try {
@@ -51,6 +53,7 @@ if (customBaseUrl !== undefined) {
   baseUrl = new URL("https://openrouter.ai/api/v1");
   selectedModel = model ?? "google/gemma-3-4b-it";
   apiKey = process.env.OPENROUTER_API_KEY?.trim();
+  providerOptions = { provider: { require_parameters: true } };
   if (!apiKey) {
     throw new Error("OPENROUTER_API_KEY environment variable is not set");
   }
@@ -68,12 +71,15 @@ const svgFiles = (await readdir(inputDir)).filter((file) =>
   file.endsWith(".svg"),
 );
 
+const tagsSchema = z.strictObject({
+  tags: z.array(z.string().trim().min(1)).min(1),
+});
+const tagsJsonSchema = tagsSchema.toJSONSchema();
+
 const prompt = `
-You are a helpful assistant that generates metadata for SVG icons.
-You are given an SVG icon and you need to generate a list of keywords that describe the icon.
-The keywords should be a list of words that describe the icon.
-The keywords should be separated by commas.
-The keywords should be in the following format: "keyword1, keyword2, keyword3"
+Generate concise search keywords for the provided SVG icon.
+Use its name and SVG content to identify its appearance, meaning, and likely uses.
+Return the keywords in the tags field.
 `;
 async function generateTags(svg: { name: string; content: string }) {
   console.log(`Generating tags for ${svg.name}`);
@@ -90,6 +96,15 @@ async function generateTags(svg: { name: string; content: string }) {
       body: JSON.stringify({
         model: selectedModel,
         stream: false,
+        ...providerOptions,
+        response_format: {
+          type: "json_schema",
+          json_schema: {
+            name: "icon_tags",
+            strict: true,
+            schema: tagsJsonSchema,
+          },
+        },
         messages: [
           { role: "system", content: prompt },
           {
@@ -126,13 +141,19 @@ async function generateTags(svg: { name: string; content: string }) {
     throw new Error(`Unexpected response content while ${context}`);
   }
 
-  const tags = content
-    .split(",")
-    .map((keyword) => keyword.trim())
-    .filter(Boolean);
-  if (!tags.length) {
-    throw new Error(`Empty tags while ${context}`);
+  let generated: unknown;
+  try {
+    generated = JSON.parse(content);
+  } catch (cause) {
+    throw new Error(`Invalid tags JSON while ${context}`, { cause });
   }
+  const parsed = tagsSchema.safeParse(generated);
+  if (!parsed.success) {
+    throw new Error(`Invalid tags schema while ${context}`, {
+      cause: parsed.error,
+    });
+  }
+  const { tags } = parsed.data;
   console.log(`Generated tags: ${tags}`);
   return tags;
 }

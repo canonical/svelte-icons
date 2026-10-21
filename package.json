@@ -68,7 +68,8 @@
     "svelte-check": "^4.3.4",
     "typescript": "~5.9.3",
     "vanilla-framework": "^4.37.1",
-    "vite": "^7.2.6"
+    "vite": "^7.2.6",
+    "zod": "^4.6.7"
   },
   "peerDependencies": {
     "svelte": "^5.0.0"
