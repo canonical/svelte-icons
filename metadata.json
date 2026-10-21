@@ -352,6 +352,23 @@
       "change"
     ]
   },
+  "chart": {
+    "hash": "21846c227845a175",
+    "tags": [
+      "chart",
+      "graph",
+      "data",
+      "statistics",
+      "analytics",
+      "bar",
+      "metrics",
+      "growth",
+      "progress",
+      "report",
+      "analysis",
+      "dashboard"
+    ]
+  },
   "checkmark": {
     "hash": "980d4621ab66d444",
     "tags": [
@@ -430,6 +447,57 @@
       "navigation"
     ]
   },
+  "clipboard": {
+    "hash": "3cf1d04f70fb4c94",
+    "tags": [
+      "clipboard",
+      "note",
+      "document",
+      "paper",
+      "list",
+      "task",
+      "memo",
+      "write",
+      "record",
+      "report",
+      "form",
+      "pad"
+    ]
+  },
+  "clipboard-chart": {
+    "hash": "4c431aa1a23513b7",
+    "tags": [
+      "clipboard",
+      "chart",
+      "report",
+      "analytics",
+      "data",
+      "statistics",
+      "audit",
+      "results",
+      "summary",
+      "metrics",
+      "dashboard",
+      "survey"
+    ]
+  },
+  "clipboard-list": {
+    "hash": "aab998492067d4ab",
+    "tags": [
+      "clipboard",
+      "list",
+      "tasks",
+      "todo",
+      "checklist",
+      "notes",
+      "report",
+      "agenda",
+      "inventory",
+      "document",
+      "plan",
+      "schedule"
+    ]
+  },
   "close": {
     "hash": "f34e3ab42375278b",
     "tags": [
@@ -477,6 +545,23 @@
       "script",
       "programming",
       "developer"
+    ]
+  },
+  "collapse-side-nav": {
+    "hash": "9161bf4b715f52f4",
+    "tags": [
+      "collapse",
+      "minimize",
+      "hide",
+      "sidebar",
+      "navigation",
+      "menu",
+      "close",
+      "panel",
+      "drawer",
+      "shrink",
+      "arrow",
+      "left"
     ]
   },
   "comments": {
@@ -543,19 +628,17 @@
     ]
   },
   "copy": {
-    "hash": "538f1d6195415bc2",
+    "hash": "927ea7d82c7ba8e5",
     "tags": [
       "copy",
       "duplicate",
       "clone",
-      "new",
-      "add",
-      "create",
-      "clipboard",
-      "document",
-      "task",
-      "list",
-      "plus"
+      "replicate",
+      "files",
+      "documents",
+      "pages",
+      "repeat",
+      "make a copy"
     ]
   },
   "cursor": {
@@ -571,6 +654,35 @@
       "selection",
       "interact",
       "control"
+    ]
+  },
+  "cut": {
+    "hash": "7e843d835ff432f5",
+    "tags": [
+      "cut",
+      "scissors",
+      "remove",
+      "delete",
+      "slice",
+      "split",
+      "trim",
+      "clip",
+      "edit"
+    ]
+  },
+  "dark-theme": {
+    "hash": "589744a9ce2f53b9",
+    "tags": [
+      "dark",
+      "theme",
+      "night",
+      "moon",
+      "mode",
+      "dark mode",
+      "appearance",
+      "night mode",
+      "evening",
+      "display"
     ]
   },
   "debug": {
@@ -615,6 +727,37 @@
       "display",
       "hardware",
       "terminal"
+    ]
+  },
+  "devtools": {
+    "hash": "107eb839998a9116",
+    "tags": [
+      "code",
+      "programming",
+      "developer",
+      "development",
+      "markup",
+      "html",
+      "software",
+      "script",
+      "syntax",
+      "coding",
+      "dev"
+    ]
+  },
+  "devtools-off": {
+    "hash": "7c4c1eda8a485dde",
+    "tags": [
+      "developer",
+      "tools",
+      "debug",
+      "disabled",
+      "off",
+      "coding",
+      "programming",
+      "development",
+      "inspection",
+      "deactivate"
     ]
   },
   "disconnected": {
@@ -730,6 +873,21 @@
       "critical"
     ]
   },
+  "expand-side-nav": {
+    "hash": "ec4e46a277b596c2",
+    "tags": [
+      "expand",
+      "sidebar",
+      "navigation",
+      "menu",
+      "show",
+      "drawer",
+      "panel",
+      "arrow",
+      "reveal",
+      "side-nav"
+    ]
+  },
   "export": {
     "hash": "54ae8f9d4659f9f0",
     "tags": [
@@ -838,6 +996,22 @@
       "organize"
     ]
   },
+  "fit-to-screen": {
+    "hash": "46ab24ec99613f81",
+    "tags": [
+      "fit",
+      "screen",
+      "fullscreen",
+      "expand",
+      "maximize",
+      "display",
+      "view",
+      "resize",
+      "zoom",
+      "window",
+      "layout"
+    ]
+  },
   "folder": {
     "hash": "657f956dd05ebb4b",
     "tags": [
@@ -870,18 +1044,18 @@
     ]
   },
   "fullscreen": {
-    "hash": "f24bbdc5a56e667c",
+    "hash": "53c52a2a72b80fc6",
     "tags": [
       "fullscreen",
       "expand",
       "maximize",
       "focus",
       "frame",
-      "boundary",
+      "enlarge",
       "view",
       "display",
-      "enlarge",
-      "border"
+      "border",
+      "boundary"
     ]
   },
   "gift": {
@@ -1003,6 +1177,21 @@
       "core"
     ]
   },
+  "image-registries": {
+    "hash": "6e0e747369ab0f06",
+    "tags": [
+      "registry",
+      "images",
+      "storage",
+      "repository",
+      "container",
+      "docker",
+      "archive",
+      "database",
+      "collection",
+      "library"
+    ]
+  },
   "import": {
     "hash": "d94f5a781ae9e931",
     "tags": [
@@ -1021,10 +1210,10 @@
     ]
   },
   "in-progress": {
-    "hash": "5ebe44545f1b454e",
+    "hash": "012772b6d5ae6935",
     "tags": [
+      "in-progress",
       "loading",
-      "progress",
       "processing",
       "status",
       "running",
@@ -1032,8 +1221,8 @@
       "waiting",
       "buffer",
       "circle",
-      "cycle",
-      "ongoing"
+      "progress bar",
+      "active"
     ]
   },
   "information": {
@@ -1079,6 +1268,68 @@
       "optical",
       "archive",
       "data"
+    ]
+  },
+  "keyboard": {
+    "hash": "380a290fd6d6f446",
+    "tags": [
+      "keyboard",
+      "input",
+      "typing",
+      "hardware",
+      "computer",
+      "keys",
+      "text",
+      "peripheral",
+      "typewriter",
+      "button"
+    ]
+  },
+  "keyboard-off": {
+    "hash": "2f5668aa1069b055",
+    "tags": [
+      "keyboard",
+      "off",
+      "disabled",
+      "disconnected",
+      "input",
+      "none",
+      "remove",
+      "unplugged",
+      "hardware",
+      "typing",
+      "no keyboard"
+    ]
+  },
+  "layout-grid": {
+    "hash": "c9a78362869f5809",
+    "tags": [
+      "grid",
+      "layout",
+      "dashboard",
+      "tiles",
+      "menu",
+      "apps",
+      "gallery",
+      "view",
+      "structure",
+      "blocks",
+      "mosaic"
+    ]
+  },
+  "light-theme": {
+    "hash": "8a7620cea7827611",
+    "tags": [
+      "light",
+      "theme",
+      "brightness",
+      "sun",
+      "day",
+      "mode",
+      "display",
+      "appearance",
+      "ui",
+      "screen"
     ]
   },
   "link": {
@@ -1191,6 +1442,21 @@
       "wayfinding"
     ]
   },
+  "maximize": {
+    "hash": "02811341fd6738ca",
+    "tags": [
+      "maximize",
+      "expand",
+      "fullscreen",
+      "enlarge",
+      "resize",
+      "scale",
+      "arrows",
+      "diagonal",
+      "stretch",
+      "increase"
+    ]
+  },
   "menu": {
     "hash": "7733e689998abadc",
     "tags": [
@@ -1221,6 +1487,21 @@
       "overflow",
       "context",
       "more-vert"
+    ]
+  },
+  "minimize": {
+    "hash": "60376bd92a6e0b0b",
+    "tags": [
+      "minimize",
+      "shrink",
+      "collapse",
+      "reduce",
+      "resize",
+      "window",
+      "scale",
+      "compress",
+      "close",
+      "contract"
     ]
   },
   "minus": {
@@ -1317,6 +1598,21 @@
       "programming",
       "developer",
       "interface"
+    ]
+  },
+  "paste": {
+    "hash": "887f2c99f575aa4a",
+    "tags": [
+      "paste",
+      "insert",
+      "add",
+      "clipboard",
+      "document",
+      "file",
+      "copy",
+      "content",
+      "data",
+      "input"
     ]
   },
   "pause": {
@@ -1625,6 +1921,38 @@
       "library"
     ]
   },
+  "resize": {
+    "hash": "8204979ad2c3960f",
+    "tags": [
+      "resize",
+      "scale",
+      "expand",
+      "stretch",
+      "dimensions",
+      "crop",
+      "transform",
+      "adjust",
+      "enlarge",
+      "size",
+      "frame"
+    ]
+  },
+  "resize-off": {
+    "hash": "8c309003c1f3263f",
+    "tags": [
+      "resize",
+      "disable",
+      "lock",
+      "fixed",
+      "scale",
+      "dimensions",
+      "proportions",
+      "size",
+      "restriction",
+      "stop",
+      "unavailable"
+    ]
+  },
   "restart": {
     "hash": "be72dc78cce06078",
     "tags": [
@@ -1659,6 +1987,36 @@
       "past"
     ]
   },
+  "rotate-left": {
+    "hash": "cf289cd41f23ce08",
+    "tags": [
+      "rotate",
+      "turn",
+      "orientation",
+      "direction",
+      "reorient",
+      "twist",
+      "angle",
+      "reposition",
+      "transform",
+      "arrow"
+    ]
+  },
+  "rotate-right": {
+    "hash": "c2bfec6a3dfde4f2",
+    "tags": [
+      "rotate",
+      "orientation",
+      "screen",
+      "mobile",
+      "device",
+      "turn",
+      "landscape",
+      "portrait",
+      "display",
+      "phone"
+    ]
+  },
   "rss": {
     "hash": "b5818e33b46aaee7",
     "tags": [
@@ -1672,6 +2030,37 @@
       "notification",
       "blog",
       "syndication"
+    ]
+  },
+  "screen-record": {
+    "hash": "5dc3058bdc46cdd6",
+    "tags": [
+      "record",
+      "capture",
+      "video",
+      "recording",
+      "screen",
+      "monitor",
+      "camera",
+      "media",
+      "camcorder",
+      "clip"
+    ]
+  },
+  "screenshot": {
+    "hash": "fc8fa57167f375ea",
+    "tags": [
+      "screenshot",
+      "camera",
+      "capture",
+      "snapshot",
+      "photo",
+      "image",
+      "screen",
+      "take",
+      "record",
+      "photography",
+      "frame"
     ]
   },
   "search": {
@@ -1975,7 +2364,7 @@
     ]
   },
   "stop": {
-    "hash": "b8af12b94c688bcc",
+    "hash": "0b13141ae51ce538",
     "tags": [
       "stop",
       "halt",
@@ -1983,10 +2372,26 @@
       "end",
       "square",
       "pause",
+      "exit",
       "cancel",
       "abort",
+      "close",
+      "interrupt"
+    ]
+  },
+  "stop-fill": {
+    "hash": "b8e0aa8021b5b9a1",
+    "tags": [
+      "stop",
+      "halt",
+      "terminate",
+      "end",
+      "square",
+      "pause",
       "exit",
-      "finish"
+      "cancel",
+      "close",
+      "interrupt"
     ]
   },
   "success": {
@@ -2021,6 +2426,23 @@
       "confirm",
       "completed",
       "pass"
+    ]
+  },
+  "swap": {
+    "hash": "15d4087bf220f4cc",
+    "tags": [
+      "swap",
+      "exchange",
+      "transfer",
+      "switch",
+      "replace",
+      "reverse",
+      "shuffle",
+      "toggle",
+      "move",
+      "redirect",
+      "alternate",
+      "reorder"
     ]
   },
   "switcher": {
@@ -2065,6 +2487,37 @@
       "configuration",
       "context",
       "toggle"
+    ]
+  },
+  "system-theme": {
+    "hash": "8ea634f3961a8b1c",
+    "tags": [
+      "theme",
+      "brightness",
+      "display",
+      "appearance",
+      "mode",
+      "dark mode",
+      "light mode",
+      "contrast",
+      "interface",
+      "settings"
+    ]
+  },
+  "table": {
+    "hash": "27233f82b3dfa2e8",
+    "tags": [
+      "table",
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns",
+      "matrix",
+      "layout",
+      "schedule",
+      "list",
+      "database"
     ]
   },
   "tag": {
@@ -2142,21 +2595,6 @@
       "limit",
       "stop",
       "interrupted"
-    ]
-  },
-  "toggle-side-nav": {
-    "hash": "e4286503e3ab62b6",
-    "tags": [
-      "sidebar",
-      "navigation",
-      "menu",
-      "collapse",
-      "hide",
-      "drawer",
-      "panel",
-      "toggle",
-      "close",
-      "expand"
     ]
   },
   "units": {
@@ -2286,6 +2724,51 @@
       "login",
       "customer",
       "user account"
+    ]
+  },
+  "volume-down": {
+    "hash": "3fdac81582c5e166",
+    "tags": [
+      "volume",
+      "sound",
+      "audio",
+      "speaker",
+      "decrease",
+      "lower",
+      "mute",
+      "quiet",
+      "reduce",
+      "output"
+    ]
+  },
+  "volume-mute": {
+    "hash": "6c0266ef9cb01983",
+    "tags": [
+      "mute",
+      "volume",
+      "silent",
+      "sound",
+      "audio",
+      "speaker",
+      "off",
+      "no sound",
+      "unmute",
+      "quiet"
+    ]
+  },
+  "volume-up": {
+    "hash": "b65a2b10688dc8f5",
+    "tags": [
+      "volume",
+      "sound",
+      "audio",
+      "speaker",
+      "increase",
+      "raise",
+      "loud",
+      "amplifier",
+      "gain",
+      "output"
     ]
   },
   "waiting": {

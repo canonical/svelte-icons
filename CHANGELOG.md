@@ -18,9 +18,57 @@ When @canonical/ds-assets is changed, note the version used under the release he
 
 ## [Unreleased]
 
+Icons sourced from `@canonical/ds-assets@0.44.1`.
+
+### Added
+
+- Icons:
+  - `ChartIcon`
+  - `ClipboardChartIcon`
+  - `ClipboardIcon`
+  - `ClipboardListIcon`
+  - `CollapseSideNavIcon`
+  - `CutIcon`
+  - `DarkThemeIcon`
+  - `DevtoolsIcon`
+  - `DevtoolsOffIcon`
+  - `ExpandSideNavIcon`
+  - `FitToScreenIcon`
+  - `ImageRegistriesIcon`
+  - `KeyboardIcon`
+  - `KeyboardOffIcon`
+  - `LayoutGridIcon`
+  - `LightThemeIcon`
+  - `MaximizeIcon`
+  - `MinimizeIcon`
+  - `PasteIcon`
+  - `ResizeIcon`
+  - `ResizeOffIcon`
+  - `RotateLeftIcon`
+  - `RotateRightIcon`
+  - `ScreenRecordIcon`
+  - `ScreenshotIcon`
+  - `StopFillIcon`
+  - `SwapIcon`
+  - `SystemThemeIcon`
+  - `TableIcon`
+  - `VolumeDownIcon`
+  - `VolumeMuteIcon`
+  - `VolumeUpIcon`
+
 ### Changed
 
 - Icons no longer render a redundant nested `<svg>` element inside their `<symbol>`, reducing markup size.
+- Icons:
+  - `CopyIcon`
+  - `FullscreenIcon`
+  - `InProgressIcon`
+  - `StopIcon`
+
+### Removed
+
+- **BREAKING:** Icons:
+  - `ToggleSideNavIcon` (use `CollapseSideNavIcon` or `ExpandSideNavIcon` instead)
 
 ### Internal
 
@@ -28,6 +76,7 @@ When @canonical/ds-assets is changed, note the version used under the release he
 - Regenerate tags for all icons in `metadata.json`.
 - Store SVG hashes in `metadata.json` so only new or changed icons are re-tagged; drop filenames and stale entries.
 - Add a `check:metadata` script, run by `bun run check` and CI, which fails when `metadata.json` is out of sync with `@canonical/ds-assets`.
+- Bump `@canonical/ds-assets` from `0.10.0-experimental.8` to `0.44.1`.
 
 ## [0.0.9] - 2026-01-09
 
