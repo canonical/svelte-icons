@@ -8,8 +8,7 @@
       "page",
       "document",
       "artboard"
-    ],
-    "file": "add-canvas.svg"
+    ]
   },
   "add-logical-volume": {
     "tags": [
@@ -24,8 +23,7 @@
       "create",
       "new",
       "lvm"
-    ],
-    "file": "add-logical-volume.svg"
+    ]
   },
   "add-partition": {
     "tags": [
@@ -42,8 +40,7 @@
       "section",
       "divide",
       "split"
-    ],
-    "file": "add-partition.svg"
+    ]
   },
   "anchor": {
     "tags": [
@@ -59,8 +56,7 @@
       "secure",
       "stability",
       "maritime"
-    ],
-    "file": "anchor.svg"
+    ]
   },
   "applications": {
     "tags": [
@@ -74,8 +70,7 @@
       "architecture",
       "structure",
       "app"
-    ],
-    "file": "applications.svg"
+    ]
   },
   "archive": {
     "tags": [
@@ -89,8 +84,7 @@
       "container",
       "inbox",
       "outbox"
-    ],
-    "file": "archive.svg"
+    ]
   },
   "arrow-bottom-left": {
     "tags": [
@@ -101,8 +95,7 @@
       "down-left",
       "direction",
       "indicator"
-    ],
-    "file": "arrow-bottom-left.svg"
+    ]
   },
   "arrow-bottom-right": {
     "tags": [
@@ -115,8 +108,7 @@
       "navigation",
       "download",
       "external"
-    ],
-    "file": "arrow-bottom-right.svg"
+    ]
   },
   "arrow-down": {
     "tags": [
@@ -127,8 +119,7 @@
       "collapse",
       "navigate",
       "south"
-    ],
-    "file": "arrow-down.svg"
+    ]
   },
   "arrow-left": {
     "tags": [
@@ -139,8 +130,7 @@
       "direction",
       "move",
       "navigate"
-    ],
-    "file": "arrow-left.svg"
+    ]
   },
   "arrow-right": {
     "tags": [
@@ -154,8 +144,7 @@
       "indicator",
       "go",
       "move"
-    ],
-    "file": "arrow-right.svg"
+    ]
   },
   "arrow-top-left": {
     "tags": [
@@ -164,8 +153,7 @@
       "diagonal",
       "direction",
       "up-left"
-    ],
-    "file": "arrow-top-left.svg"
+    ]
   },
   "arrow-top-right": {
     "tags": [
@@ -178,8 +166,7 @@
       "up",
       "right",
       "navigation"
-    ],
-    "file": "arrow-top-right.svg"
+    ]
   },
   "arrow-up": {
     "tags": [
@@ -193,8 +180,7 @@
       "increase",
       "top",
       "north"
-    ],
-    "file": "arrow-up.svg"
+    ]
   },
   "back-to-top": {
     "tags": [
@@ -205,8 +191,7 @@
       "scroll",
       "elevate",
       "return"
-    ],
-    "file": "back-to-top.svg"
+    ]
   },
   "blueprint": {
     "tags": [
@@ -219,8 +204,7 @@
       "engineering",
       "construction",
       "document"
-    ],
-    "file": "blueprint.svg"
+    ]
   },
   "book": {
     "tags": [
@@ -232,8 +216,7 @@
       "knowledge",
       "story",
       "novel"
-    ],
-    "file": "book.svg"
+    ]
   },
   "bug": {
     "tags": [
@@ -245,8 +228,7 @@
       "software",
       "creature",
       "animal"
-    ],
-    "file": "bug.svg"
+    ]
   },
   "bundle": {
     "tags": [
@@ -262,8 +244,7 @@
       "products",
       "inventory",
       "assembly"
-    ],
-    "file": "bundle.svg"
+    ]
   },
   "canvas": {
     "tags": [
@@ -277,8 +258,7 @@
       "frame",
       "layers",
       "creative"
-    ],
-    "file": "canvas.svg"
+    ]
   },
   "certificate": {
     "tags": [
@@ -301,8 +281,7 @@
       "trust",
       "guarantee",
       "badge"
-    ],
-    "file": "certificate.svg"
+    ]
   },
   "certification": {
     "tags": [
@@ -319,8 +298,7 @@
       "license",
       "achievement",
       "success"
-    ],
-    "file": "certification.svg"
+    ]
   },
   "change-version": {
     "tags": [
@@ -334,8 +312,7 @@
       "cycle",
       "arrow",
       "rotate"
-    ],
-    "file": "change-version.svg"
+    ]
   },
   "checkmark": {
     "tags": [
@@ -351,8 +328,7 @@
       "validation",
       "verified",
       "correct"
-    ],
-    "file": "checkmark.svg"
+    ]
   },
   "chevron-down": {
     "tags": [
@@ -365,8 +341,7 @@
       "caret",
       "indicator",
       "fold"
-    ],
-    "file": "chevron-down.svg"
+    ]
   },
   "chevron-left": {
     "tags": [
@@ -378,8 +353,7 @@
       "direction",
       "navigation",
       "pointer"
-    ],
-    "file": "chevron-left.svg"
+    ]
   },
   "chevron-right": {
     "tags": [
@@ -393,8 +367,7 @@
       "direction",
       "indicator",
       "caret"
-    ],
-    "file": "chevron-right.svg"
+    ]
   },
   "chevron-up": {
     "tags": [
@@ -404,8 +377,7 @@
       "direction",
       "indicator",
       "caret"
-    ],
-    "file": "chevron-up.svg"
+    ]
   },
   "close": {
     "tags": [
@@ -417,8 +389,7 @@
       "stop",
       "cross",
       "x mark"
-    ],
-    "file": "close.svg"
+    ]
   },
   "cluster-host": {
     "tags": [
@@ -435,8 +406,7 @@
       "system",
       "group",
       "distributed"
-    ],
-    "file": "cluster-host.svg"
+    ]
   },
   "code": {
     "tags": [
@@ -449,8 +419,7 @@
       "brackets",
       "terminal",
       "markup"
-    ],
-    "file": "code.svg"
+    ]
   },
   "comments": {
     "tags": [
@@ -463,8 +432,7 @@
       "talk",
       "communication",
       "feedback"
-    ],
-    "file": "comments.svg"
+    ]
   },
   "connected": {
     "tags": [
@@ -475,8 +443,7 @@
       "join",
       "relationship",
       "connect"
-    ],
-    "file": "connected.svg"
+    ]
   },
   "containers": {
     "tags": [
@@ -486,8 +453,7 @@
       "stack",
       "package",
       "cargo"
-    ],
-    "file": "containers.svg"
+    ]
   },
   "controllers": {
     "tags": [
@@ -498,8 +464,7 @@
       "gamepad",
       "play",
       "entertainment"
-    ],
-    "file": "controllers.svg"
+    ]
   },
   "copy": {
     "tags": [
@@ -511,8 +476,7 @@
       "new",
       "plus",
       "create"
-    ],
-    "file": "copy.svg"
+    ]
   },
   "cursor": {
     "tags": [
@@ -525,8 +489,7 @@
       "computer",
       "interface",
       "ui"
-    ],
-    "file": "cursor.svg"
+    ]
   },
   "debug": {
     "tags": [
@@ -540,8 +503,7 @@
       "development",
       "magnifying glass",
       "inspect"
-    ],
-    "file": "debug.svg"
+    ]
   },
   "delete": {
     "tags": [
@@ -553,8 +515,7 @@
       "erase",
       "dispose",
       "delete button"
-    ],
-    "file": "delete.svg"
+    ]
   },
   "desktop": {
     "tags": [
@@ -567,8 +528,7 @@
       "office",
       "device",
       "technology"
-    ],
-    "file": "desktop.svg"
+    ]
   },
   "disconnected": {
     "tags": [
@@ -582,8 +542,7 @@
       "wire",
       "not working",
       "interrupted"
-    ],
-    "file": "disconnected.svg"
+    ]
   },
   "download": {
     "tags": [
@@ -595,8 +554,7 @@
       "retrieve",
       "get",
       "data"
-    ],
-    "file": "download.svg"
+    ]
   },
   "drag": {
     "tags": [
@@ -607,8 +565,7 @@
       "grip",
       "sort",
       "draggable"
-    ],
-    "file": "drag.svg"
+    ]
   },
   "edit": {
     "tags": [
@@ -622,8 +579,7 @@
       "document",
       "tool",
       "compose"
-    ],
-    "file": "edit.svg"
+    ]
   },
   "email": {
     "tags": [
@@ -635,8 +591,7 @@
       "receive",
       "communication",
       "inbox"
-    ],
-    "file": "email.svg"
+    ]
   },
   "error": {
     "tags": [
@@ -650,8 +605,7 @@
       "warning",
       "caution",
       "alert"
-    ],
-    "file": "error.svg"
+    ]
   },
   "error-fill": {
     "tags": [
@@ -672,8 +626,7 @@
       "cross",
       "circle",
       "filled"
-    ],
-    "file": "error-fill.svg"
+    ]
   },
   "export": {
     "tags": [
@@ -688,8 +641,7 @@
       "move",
       "transfer",
       "file"
-    ],
-    "file": "export.svg"
+    ]
   },
   "exposed": {
     "tags": [
@@ -699,8 +651,7 @@
       "map",
       "sphere",
       "global"
-    ],
-    "file": "exposed.svg"
+    ]
   },
   "external-link": {
     "tags": [
@@ -712,8 +663,7 @@
       "arrow",
       "outbound",
       "redirect"
-    ],
-    "file": "external-link.svg"
+    ]
   },
   "facebook": {
     "tags": [
@@ -725,8 +675,7 @@
       "f",
       "communication",
       "connection"
-    ],
-    "file": "facebook.svg"
+    ]
   },
   "file": {
     "tags": [
@@ -740,8 +689,7 @@
       "note",
       "report",
       "data"
-    ],
-    "file": "file.svg"
+    ]
   },
   "file-blank": {
     "tags": [
@@ -754,8 +702,7 @@
       "page",
       "sheet",
       "note"
-    ],
-    "file": "file-blank.svg"
+    ]
   },
   "filter": {
     "tags": [
@@ -766,8 +713,7 @@
       "organize",
       "adjust",
       "preferences"
-    ],
-    "file": "filter.svg"
+    ]
   },
   "folder": {
     "tags": [
@@ -777,8 +723,7 @@
       "document",
       "storage",
       "organize"
-    ],
-    "file": "folder.svg"
+    ]
   },
   "fork": {
     "tags": [
@@ -789,8 +734,7 @@
       "vibration",
       "physics",
       "instrument"
-    ],
-    "file": "fork.svg"
+    ]
   },
   "fullscreen": {
     "tags": [
@@ -803,8 +747,7 @@
       "view",
       "cinema",
       "video"
-    ],
-    "file": "fullscreen.svg"
+    ]
   },
   "gift": {
     "tags": [
@@ -817,8 +760,7 @@
       "package",
       "ribbon",
       "holiday"
-    ],
-    "file": "gift.svg"
+    ]
   },
   "github": {
     "tags": [
@@ -834,8 +776,7 @@
       "repository",
       "programming",
       "software"
-    ],
-    "file": "github.svg"
+    ]
   },
   "help": {
     "tags": [
@@ -849,8 +790,7 @@
       "faq",
       "ask",
       "problem"
-    ],
-    "file": "help.svg"
+    ]
   },
   "hide": {
     "tags": [
@@ -868,8 +808,7 @@
       "concealed",
       "unseen",
       "visibility"
-    ],
-    "file": "hide.svg"
+    ]
   },
   "highlight-off": {
     "tags": [
@@ -885,8 +824,7 @@
       "formatting",
       "writing",
       "annotation"
-    ],
-    "file": "highlight-off.svg"
+    ]
   },
   "highlight-on": {
     "tags": [
@@ -902,8 +840,7 @@
       "electric",
       "illuminate",
       "glow"
-    ],
-    "file": "highlight-on.svg"
+    ]
   },
   "home": {
     "tags": [
@@ -912,8 +849,7 @@
       "building",
       "residence",
       "homepage"
-    ],
-    "file": "home.svg"
+    ]
   },
   "image": {
     "tags": [
@@ -924,8 +860,7 @@
       "ownership",
       "brand",
       "registered"
-    ],
-    "file": "image.svg"
+    ]
   },
   "import": {
     "tags": [
@@ -936,8 +871,7 @@
       "box",
       "document",
       "entry"
-    ],
-    "file": "import.svg"
+    ]
   },
   "in-progress": {
     "tags": [
@@ -947,8 +881,7 @@
       "pending",
       "processing",
       "status"
-    ],
-    "file": "in-progress.svg"
+    ]
   },
   "information": {
     "tags": [
@@ -960,8 +893,7 @@
       "query",
       "guide",
       "support"
-    ],
-    "file": "information.svg"
+    ]
   },
   "instagram": {
     "tags": [
@@ -976,8 +908,7 @@
       "logo",
       "platform",
       "photography"
-    ],
-    "file": "instagram.svg"
+    ]
   },
   "iso": {
     "tags": [
@@ -990,8 +921,7 @@
       "focus",
       "circular",
       "gear"
-    ],
-    "file": "iso.svg"
+    ]
   },
   "link": {
     "tags": [
@@ -1004,8 +934,7 @@
       "attach",
       "share",
       "website"
-    ],
-    "file": "link.svg"
+    ]
   },
   "linkedin": {
     "tags": [
@@ -1017,8 +946,7 @@
       "career",
       "business",
       "connection"
-    ],
-    "file": "linkedin.svg"
+    ]
   },
   "location": {
     "tags": [
@@ -1031,8 +959,7 @@
       "address",
       "position",
       "geotag"
-    ],
-    "file": "location.svg"
+    ]
   },
   "locked": {
     "tags": [
@@ -1045,8 +972,7 @@
       "privacy",
       "closed",
       "restricted"
-    ],
-    "file": "locked.svg"
+    ]
   },
   "log-out": {
     "tags": [
@@ -1060,8 +986,7 @@
       "quit",
       "account",
       "session"
-    ],
-    "file": "log-out.svg"
+    ]
   },
   "machines": {
     "tags": [
@@ -1075,8 +1000,7 @@
       "control",
       "box",
       "component"
-    ],
-    "file": "machines.svg"
+    ]
   },
   "map": {
     "tags": [
@@ -1090,8 +1014,7 @@
       "direction",
       "discover",
       "journey"
-    ],
-    "file": "map.svg"
+    ]
   },
   "menu": {
     "tags": [
@@ -1101,8 +1024,7 @@
       "lines",
       "list",
       "options"
-    ],
-    "file": "menu.svg"
+    ]
   },
   "menu-contextual": {
     "tags": [
@@ -1114,8 +1036,7 @@
       "dots",
       "vertical ellipsis",
       "kebab menu"
-    ],
-    "file": "menu-contextual.svg"
+    ]
   },
   "minus": {
     "tags": [
@@ -1129,8 +1050,7 @@
       "math",
       "arithmetic",
       "reduction"
-    ],
-    "file": "minus.svg"
+    ]
   },
   "models": {
     "tags": [
@@ -1141,8 +1061,7 @@
       "users",
       "human",
       "persons"
-    ],
-    "file": "models.svg"
+    ]
   },
   "mount": {
     "tags": [
@@ -1159,8 +1078,7 @@
       "server",
       "computer",
       "hardware"
-    ],
-    "file": "mount.svg"
+    ]
   },
   "notifications": {
     "tags": [
@@ -1172,8 +1090,7 @@
       "message",
       "sound",
       "signal"
-    ],
-    "file": "notifications.svg"
+    ]
   },
   "notifications-off": {
     "tags": [
@@ -1186,8 +1103,7 @@
       "bell",
       "silent",
       "no notifications"
-    ],
-    "file": "notifications-off.svg"
+    ]
   },
   "open-terminal": {
     "tags": [
@@ -1204,8 +1120,7 @@
       "prompt",
       "script",
       "open"
-    ],
-    "file": "open-terminal.svg"
+    ]
   },
   "pause": {
     "tags": [
@@ -1218,8 +1133,7 @@
       "video",
       "audio",
       "sound"
-    ],
-    "file": "pause.svg"
+    ]
   },
   "pin": {
     "tags": [
@@ -1236,8 +1150,7 @@
       "stationery",
       "office",
       "board"
-    ],
-    "file": "pin.svg"
+    ]
   },
   "plans": {
     "tags": [
@@ -1252,8 +1165,7 @@
       "checked",
       "completed",
       "important"
-    ],
-    "file": "plans.svg"
+    ]
   },
   "play": {
     "tags": [
@@ -1265,8 +1177,7 @@
       "circle",
       "button",
       "control"
-    ],
-    "file": "play.svg"
+    ]
   },
   "play-fill": {
     "tags": [
@@ -1281,8 +1192,7 @@
       "player",
       "triangle",
       "filled"
-    ],
-    "file": "play-fill.svg"
+    ]
   },
   "play-pending": {
     "tags": [
@@ -1298,8 +1208,7 @@
       "progress",
       "circle",
       "refresh"
-    ],
-    "file": "play-pending.svg"
+    ]
   },
   "plus": {
     "tags": [
@@ -1313,8 +1222,7 @@
       "sum",
       "cross",
       "positive"
-    ],
-    "file": "plus.svg"
+    ]
   },
   "pods": {
     "tags": [
@@ -1327,8 +1235,7 @@
       "resource",
       "3d",
       "geometric"
-    ],
-    "file": "pods.svg"
+    ]
   },
   "power-off": {
     "tags": [
@@ -1344,8 +1251,7 @@
       "disconnect",
       "standby",
       "indicator"
-    ],
-    "file": "power-off.svg"
+    ]
   },
   "power-on": {
     "tags": [
@@ -1356,8 +1262,7 @@
       "button",
       "switch",
       "start"
-    ],
-    "file": "power-on.svg"
+    ]
   },
   "priority-critical": {
     "tags": [
@@ -1371,8 +1276,7 @@
       "danger",
       "severe",
       "indicator"
-    ],
-    "file": "priority-critical.svg"
+    ]
   },
   "priority-high": {
     "tags": [
@@ -1384,8 +1288,7 @@
       "alert",
       "information",
       "notice"
-    ],
-    "file": "priority-high.svg"
+    ]
   },
   "priority-low": {
     "tags": [
@@ -1397,8 +1300,7 @@
       "level",
       "minimal",
       "lesser"
-    ],
-    "file": "priority-low.svg"
+    ]
   },
   "priority-medium": {
     "tags": [
@@ -1411,8 +1313,7 @@
       "moderate",
       "grade",
       "ranking"
-    ],
-    "file": "priority-medium.svg"
+    ]
   },
   "priority-negligible": {
     "tags": [
@@ -1431,8 +1332,7 @@
       "default",
       "trend",
       "decrease"
-    ],
-    "file": "priority-negligible.svg"
+    ]
   },
   "priority-unknown": {
     "tags": [
@@ -1448,8 +1348,7 @@
       "undecided",
       "undefined",
       "unclear"
-    ],
-    "file": "priority-unknown.svg"
+    ]
   },
   "private-key": {
     "tags": [
@@ -1463,8 +1362,7 @@
       "locked",
       "secure",
       "cryptographic"
-    ],
-    "file": "private-key.svg"
+    ]
   },
   "profiles": {
     "tags": [
@@ -1478,8 +1376,7 @@
       "social",
       "heads",
       "silhouettes"
-    ],
-    "file": "profiles.svg"
+    ]
   },
   "queued": {
     "tags": [
@@ -1493,8 +1390,7 @@
       "list",
       "sequence",
       "next"
-    ],
-    "file": "queued.svg"
+    ]
   },
   "repository": {
     "tags": [
@@ -1516,8 +1412,7 @@
       "backup",
       "secure",
       "organized"
-    ],
-    "file": "repository.svg"
+    ]
   },
   "restart": {
     "tags": [
@@ -1529,8 +1424,7 @@
       "undo",
       "arrow",
       "cycle"
-    ],
-    "file": "restart.svg"
+    ]
   },
   "revisions": {
     "tags": [
@@ -1548,8 +1442,7 @@
       "revert",
       "timeline",
       "progress"
-    ],
-    "file": "revisions.svg"
+    ]
   },
   "rss": {
     "tags": [
@@ -1561,8 +1454,7 @@
       "content",
       "syndication",
       "web feed"
-    ],
-    "file": "rss.svg"
+    ]
   },
   "search": {
     "tags": [
@@ -1575,8 +1467,7 @@
       "looking",
       "investigate",
       "discover"
-    ],
-    "file": "search.svg"
+    ]
   },
   "security": {
     "tags": [
@@ -1589,8 +1480,7 @@
       "guard",
       "safeguard",
       "safety"
-    ],
-    "file": "security.svg"
+    ]
   },
   "security-error": {
     "tags": [
@@ -1611,8 +1501,7 @@
       "security error",
       "problem",
       "access denied"
-    ],
-    "file": "security-error.svg"
+    ]
   },
   "security-tick": {
     "tags": [
@@ -1626,8 +1515,7 @@
       "validation",
       "secure",
       "approval"
-    ],
-    "file": "security-tick.svg"
+    ]
   },
   "security-warning": {
     "tags": [
@@ -1642,8 +1530,7 @@
       "caution",
       "exclamation",
       "error"
-    ],
-    "file": "security-warning.svg"
+    ]
   },
   "select": {
     "tags": [
@@ -1655,8 +1542,7 @@
       "border",
       "tool",
       "highlight"
-    ],
-    "file": "select.svg"
+    ]
   },
   "select-add": {
     "tags": [
@@ -1669,8 +1555,7 @@
       "mark",
       "tool",
       "new"
-    ],
-    "file": "select-add.svg"
+    ]
   },
   "select-remove": {
     "tags": [
@@ -1682,8 +1567,7 @@
       "dashed",
       "border",
       "area"
-    ],
-    "file": "select-remove.svg"
+    ]
   },
   "settings": {
     "tags": [
@@ -1696,8 +1580,7 @@
       "tools",
       "adjust",
       "customize"
-    ],
-    "file": "settings.svg"
+    ]
   },
   "share": {
     "tags": [
@@ -1713,8 +1596,7 @@
       "internet",
       "media",
       "content"
-    ],
-    "file": "share.svg"
+    ]
   },
   "show": {
     "tags": [
@@ -1728,8 +1610,7 @@
       "see",
       "unhide",
       "watch"
-    ],
-    "file": "show.svg"
+    ]
   },
   "single-host": {
     "tags": [
@@ -1740,8 +1621,7 @@
       "hexagon",
       "single",
       "network"
-    ],
-    "file": "single-host.svg"
+    ]
   },
   "snapshot": {
     "tags": [
@@ -1755,8 +1635,7 @@
       "lens",
       "digital",
       "media"
-    ],
-    "file": "snapshot.svg"
+    ]
   },
   "snooze": {
     "tags": [
@@ -1768,8 +1647,7 @@
       "zzz",
       "slumber",
       "alarm"
-    ],
-    "file": "snooze.svg"
+    ]
   },
   "spinner": {
     "tags": [
@@ -1783,8 +1661,7 @@
       "processing",
       "loop",
       "asynchronous"
-    ],
-    "file": "spinner.svg"
+    ]
   },
   "starred": {
     "tags": [
@@ -1797,8 +1674,7 @@
       "mark",
       "highlighted",
       "selected"
-    ],
-    "file": "starred.svg"
+    ]
   },
   "starred-off": {
     "tags": [
@@ -1808,8 +1684,7 @@
       "favorite",
       "bookmark",
       "rating"
-    ],
-    "file": "starred-off.svg"
+    ]
   },
   "statistics": {
     "tags": [
@@ -1832,8 +1707,7 @@
       "arrow",
       "visual",
       "information"
-    ],
-    "file": "statistics.svg"
+    ]
   },
   "status": {
     "tags": [
@@ -1845,8 +1719,7 @@
       "signal",
       "activity",
       "monitoring"
-    ],
-    "file": "status.svg"
+    ]
   },
   "stop": {
     "tags": [
@@ -1859,8 +1732,7 @@
       "end",
       "finish",
       "halt"
-    ],
-    "file": "stop.svg"
+    ]
   },
   "success": {
     "tags": [
@@ -1876,8 +1748,7 @@
       "right",
       "mark",
       "circle"
-    ],
-    "file": "success.svg"
+    ]
   },
   "success-fill": {
     "tags": [
@@ -1893,8 +1764,7 @@
       "correct",
       "circle",
       "ok"
-    ],
-    "file": "success-fill.svg"
+    ]
   },
   "switcher": {
     "tags": [
@@ -1904,8 +1774,7 @@
       "change",
       "rearrange",
       "swap"
-    ],
-    "file": "switcher.svg"
+    ]
   },
   "switcher-dashboard": {
     "tags": [
@@ -1918,8 +1787,7 @@
       "overview",
       "control panel",
       "interface"
-    ],
-    "file": "switcher-dashboard.svg"
+    ]
   },
   "switcher-environments": {
     "tags": [
@@ -1934,8 +1802,7 @@
       "stages",
       "choose",
       "multiple"
-    ],
-    "file": "switcher-environments.svg"
+    ]
   },
   "tag": {
     "tags": [
@@ -1966,8 +1833,7 @@
       "marker",
       "notice",
       "flag"
-    ],
-    "file": "tag.svg"
+    ]
   },
   "thumbs-down": {
     "tags": [
@@ -1981,8 +1847,7 @@
       "thumb down",
       "social media",
       "feedback"
-    ],
-    "file": "thumbs-down.svg"
+    ]
   },
   "thumbs-up": {
     "tags": [
@@ -1995,8 +1860,7 @@
       "good",
       "social media",
       "feedback"
-    ],
-    "file": "thumbs-up.svg"
+    ]
   },
   "tidy": {
     "tags": [
@@ -2010,8 +1874,7 @@
       "sort",
       "housekeeping",
       "dust"
-    ],
-    "file": "tidy.svg"
+    ]
   },
   "timed-out": {
     "tags": [
@@ -2029,8 +1892,7 @@
       "process",
       "waiting",
       "delay"
-    ],
-    "file": "timed-out.svg"
+    ]
   },
   "toggle-side-nav": {
     "tags": [
@@ -2048,8 +1910,7 @@
       "left",
       "arrow",
       "bar"
-    ],
-    "file": "toggle-side-nav.svg"
+    ]
   },
   "units": {
     "tags": [
@@ -2061,8 +1922,7 @@
       "components",
       "sections",
       "segments"
-    ],
-    "file": "units.svg"
+    ]
   },
   "unlocked": {
     "tags": [
@@ -2075,8 +1935,7 @@
       "unsecure",
       "permission",
       "authorized"
-    ],
-    "file": "unlocked.svg"
+    ]
   },
   "unmount": {
     "tags": [
@@ -2089,8 +1948,7 @@
       "remove",
       "detach",
       "device"
-    ],
-    "file": "unmount.svg"
+    ]
   },
   "upload": {
     "tags": [
@@ -2104,8 +1962,7 @@
       "arrow",
       "up",
       "save"
-    ],
-    "file": "upload.svg"
+    ]
   },
   "usb": {
     "tags": [
@@ -2119,8 +1976,7 @@
       "electronic",
       "device",
       "interface"
-    ],
-    "file": "usb.svg"
+    ]
   },
   "user": {
     "tags": [
@@ -2132,8 +1988,7 @@
       "contact",
       "human",
       "member"
-    ],
-    "file": "user.svg"
+    ]
   },
   "user-group": {
     "tags": [
@@ -2146,8 +2001,7 @@
       "network",
       "crowd",
       "profiles"
-    ],
-    "file": "user-group.svg"
+    ]
   },
   "user-profile": {
     "tags": [
@@ -2160,8 +2014,7 @@
       "contact",
       "member",
       "login"
-    ],
-    "file": "user-profile.svg"
+    ]
   },
   "waiting": {
     "tags": [
@@ -2174,8 +2027,7 @@
       "indicator",
       "busy",
       "circle"
-    ],
-    "file": "waiting.svg"
+    ]
   },
   "warning": {
     "tags": [
@@ -2189,8 +2041,7 @@
       "exclamation",
       "sign",
       "symbol"
-    ],
-    "file": "warning.svg"
+    ]
   },
   "warning-fill": {
     "tags": [
@@ -2205,8 +2056,7 @@
       "issue",
       "attention",
       "important"
-    ],
-    "file": "warning-fill.svg"
+    ]
   },
   "website": {
     "tags": [
@@ -2220,8 +2070,7 @@
       "screen",
       "ui",
       "interface"
-    ],
-    "file": "website.svg"
+    ]
   },
   "x": {
     "tags": [
@@ -2236,8 +2085,7 @@
       "website",
       "symbol",
       "logo"
-    ],
-    "file": "x.svg"
+    ]
   },
   "youtube": {
     "tags": [
@@ -2248,7 +2096,6 @@
       "streaming",
       "platform",
       "media"
-    ],
-    "file": "youtube.svg"
+    ]
   }
 }

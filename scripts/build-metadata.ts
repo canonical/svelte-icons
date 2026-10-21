@@ -145,7 +145,7 @@ for (const svgFileName of svgFiles) {
   const iconName = svgFileName.replace(/\.svg$/, "");
   iconNames.add(iconName);
   const shouldGenerateTags = clean || !metadata[iconName]?.tags?.length;
-  metadata[iconName] = { ...(metadata[iconName] || {}), file: svgFileName };
+  metadata[iconName] ??= {};
   if (shouldGenerateTags) {
     const svg = await Bun.file(path.join(inputDir, svgFileName)).text();
     const tags = await generateTags({ name: iconName, content: svg });
