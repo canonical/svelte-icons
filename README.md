@@ -134,12 +134,16 @@ bun run build:metadata --base-url http://localhost:8080/v1 --model your-served-m
 Custom endpoints use only `METADATA_API_KEY` when supplied, otherwise no
 authentication header is sent.
 
-Requests time out after 120 seconds and are retried up to 3 times. Increase
-the timeout for slow local models with `--timeout <seconds>`.
+Icons are processed 6 at a time by default; change this with `--concurrency`
+(or `-j`), e.g. `-j 1` for slow local servers. Requests time out after 120
+seconds and are retried up to 3 times on timeouts, network errors, rate limits,
+and server errors. Increase the timeout for slow local models with
+`--timeout <seconds>`. Icons that still fail are reported at the end, the
+remaining results are written, and the command exits with a non-zero status.
 
-Existing non-empty tags are reused. Add `--clean` (or `-c`) to regenerate them,
-including when switching endpoints or models:
+Each generated icon is logged on a single line with its tags. Add `--verbose`
+(or `-v`) to also log the model's description of the drawing and its meaning.
 
-```bash
-bun run build:metadata --base-url http://localhost:11434/v1 --model gemma4:26b --clean
-```
+Existing non-empty tags are reused after normalization (lowercased,
+deduplicated, filler words removed). Add `--clean` (or `-c`) to regenerate
+them.
