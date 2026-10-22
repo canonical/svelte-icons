@@ -13,6 +13,12 @@
   },
   "overrides": [
     {
+      "includes": ["metadata.json"],
+      "formatter": {
+        "enabled": false
+      }
+    },
+    {
       "includes": ["**/*.svelte"],
       "linter": {
         "rules": {

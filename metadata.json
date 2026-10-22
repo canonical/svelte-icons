@@ -1,2145 +1,2866 @@
 {
+  "add-canvas": {
+    "hash": "b98b4038ab88e4cf",
+    "tags": [
+      "add",
+      "create",
+      "new",
+      "canvas",
+      "workspace",
+      "board",
+      "page",
+      "sheet",
+      "plus",
+      "editor",
+      "drawing"
+    ]
+  },
+  "add-logical-volume": {
+    "hash": "fa70f6c71b314e57",
+    "tags": [
+      "storage",
+      "volume",
+      "disk",
+      "add",
+      "create",
+      "expand",
+      "partition",
+      "drive",
+      "capacity",
+      "lvm",
+      "block storage"
+    ]
+  },
+  "add-partition": {
+    "hash": "87402d34a5862257",
+    "tags": [
+      "partition",
+      "add",
+      "storage",
+      "disk",
+      "drive",
+      "volume",
+      "create",
+      "expand",
+      "filesystem",
+      "segment",
+      "allocation"
+    ]
+  },
+  "anchor": {
+    "hash": "ac272cca0cad53f3",
+    "tags": [
+      "anchor",
+      "stability",
+      "fixed",
+      "base",
+      "connection",
+      "hold",
+      "secure",
+      "static",
+      "attachment",
+      "foundation"
+    ]
+  },
+  "applications": {
+    "hash": "cbe30f2c8640ee47",
+    "tags": [
+      "applications",
+      "apps",
+      "software",
+      "services",
+      "connected",
+      "network",
+      "distribution",
+      "nodes",
+      "cluster",
+      "integration",
+      "modules"
+    ]
+  },
+  "archive": {
+    "hash": "712628d2669d674b",
+    "tags": [
+      "storage",
+      "files",
+      "folder",
+      "data",
+      "save",
+      "history",
+      "collection",
+      "box",
+      "container",
+      "backup"
+    ]
+  },
   "arrow-bottom-left": {
+    "hash": "7c67bc1adbaedcc5",
     "tags": [
       "arrow",
-      "bottom",
+      "direction",
+      "down",
       "left",
       "diagonal",
-      "down-left",
-      "direction",
-      "indicator"
-    ],
-    "file": "arrow-bottom-left.svg"
-  },
-  "search": {
-    "tags": [
-      "search",
-      "find",
-      "explore",
-      "magnify",
-      "zoom",
-      "glass",
-      "looking",
-      "investigate",
-      "discover"
-    ],
-    "file": "search.svg"
-  },
-  "controllers": {
-    "tags": [
-      "controller",
-      "game",
-      "gaming",
-      "joystick",
-      "gamepad",
-      "play",
-      "entertainment"
-    ],
-    "file": "controllers.svg"
-  },
-  "checkmark": {
-    "tags": [
-      "checkmark",
-      "check",
-      "tick",
-      "complete",
-      "done",
-      "success",
-      "approve",
-      "confirm",
-      "mark",
-      "validation",
-      "verified",
-      "correct"
-    ],
-    "file": "checkmark.svg"
+      "pointer",
+      "move",
+      "navigation",
+      "southwest"
+    ]
   },
   "arrow-bottom-right": {
-    "tags": [
-      "arrow",
-      "bottom right",
-      "diagonal",
-      "direction",
-      "pointer",
-      "indicate",
-      "navigation",
-      "download",
-      "external"
-    ],
-    "file": "arrow-bottom-right.svg"
-  },
-  "arrow-down": {
+    "hash": "b83a67e4a3a20f73",
     "tags": [
       "arrow",
       "down",
-      "direction",
-      "download",
-      "collapse",
-      "navigate",
-      "south"
-    ],
-    "file": "arrow-down.svg"
-  },
-  "switcher": {
-    "tags": ["switcher", "switch", "layout", "change", "rearrange", "swap"],
-    "file": "switcher.svg"
-  },
-  "priority-negligible": {
-    "tags": [
-      "priority",
-      "negligible",
-      "low",
-      "importance",
-      "status",
-      "indicator",
-      "arrow",
-      "minimal",
-      "trivial",
-      "ranking",
-      "minor",
-      "unimportant",
-      "default",
-      "trend",
-      "decrease"
-    ],
-    "file": "priority-negligible.svg"
-  },
-  "priority-medium": {
-    "tags": [
-      "priority",
-      "medium",
-      "arrow",
-      "up",
-      "level",
-      "importance",
-      "moderate",
-      "grade",
-      "ranking"
-    ],
-    "file": "priority-medium.svg"
-  },
-  "debug": {
-    "tags": [
-      "debug",
-      "bug",
-      "fix",
-      "error",
-      "search",
-      "tool",
-      "troubleshoot",
-      "development",
-      "magnifying glass",
-      "inspect"
-    ],
-    "file": "debug.svg"
-  },
-  "restart": {
-    "tags": [
-      "restart",
-      "refresh",
-      "reload",
-      "reset",
-      "update",
-      "undo",
-      "arrow",
-      "cycle"
-    ],
-    "file": "restart.svg"
-  },
-  "information": {
-    "tags": [
-      "information",
-      "info",
-      "help",
-      "about",
-      "details",
-      "query",
-      "guide",
-      "support"
-    ],
-    "file": "information.svg"
-  },
-  "arrow-top-right": {
-    "tags": [
-      "arrow",
-      "top-right",
+      "right",
       "diagonal",
       "direction",
-      "point",
-      "northeast",
+      "southeast",
+      "move",
+      "pointer",
+      "navigation"
+    ]
+  },
+  "arrow-down": {
+    "hash": "66e6106505228eda",
+    "tags": [
+      "down",
+      "arrow",
+      "direction",
+      "decrease",
+      "download",
+      "descend",
+      "lower",
+      "drop",
+      "fall",
+      "move down"
+    ]
+  },
+  "arrow-left": {
+    "hash": "c20a43c85f3d143a",
+    "tags": [
+      "left",
+      "back",
+      "previous",
+      "return",
+      "rewind",
+      "undo",
+      "go back",
+      "direction",
+      "navigation",
+      "arrow"
+    ]
+  },
+  "arrow-right": {
+    "hash": "b88ab1e771119639",
+    "tags": [
+      "arrow",
+      "right",
+      "next",
+      "forward",
+      "proceed",
+      "continue",
+      "direction",
+      "move",
+      "advance",
+      "skip"
+    ]
+  },
+  "arrow-top-left": {
+    "hash": "bd58cf0b5e380320",
+    "tags": [
+      "arrow",
+      "up",
+      "left",
+      "diagonal",
+      "direction",
+      "northwest",
+      "move",
+      "pointer",
+      "navigation",
+      "back"
+    ]
+  },
+  "arrow-top-right": {
+    "hash": "a494c9cb505d8c1d",
+    "tags": [
+      "arrow",
       "up",
       "right",
+      "diagonal",
+      "direction",
+      "northeast",
+      "move",
+      "pointer",
       "navigation"
-    ],
-    "file": "arrow-top-right.svg"
+    ]
   },
-  "user": {
+  "arrow-up": {
+    "hash": "4b51b5006172a7ce",
     "tags": [
-      "user",
-      "profile",
-      "person",
-      "avatar",
-      "account",
-      "contact",
-      "human",
-      "member"
-    ],
-    "file": "user.svg"
+      "up",
+      "arrow",
+      "direction",
+      "increase",
+      "rise",
+      "upload",
+      "top",
+      "above",
+      "ascend",
+      "north",
+      "pointer",
+      "growth"
+    ]
   },
-  "fullscreen": {
+  "back-to-top": {
+    "hash": "d64b3d807fbbf488",
     "tags": [
-      "fullscreen",
-      "expand",
-      "maximize",
-      "screen",
-      "arrows",
-      "display",
-      "view",
-      "cinema",
-      "video"
-    ],
-    "file": "fullscreen.svg"
+      "up",
+      "top",
+      "return",
+      "scroll",
+      "arrow",
+      "navigation",
+      "header",
+      "beginning",
+      "jump",
+      "upward"
+    ]
   },
-  "success-fill": {
+  "blueprint": {
+    "hash": "13a0c173a5190d03",
     "tags": [
-      "success",
-      "check",
-      "done",
-      "complete",
-      "mark",
-      "tick",
-      "verified",
-      "approved",
-      "good",
-      "correct",
-      "circle",
-      "ok"
-    ],
-    "file": "success-fill.svg"
+      "plan",
+      "architecture",
+      "layout",
+      "draft",
+      "schema",
+      "specification",
+      "structure",
+      "template",
+      "engineering"
+    ]
   },
-  "disconnected": {
+  "book": {
+    "hash": "cdb4cc6e725bec44",
     "tags": [
-      "disconnected",
-      "broken",
-      "connection",
-      "network",
-      "signal",
+      "book",
+      "documentation",
+      "manual",
+      "guide",
+      "help",
+      "read",
+      "knowledge",
+      "library",
+      "reference",
+      "instructions"
+    ]
+  },
+  "bug": {
+    "hash": "f3e249e2b2b87265",
+    "tags": [
+      "bug",
       "error",
-      "offline",
-      "wire",
-      "not working",
-      "interrupted"
-    ],
-    "file": "disconnected.svg"
+      "glitch",
+      "issue",
+      "defect",
+      "problem",
+      "software",
+      "debug",
+      "fix",
+      "troubleshoot"
+    ]
   },
   "bundle": {
+    "hash": "a630c779b2921065",
     "tags": [
       "bundle",
       "group",
       "package",
       "collection",
-      "modules",
-      "components",
-      "items",
-      "multiple",
-      "services",
-      "products",
-      "inventory",
-      "assembly"
-    ],
-    "file": "bundle.svg"
+      "cluster",
+      "set",
+      "aggregation",
+      "unit",
+      "combined",
+      "connection"
+    ]
   },
-  "home": {
-    "tags": ["home", "house", "building", "residence", "homepage"],
-    "file": "home.svg"
-  },
-  "timed-out": {
+  "canvas": {
+    "hash": "6266a40e0c6758a3",
     "tags": [
-      "timed out",
-      "timeout",
-      "time",
-      "clock",
-      "timer",
-      "expired",
-      "overdue",
-      "stop",
-      "cancelled",
-      "deadline",
-      "out of time",
-      "process",
-      "waiting",
-      "delay"
-    ],
-    "file": "timed-out.svg"
+      "workspace",
+      "board",
+      "drawing",
+      "layout",
+      "surface",
+      "area",
+      "frame",
+      "background",
+      "editor",
+      "composition"
+    ]
+  },
+  "certificate": {
+    "hash": "0c7e43c3e941980c",
+    "tags": [
+      "certificate",
+      "credential",
+      "security",
+      "verification",
+      "authentication",
+      "document",
+      "award",
+      "seal",
+      "validation",
+      "license",
+      "compliance",
+      "trust"
+    ]
+  },
+  "certification": {
+    "hash": "1b57bf78dbb96e59",
+    "tags": [
+      "certification",
+      "badge",
+      "award",
+      "verified",
+      "guarantee",
+      "quality",
+      "achievement",
+      "seal",
+      "approved",
+      "success",
+      "compliance",
+      "certificate"
+    ]
+  },
+  "change-version": {
+    "hash": "343461dc581dcd1b",
+    "tags": [
+      "update",
+      "refresh",
+      "sync",
+      "cycle",
+      "rotate",
+      "version",
+      "switch",
+      "repeat",
+      "reload",
+      "iteration",
+      "loop",
+      "change"
+    ]
+  },
+  "chart": {
+    "hash": "21846c227845a175",
+    "tags": [
+      "chart",
+      "graph",
+      "data",
+      "statistics",
+      "analytics",
+      "bar",
+      "metrics",
+      "growth",
+      "progress",
+      "report",
+      "analysis",
+      "dashboard"
+    ]
+  },
+  "checkmark": {
+    "hash": "980d4621ab66d444",
+    "tags": [
+      "check",
+      "done",
+      "success",
+      "correct",
+      "complete",
+      "verify",
+      "approve",
+      "yes",
+      "mark",
+      "valid",
+      "ok"
+    ]
   },
   "chevron-down": {
+    "hash": "5255adc6d7c08e37",
     "tags": [
-      "chevron",
       "down",
       "arrow",
       "expand",
       "collapse",
+      "dropdown",
       "direction",
-      "caret",
-      "indicator",
-      "fold"
-    ],
-    "file": "chevron-down.svg"
-  },
-  "github": {
-    "tags": [
-      "github",
-      "code",
-      "development",
-      "programmer",
-      "developer",
-      "social coding",
-      "version control",
-      "git",
-      "platform",
-      "repository",
-      "programming",
-      "software"
-    ],
-    "file": "github.svg"
-  },
-  "open-terminal": {
-    "tags": [
-      "terminal",
-      "console",
-      "command line",
-      "cli",
-      "shell",
-      "developer",
-      "code",
-      "programmer",
-      "window",
-      "execute",
-      "prompt",
-      "script",
-      "open"
-    ],
-    "file": "open-terminal.svg"
-  },
-  "usb": {
-    "tags": [
-      "usb",
-      "universal serial bus",
-      "connector",
-      "port",
-      "data",
-      "cable",
-      "peripheral",
-      "electronic",
-      "device",
-      "interface"
-    ],
-    "file": "usb.svg"
-  },
-  "export": {
-    "tags": [
-      "export",
-      "share",
-      "upload",
-      "save",
-      "download",
-      "arrow",
-      "box",
-      "send",
-      "move",
-      "transfer",
-      "file"
-    ],
-    "file": "export.svg"
-  },
-  "tag": {
-    "tags": [
-      "tag",
-      "label",
-      "price",
-      "sale",
-      "discount",
-      "special offer",
-      "identification",
-      "mark",
-      "brand",
-      "product",
-      "category",
-      "pricing",
-      "marketing",
-      "commerce",
-      "shopping",
-      "retail",
-      "bookmark",
-      "favorite",
-      "organize",
-      "metadata",
-      "key",
-      "symbol",
-      "identifier",
-      "badge",
-      "marker",
-      "notice",
-      "flag"
-    ],
-    "file": "tag.svg"
-  },
-  "snapshot": {
-    "tags": [
-      "camera",
-      "photo",
-      "picture",
-      "snapshot",
-      "photography",
-      "image",
-      "capture",
-      "lens",
-      "digital",
-      "media"
-    ],
-    "file": "snapshot.svg"
-  },
-  "show": {
-    "tags": [
-      "eye",
-      "show",
-      "visible",
-      "visibility",
-      "view",
-      "look",
-      "open",
-      "see",
-      "unhide",
-      "watch"
-    ],
-    "file": "show.svg"
-  },
-  "highlight-on": {
-    "tags": [
-      "light",
-      "bulb",
-      "lightbulb",
-      "lamp",
-      "on",
-      "idea",
-      "innovation",
-      "bright",
-      "electricity",
-      "electric",
-      "illuminate",
-      "glow"
-    ],
-    "file": "highlight-on.svg"
-  },
-  "map": {
-    "tags": [
-      "map",
-      "navigation",
-      "location",
-      "geography",
-      "atlas",
-      "travel",
-      "guide",
-      "direction",
-      "discover",
-      "journey"
-    ],
-    "file": "map.svg"
-  },
-  "comments": {
-    "tags": [
-      "comments",
-      "speech",
-      "bubble",
-      "chat",
-      "message",
-      "discussion",
-      "talk",
-      "communication",
-      "feedback"
-    ],
-    "file": "comments.svg"
-  },
-  "drag": {
-    "tags": ["drag", "reorder", "move", "handle", "grip", "sort", "draggable"],
-    "file": "drag.svg"
-  },
-  "security-error": {
-    "tags": [
-      "security",
-      "error",
-      "shield",
-      "fail",
-      "protection",
-      "warning",
-      "danger",
-      "incorrect",
-      "threat",
-      "malware",
-      "virus",
-      "defense",
-      "denied",
-      "security fail",
-      "security error",
-      "problem",
-      "access denied"
-    ],
-    "file": "security-error.svg"
-  },
-  "power-on": {
-    "tags": ["power", "on", "off", "standby", "button", "switch", "start"],
-    "file": "power-on.svg"
-  },
-  "add-logical-volume": {
-    "tags": [
-      "volume",
-      "logical volume",
-      "add",
-      "plus",
-      "storage",
-      "disk",
-      "block",
-      "data",
-      "create",
-      "new",
-      "lvm"
-    ],
-    "file": "add-logical-volume.svg"
-  },
-  "file": {
-    "tags": [
-      "file",
-      "document",
-      "page",
-      "paper",
-      "content",
-      "text",
-      "form",
-      "note",
-      "report",
-      "data"
-    ],
-    "file": "file.svg"
-  },
-  "tidy": {
-    "tags": [
-      "tidy",
-      "clean",
-      "organize",
-      "broom",
-      "sweep",
-      "neat",
-      "arrange",
-      "sort",
-      "housekeeping",
-      "dust"
-    ],
-    "file": "tidy.svg"
-  },
-  "chevron-up": {
-    "tags": ["chevron", "up", "arrow", "direction", "indicator", "caret"],
-    "file": "chevron-up.svg"
-  },
-  "switcher-environments": {
-    "tags": [
-      "switcher",
-      "environments",
-      "switch",
-      "options",
-      "list",
+      "decrease",
       "select",
-      "settings",
-      "configuration",
-      "stages",
-      "choose",
-      "multiple"
-    ],
-    "file": "switcher-environments.svg"
-  },
-  "x": {
-    "tags": [
-      "x",
-      "social media",
-      "twitter",
-      "platform",
-      "network",
-      "share",
-      "communication",
-      "app",
-      "website",
-      "symbol",
-      "logo"
-    ],
-    "file": "x.svg"
-  },
-  "plans": {
-    "tags": [
-      "plan",
-      "goals",
-      "success",
-      "achievement",
-      "star",
-      "favorite",
-      "checklist",
-      "verified",
-      "checked",
-      "completed",
-      "important"
-    ],
-    "file": "plans.svg"
-  },
-  "menu-contextual": {
-    "tags": [
       "menu",
-      "contextual",
-      "options",
-      "more",
-      "overflow",
-      "dots",
-      "vertical ellipsis",
-      "kebab menu"
-    ],
-    "file": "menu-contextual.svg"
+      "pointer"
+    ]
+  },
+  "chevron-left": {
+    "hash": "7b4db50efd27c8be",
+    "tags": [
+      "left",
+      "back",
+      "previous",
+      "arrow",
+      "direction",
+      "navigation",
+      "return",
+      "chevron",
+      "pointer",
+      "rewind"
+    ]
   },
   "chevron-right": {
+    "hash": "92899e057eb1ec39",
     "tags": [
-      "chevron",
       "right",
-      "arrow",
       "next",
-      "navigate",
-      "forward",
-      "pointer",
-      "direction",
-      "indicator",
-      "caret"
-    ],
-    "file": "chevron-right.svg"
-  },
-  "connected": {
-    "tags": [
-      "connected",
-      "link",
-      "connection",
-      "network",
-      "join",
-      "relationship",
-      "connect"
-    ],
-    "file": "connected.svg"
-  },
-  "instagram": {
-    "tags": [
-      "instagram",
-      "social media",
-      "photo",
-      "sharing",
-      "app",
-      "network",
-      "camera",
-      "brand",
-      "logo",
-      "platform",
-      "photography"
-    ],
-    "file": "instagram.svg"
-  },
-  "link": {
-    "tags": [
-      "link",
-      "chain",
-      "URL",
-      "hyperlink",
-      "connection",
-      "web",
-      "attach",
-      "share",
-      "website"
-    ],
-    "file": "link.svg"
-  },
-  "certificate": {
-    "tags": [
-      "certificate",
-      "document",
-      "diploma",
-      "award",
-      "medal",
-      "seal",
-      "validation",
-      "achievement",
-      "quality",
-      "official",
-      "authentic",
-      "license",
-      "permit",
-      "honor",
-      "recognition",
-      "success",
-      "trust",
-      "guarantee",
-      "badge"
-    ],
-    "file": "certificate.svg"
-  },
-  "arrow-right": {
-    "tags": [
       "arrow",
-      "right",
-      "forward",
-      "next",
-      "direction",
-      "pointer",
-      "navigation",
-      "indicator",
-      "go",
-      "move"
-    ],
-    "file": "arrow-right.svg"
-  },
-  "log-out": {
-    "tags": [
-      "log out",
-      "exit",
-      "logout",
-      "sign out",
-      "leave",
-      "arrow",
-      "door",
-      "quit",
-      "account",
-      "session"
-    ],
-    "file": "log-out.svg"
-  },
-  "add-canvas": {
-    "tags": ["add", "canvas", "new", "create", "page", "document", "artboard"],
-    "file": "add-canvas.svg"
-  },
-  "mount": {
-    "tags": [
-      "mount",
-      "hard drive",
-      "storage",
-      "disk",
-      "add",
-      "connect",
-      "filesystem",
-      "external drive",
-      "hdd",
-      "ssd",
-      "server",
-      "computer",
-      "hardware"
-    ],
-    "file": "mount.svg"
-  },
-  "settings": {
-    "tags": [
-      "settings",
-      "gear",
-      "cog",
-      "configuration",
-      "preferences",
-      "options",
-      "tools",
-      "adjust",
-      "customize"
-    ],
-    "file": "settings.svg"
-  },
-  "blueprint": {
-    "tags": [
-      "blueprint",
-      "plan",
-      "drawing",
-      "scheme",
-      "architecture",
-      "design",
-      "engineering",
-      "construction",
-      "document"
-    ],
-    "file": "blueprint.svg"
-  },
-  "website": {
-    "tags": [
-      "website",
-      "browser",
-      "internet",
-      "web",
-      "page",
-      "layout",
-      "window",
-      "screen",
-      "ui",
-      "interface"
-    ],
-    "file": "website.svg"
-  },
-  "thumbs-down": {
-    "tags": [
-      "dislike",
-      "disapproval",
-      "negative",
-      "no",
-      "bad",
-      "vote down",
-      "hand",
-      "thumb down",
-      "social media",
-      "feedback"
-    ],
-    "file": "thumbs-down.svg"
-  },
-  "archive": {
-    "tags": [
-      "archive",
-      "box",
-      "storage",
-      "save",
-      "organize",
-      "document",
-      "file",
-      "container",
-      "inbox",
-      "outbox"
-    ],
-    "file": "archive.svg"
-  },
-  "in-progress": {
-    "tags": [
-      "progress",
-      "loading",
-      "in progress",
-      "pending",
-      "processing",
-      "status"
-    ],
-    "file": "in-progress.svg"
-  },
-  "notifications-off": {
-    "tags": [
-      "notifications",
-      "off",
-      "disable",
-      "mute",
-      "quiet",
-      "alert",
-      "bell",
-      "silent",
-      "no notifications"
-    ],
-    "file": "notifications-off.svg"
-  },
-  "desktop": {
-    "tags": [
-      "desktop",
-      "computer",
-      "monitor",
-      "screen",
-      "display",
-      "work",
-      "office",
-      "device",
-      "technology"
-    ],
-    "file": "desktop.svg"
-  },
-  "download": {
-    "tags": [
-      "download",
-      "arrow",
-      "save",
-      "file",
-      "install",
-      "retrieve",
-      "get",
-      "data"
-    ],
-    "file": "download.svg"
-  },
-  "pin": {
-    "tags": [
-      "pin",
-      "pushpin",
-      "thumbtack",
-      "map",
-      "location",
-      "mark",
-      "marker",
-      "point",
-      "attach",
-      "fasten",
-      "stationery",
-      "office",
-      "board"
-    ],
-    "file": "pin.svg"
-  },
-  "import": {
-    "tags": ["import", "download", "arrow", "down", "box", "document", "entry"],
-    "file": "import.svg"
-  },
-  "select-add": {
-    "tags": [
-      "select",
-      "add",
-      "plus",
-      "selection",
-      "choose",
-      "create",
-      "mark",
-      "tool",
-      "new"
-    ],
-    "file": "select-add.svg"
-  },
-  "arrow-top-left": {
-    "tags": ["arrow", "top-left", "diagonal", "direction", "up-left"],
-    "file": "arrow-top-left.svg"
-  },
-  "starred": {
-    "tags": [
-      "star",
-      "favorite",
-      "important",
-      "bookmark",
-      "rating",
-      "achievement",
-      "mark",
-      "highlighted",
-      "selected"
-    ],
-    "file": "starred.svg"
-  },
-  "models": {
-    "tags": ["models", "people", "group", "team", "users", "human", "persons"],
-    "file": "models.svg"
-  },
-  "book": {
-    "tags": [
-      "book",
-      "reading",
-      "literature",
-      "education",
-      "library",
-      "knowledge",
-      "story",
-      "novel"
-    ],
-    "file": "book.svg"
-  },
-  "security-warning": {
-    "tags": [
-      "security",
-      "warning",
-      "shield",
-      "alert",
-      "danger",
-      "protection",
-      "privacy",
-      "secure",
-      "caution",
-      "exclamation",
-      "error"
-    ],
-    "file": "security-warning.svg"
-  },
-  "code": {
-    "tags": [
-      "code",
-      "coding",
-      "programming",
-      "developer",
-      "develop",
-      "script",
-      "brackets",
-      "terminal",
-      "markup"
-    ],
-    "file": "code.svg"
-  },
-  "priority-low": {
-    "tags": [
-      "priority",
-      "low",
-      "importance",
-      "status",
-      "task",
-      "level",
-      "minimal",
-      "lesser"
-    ],
-    "file": "priority-low.svg"
-  },
-  "priority-critical": {
-    "tags": [
-      "priority",
-      "critical",
-      "urgency",
-      "important",
-      "alert",
-      "warning",
-      "high priority",
-      "danger",
-      "severe",
-      "indicator"
-    ],
-    "file": "priority-critical.svg"
-  },
-  "stop": {
-    "tags": [
-      "stop",
-      "square",
-      "media",
-      "player",
-      "button",
-      "control",
-      "end",
-      "finish",
-      "halt"
-    ],
-    "file": "stop.svg"
-  },
-  "cursor": {
-    "tags": [
-      "cursor",
-      "mouse",
-      "arrow",
-      "pointer",
-      "click",
-      "select",
-      "computer",
-      "interface",
-      "ui"
-    ],
-    "file": "cursor.svg"
-  },
-  "toggle-side-nav": {
-    "tags": [
-      "toggle",
-      "side nav",
-      "sidebar",
-      "navigation",
-      "menu",
-      "collapse",
       "expand",
-      "hide",
-      "show",
-      "panel",
-      "drawer",
-      "left",
+      "forward",
+      "direction",
+      "chevron",
+      "proceed",
+      "collapse",
+      "submenu",
+      "navigation"
+    ]
+  },
+  "chevron-up": {
+    "hash": "3fb8d69d3654c0ac",
+    "tags": [
+      "up",
       "arrow",
-      "bar"
-    ],
-    "file": "toggle-side-nav.svg"
+      "direction",
+      "expand",
+      "collapse",
+      "ascend",
+      "top",
+      "increase",
+      "above",
+      "pointer",
+      "navigation"
+    ]
   },
-  "plus": {
+  "clipboard": {
+    "hash": "3cf1d04f70fb4c94",
     "tags": [
-      "plus",
-      "add",
-      "create",
-      "new",
-      "increment",
-      "addition",
-      "math",
-      "sum",
-      "cross",
-      "positive"
-    ],
-    "file": "plus.svg"
+      "clipboard",
+      "note",
+      "document",
+      "paper",
+      "list",
+      "task",
+      "memo",
+      "write",
+      "record",
+      "report",
+      "form",
+      "pad"
+    ]
   },
-  "warning": {
+  "clipboard-chart": {
+    "hash": "4c431aa1a23513b7",
     "tags": [
-      "warning",
-      "alert",
-      "error",
-      "caution",
-      "danger",
-      "problem",
-      "triangle",
-      "exclamation",
-      "sign",
-      "symbol"
-    ],
-    "file": "warning.svg"
+      "clipboard",
+      "chart",
+      "report",
+      "analytics",
+      "data",
+      "statistics",
+      "audit",
+      "results",
+      "summary",
+      "metrics",
+      "dashboard",
+      "survey"
+    ]
   },
-  "rss": {
+  "clipboard-list": {
+    "hash": "aab998492067d4ab",
     "tags": [
-      "rss",
-      "feed",
-      "subscribe",
-      "news",
-      "blog",
-      "content",
-      "syndication",
-      "web feed"
-    ],
-    "file": "rss.svg"
-  },
-  "email": {
-    "tags": [
-      "email",
-      "mail",
-      "message",
-      "envelope",
-      "send",
-      "receive",
-      "communication",
-      "inbox"
-    ],
-    "file": "email.svg"
-  },
-  "private-key": {
-    "tags": [
-      "key",
-      "private",
-      "security",
-      "access",
-      "password",
-      "encryption",
-      "secret",
-      "locked",
-      "secure",
-      "cryptographic"
-    ],
-    "file": "private-key.svg"
+      "clipboard",
+      "list",
+      "tasks",
+      "todo",
+      "checklist",
+      "notes",
+      "report",
+      "agenda",
+      "inventory",
+      "document",
+      "plan",
+      "schedule"
+    ]
   },
   "close": {
+    "hash": "f34e3ab42375278b",
     "tags": [
       "close",
-      "cancel",
       "exit",
+      "cancel",
+      "dismiss",
       "remove",
       "delete",
       "stop",
-      "cross",
-      "x mark"
-    ],
-    "file": "close.svg"
+      "abort",
+      "error",
+      "wrong",
+      "cross"
+    ]
   },
-  "switcher-dashboard": {
+  "cluster-host": {
+    "hash": "759b4d451531beea",
     "tags": [
+      "cluster",
+      "host",
+      "nodes",
+      "server",
+      "group",
+      "network",
+      "computing",
+      "infrastructure",
+      "distributed",
+      "connection",
+      "system",
+      "topology"
+    ]
+  },
+  "code": {
+    "hash": "810dcfbb7cab04c2",
+    "tags": [
+      "code",
+      "terminal",
+      "shell",
+      "command",
+      "prompt",
+      "cli",
+      "bash",
+      "console",
+      "script",
+      "programming",
+      "developer"
+    ]
+  },
+  "collapse-side-nav": {
+    "hash": "9161bf4b715f52f4",
+    "tags": [
+      "collapse",
+      "minimize",
+      "hide",
+      "sidebar",
+      "navigation",
+      "menu",
+      "close",
+      "panel",
+      "drawer",
+      "shrink",
+      "arrow",
+      "left"
+    ]
+  },
+  "comments": {
+    "hash": "82e3be2acc860f04",
+    "tags": [
+      "comments",
+      "chat",
+      "discussion",
+      "feedback",
+      "message",
+      "speech",
+      "conversation",
+      "reply",
+      "text",
+      "communication"
+    ]
+  },
+  "connected": {
+    "hash": "3132cb6acf167f2e",
+    "tags": [
+      "connection",
+      "link",
+      "plug",
+      "cable",
+      "interface",
+      "join",
+      "attach",
+      "hardware",
+      "network",
+      "adapter",
+      "connector"
+    ]
+  },
+  "containers": {
+    "hash": "56606eb01fd376c4",
+    "tags": [
+      "container",
+      "docker",
+      "package",
+      "deployment",
+      "isolation",
+      "microservice",
+      "runtime",
+      "software",
+      "app",
+      "instance",
+      "virtualization",
+      "infrastructure"
+    ]
+  },
+  "controllers": {
+    "hash": "44182bcfef92d450",
+    "tags": [
+      "control",
+      "management",
+      "settings",
+      "configuration",
+      "adjust",
+      "operator",
+      "interface",
       "dashboard",
-      "grid",
-      "layout",
-      "squares",
-      "modules",
-      "widgets",
-      "overview",
-      "control panel",
-      "interface"
-    ],
-    "file": "switcher-dashboard.svg"
+      "handle",
+      "tweak"
+    ]
   },
   "copy": {
+    "hash": "927ea7d82c7ba8e5",
     "tags": [
-      "document",
-      "file",
       "copy",
       "duplicate",
-      "add",
-      "new",
-      "plus",
-      "create"
-    ],
-    "file": "copy.svg"
-  },
-  "repository": {
-    "tags": [
-      "repository",
-      "storage",
-      "archive",
-      "code",
-      "version control",
-      "git",
-      "data",
-      "database",
-      "vault",
-      "folder",
-      "directory",
+      "clone",
+      "replicate",
       "files",
       "documents",
-      "project",
-      "history",
-      "backup",
-      "secure",
-      "organized"
-    ],
-    "file": "repository.svg"
+      "pages",
+      "repeat",
+      "make a copy"
+    ]
   },
-  "snooze": {
+  "cursor": {
+    "hash": "6fcf8d322452a101",
     "tags": [
-      "snooze",
-      "sleep",
-      "nap",
-      "rest",
-      "tired",
-      "zzz",
-      "slumber",
-      "alarm"
-    ],
-    "file": "snooze.svg"
-  },
-  "hide": {
-    "tags": [
-      "hide",
-      "invisible",
-      "eye",
-      "slash",
-      "disabled",
-      "private",
-      "secret",
-      "off",
-      "view",
-      "toggle",
-      "mask",
-      "concealed",
-      "unseen",
-      "visibility"
-    ],
-    "file": "hide.svg"
-  },
-  "back-to-top": {
-    "tags": ["arrow", "up", "top", "back", "scroll", "elevate", "return"],
-    "file": "back-to-top.svg"
-  },
-  "image": {
-    "tags": [
-      "copyright",
-      "symbol",
-      "circle",
-      "legal",
-      "ownership",
-      "brand",
-      "registered"
-    ],
-    "file": "image.svg"
-  },
-  "single-host": {
-    "tags": [
-      "host",
-      "server",
-      "computer",
-      "machine",
-      "hexagon",
-      "single",
-      "network"
-    ],
-    "file": "single-host.svg"
-  },
-  "fork": {
-    "tags": [
-      "fork",
-      "tuning fork",
-      "sound",
-      "music",
-      "vibration",
-      "physics",
-      "instrument"
-    ],
-    "file": "fork.svg"
-  },
-  "exposed": {
-    "tags": ["globe", "world", "earth", "map", "sphere", "global"],
-    "file": "exposed.svg"
-  },
-  "user-profile": {
-    "tags": [
-      "user",
-      "profile",
-      "person",
-      "account",
-      "avatar",
-      "human",
-      "contact",
-      "member",
-      "login"
-    ],
-    "file": "user-profile.svg"
-  },
-  "thumbs-up": {
-    "tags": [
-      "thumbs up",
-      "like",
-      "approve",
-      "agree",
-      "positive",
-      "hand gesture",
-      "good",
-      "social media",
-      "feedback"
-    ],
-    "file": "thumbs-up.svg"
-  },
-  "highlight-off": {
-    "tags": [
-      "highlight",
-      "marker",
-      "pen",
-      "off",
-      "disable",
-      "deactivate",
-      "clear",
-      "remove",
-      "text editor",
-      "formatting",
-      "writing",
-      "annotation"
-    ],
-    "file": "highlight-off.svg"
-  },
-  "play": {
-    "tags": [
-      "play",
-      "media",
-      "video",
-      "audio",
-      "start",
-      "circle",
-      "button",
-      "control"
-    ],
-    "file": "play.svg"
-  },
-  "unlocked": {
-    "tags": [
-      "unlocked",
-      "open",
-      "padlock",
-      "security",
-      "access",
-      "lock",
-      "unsecure",
-      "permission",
-      "authorized"
-    ],
-    "file": "unlocked.svg"
-  },
-  "canvas": {
-    "tags": [
-      "canvas",
-      "art",
-      "painting",
-      "drawing",
-      "picture",
-      "artwork",
-      "graphic",
-      "frame",
-      "layers",
-      "creative"
-    ],
-    "file": "canvas.svg"
-  },
-  "security-tick": {
-    "tags": [
-      "security",
-      "shield",
-      "check",
-      "tick",
-      "verified",
-      "safe",
-      "protected",
-      "validation",
-      "secure",
-      "approval"
-    ],
-    "file": "security-tick.svg"
-  },
-  "profiles": {
-    "tags": [
-      "profiles",
-      "users",
-      "people",
-      "group",
-      "team",
-      "multiple",
-      "layered",
-      "social",
-      "heads",
-      "silhouettes"
-    ],
-    "file": "profiles.svg"
-  },
-  "facebook": {
-    "tags": [
-      "facebook",
-      "social media",
-      "network",
-      "app",
-      "share",
-      "f",
-      "communication",
-      "connection"
-    ],
-    "file": "facebook.svg"
-  },
-  "units": {
-    "tags": [
-      "units",
-      "boxes",
-      "containers",
-      "modules",
-      "blocks",
-      "components",
-      "sections",
-      "segments"
-    ],
-    "file": "units.svg"
-  },
-  "security": {
-    "tags": [
-      "shield",
-      "security",
-      "protection",
-      "secure",
-      "defense",
-      "privacy",
-      "guard",
-      "safeguard",
-      "safety"
-    ],
-    "file": "security.svg"
-  },
-  "iso": {
-    "tags": [
-      "photography",
-      "camera",
-      "iso",
-      "aperture",
-      "lens",
-      "settings",
-      "focus",
-      "circular",
-      "gear"
-    ],
-    "file": "iso.svg"
-  },
-  "unmount": {
-    "tags": [
-      "unmount",
-      "eject",
-      "disconnect",
-      "drive",
-      "storage",
-      "usb",
-      "remove",
-      "detach",
-      "device"
-    ],
-    "file": "unmount.svg"
-  },
-  "pods": {
-    "tags": [
-      "pod",
-      "container",
-      "module",
-      "unit",
-      "block",
-      "storage",
-      "resource",
-      "3d",
-      "geometric"
-    ],
-    "file": "pods.svg"
-  },
-  "certification": {
-    "tags": [
-      "certification",
-      "shield",
-      "checkmark",
-      "award",
-      "badge",
-      "guarantee",
-      "approval",
-      "quality",
-      "verified",
-      "official",
-      "license",
-      "achievement",
-      "success"
-    ],
-    "file": "certification.svg"
-  },
-  "starred-off": {
-    "tags": ["star", "off", "unstarred", "favorite", "bookmark", "rating"],
-    "file": "starred-off.svg"
-  },
-  "edit": {
-    "tags": [
-      "edit",
-      "pencil",
-      "write",
-      "modify",
-      "change",
-      "update",
-      "create",
-      "document",
-      "tool",
-      "compose"
-    ],
-    "file": "edit.svg"
-  },
-  "anchor": {
-    "tags": [
-      "anchor",
-      "boat",
-      "ship",
-      "sea",
-      "ocean",
-      "marine",
-      "nautical",
-      "port",
-      "harbor",
-      "secure",
-      "stability",
-      "maritime"
-    ],
-    "file": "anchor.svg"
-  },
-  "bug": {
-    "tags": [
-      "bug",
-      "insect",
-      "error",
-      "problem",
-      "debugging",
-      "software",
-      "creature",
-      "animal"
-    ],
-    "file": "bug.svg"
-  },
-  "priority-unknown": {
-    "tags": [
-      "priority",
-      "unknown",
-      "question mark",
-      "query",
-      "information",
-      "status",
-      "help",
-      "level",
-      "importance",
-      "undecided",
-      "undefined",
-      "unclear"
-    ],
-    "file": "priority-unknown.svg"
-  },
-  "youtube": {
-    "tags": [
-      "youtube",
-      "video",
-      "play",
-      "social media",
-      "streaming",
-      "platform",
-      "media"
-    ],
-    "file": "youtube.svg"
-  },
-  "spinner": {
-    "tags": [
-      "spinner",
-      "loading",
-      "progress",
-      "indicator",
-      "wait",
-      "refresh",
-      "circle",
-      "processing",
-      "loop",
-      "asynchronous"
-    ],
-    "file": "spinner.svg"
-  },
-  "applications": {
-    "tags": [
-      "applications",
-      "network",
-      "connections",
-      "distributed",
-      "services",
-      "nodes",
-      "platform",
-      "architecture",
-      "structure",
-      "app"
-    ],
-    "file": "applications.svg"
-  },
-  "machines": {
-    "tags": [
-      "machine",
-      "device",
-      "industrial",
-      "technology",
-      "hardware",
-      "equipment",
-      "system",
-      "control",
-      "box",
-      "component"
-    ],
-    "file": "machines.svg"
-  },
-  "select": {
-    "tags": [
+      "cursor",
+      "pointer",
+      "arrow",
+      "click",
       "select",
+      "mouse",
+      "navigation",
       "selection",
-      "dashed",
-      "outline",
-      "area",
-      "border",
-      "tool",
-      "highlight"
-    ],
-    "file": "select.svg"
+      "interact",
+      "control"
+    ]
   },
-  "user-group": {
+  "cut": {
+    "hash": "7e843d835ff432f5",
     "tags": [
-      "user",
-      "group",
-      "people",
-      "team",
-      "community",
-      "social",
-      "network",
-      "crowd",
-      "profiles"
-    ],
-    "file": "user-group.svg"
+      "cut",
+      "scissors",
+      "remove",
+      "delete",
+      "slice",
+      "split",
+      "trim",
+      "clip",
+      "edit"
+    ]
   },
-  "revisions": {
+  "dark-theme": {
+    "hash": "589744a9ce2f53b9",
     "tags": [
-      "revisions",
-      "version",
-      "history",
-      "undo",
-      "redo",
-      "refresh",
-      "changes",
-      "updates",
-      "document",
-      "file",
-      "restore",
-      "revert",
-      "timeline",
-      "progress"
-    ],
-    "file": "revisions.svg"
+      "dark",
+      "theme",
+      "night",
+      "moon",
+      "mode",
+      "dark mode",
+      "appearance",
+      "night mode",
+      "evening",
+      "display"
+    ]
+  },
+  "debug": {
+    "hash": "a90de70659bd640a",
+    "tags": [
+      "debug",
+      "troubleshoot",
+      "fix",
+      "error",
+      "bug",
+      "inspect",
+      "diagnose",
+      "development",
+      "software",
+      "correction"
+    ]
   },
   "delete": {
+    "hash": "29cd19e9733808cb",
     "tags": [
       "delete",
       "trash",
       "bin",
       "remove",
-      "garbage",
+      "discard",
       "erase",
-      "dispose",
-      "delete button"
-    ],
-    "file": "delete.svg"
+      "garbage",
+      "clear",
+      "destroy",
+      "cleanup"
+    ]
   },
-  "waiting": {
+  "desktop": {
+    "hash": "733a13f9a8a9092f",
     "tags": [
-      "waiting",
-      "loading",
-      "processing",
-      "ellipsis",
-      "dots",
-      "progress",
-      "indicator",
-      "busy",
-      "circle"
-    ],
-    "file": "waiting.svg"
+      "desktop",
+      "computer",
+      "monitor",
+      "screen",
+      "workstation",
+      "pc",
+      "display",
+      "hardware",
+      "terminal"
+    ]
   },
-  "success": {
+  "devtools": {
+    "hash": "107eb839998a9116",
     "tags": [
-      "success",
-      "check",
-      "complete",
-      "done",
-      "tick",
-      "approve",
-      "confirm",
-      "accept",
-      "correct",
-      "right",
-      "mark",
-      "circle"
-    ],
-    "file": "success.svg"
+      "code",
+      "programming",
+      "developer",
+      "development",
+      "markup",
+      "html",
+      "software",
+      "script",
+      "syntax",
+      "coding",
+      "dev"
+    ]
   },
-  "error-fill": {
+  "devtools-off": {
+    "hash": "7c4c1eda8a485dde",
+    "tags": [
+      "developer",
+      "tools",
+      "debug",
+      "disabled",
+      "off",
+      "coding",
+      "programming",
+      "development",
+      "inspection",
+      "deactivate"
+    ]
+  },
+  "disconnected": {
+    "hash": "f2293cfd43792222",
+    "tags": [
+      "disconnected",
+      "unplugged",
+      "offline",
+      "broken",
+      "error",
+      "separation",
+      "disconnect",
+      "link",
+      "connection",
+      "failure",
+      "interrupted"
+    ]
+  },
+  "download": {
+    "hash": "dfa2600519978501",
+    "tags": [
+      "download",
+      "import",
+      "get",
+      "save",
+      "receive",
+      "retrieve",
+      "transfer",
+      "incoming",
+      "pull",
+      "storage",
+      "file"
+    ]
+  },
+  "drag": {
+    "hash": "a3d153aff1d35f8e",
+    "tags": [
+      "drag",
+      "handle",
+      "grip",
+      "reorder",
+      "move",
+      "rearrange",
+      "sort",
+      "drag and drop",
+      "grab",
+      "dots"
+    ]
+  },
+  "edit": {
+    "hash": "fe47197a47b9e0cc",
+    "tags": [
+      "edit",
+      "write",
+      "modify",
+      "pencil",
+      "compose",
+      "change",
+      "update",
+      "input",
+      "markup",
+      "pen",
+      "create",
+      "revise"
+    ]
+  },
+  "email": {
+    "hash": "23f9463557cb15d3",
+    "tags": [
+      "email",
+      "mail",
+      "message",
+      "envelope",
+      "inbox",
+      "communication",
+      "contact",
+      "notification",
+      "letter",
+      "send"
+    ]
+  },
+  "error": {
+    "hash": "651a95dba52c5f05",
     "tags": [
       "error",
-      "close",
+      "failure",
       "wrong",
-      "deny",
-      "stop",
-      "delete",
       "cancel",
+      "close",
+      "remove",
+      "incorrect",
+      "stop",
       "alert",
-      "notification",
-      "warning",
-      "fail",
-      "exit",
       "problem",
-      "issue",
-      "cross",
-      "circle",
-      "filled"
-    ],
-    "file": "error-fill.svg"
+      "invalid",
+      "delete"
+    ]
   },
-  "play-pending": {
+  "error-fill": {
+    "hash": "3f7deee0cd89eb1f",
     "tags": [
-      "play",
-      "pending",
-      "loading",
-      "buffer",
-      "waiting",
-      "media",
-      "video",
-      "audio",
-      "stream",
-      "progress",
-      "circle",
-      "refresh"
-    ],
-    "file": "play-pending.svg"
+      "error",
+      "failure",
+      "wrong",
+      "incorrect",
+      "problem",
+      "alert",
+      "stop",
+      "cancel",
+      "close",
+      "remove",
+      "danger",
+      "critical"
+    ]
   },
-  "change-version": {
+  "expand-side-nav": {
+    "hash": "ec4e46a277b596c2",
     "tags": [
-      "change",
-      "version",
-      "update",
-      "refresh",
-      "history",
-      "revert",
-      "rollback",
-      "cycle",
-      "arrow",
-      "rotate"
-    ],
-    "file": "change-version.svg"
-  },
-  "location": {
-    "tags": [
-      "location",
-      "pin",
-      "map",
-      "marker",
-      "pointer",
+      "expand",
+      "sidebar",
       "navigation",
-      "address",
-      "position",
-      "geotag"
-    ],
-    "file": "location.svg"
+      "menu",
+      "show",
+      "drawer",
+      "panel",
+      "arrow",
+      "reveal",
+      "side-nav"
+    ]
   },
-  "gift": {
+  "export": {
+    "hash": "54ae8f9d4659f9f0",
     "tags": [
-      "gift",
-      "present",
-      "birthday",
-      "christmas",
-      "celebration",
-      "surprise",
-      "package",
-      "ribbon",
-      "holiday"
-    ],
-    "file": "gift.svg"
+      "export",
+      "upload",
+      "outbound",
+      "send",
+      "transfer",
+      "share",
+      "exit",
+      "output",
+      "move",
+      "external"
+    ]
+  },
+  "exposed": {
+    "hash": "05a3969cfb579b03",
+    "tags": [
+      "globe",
+      "world",
+      "internet",
+      "network",
+      "public",
+      "global",
+      "web",
+      "connection",
+      "worldwide",
+      "exposed",
+      "external",
+      "online"
+    ]
   },
   "external-link": {
+    "hash": "300d4bf1b94d570d",
     "tags": [
-      "external link",
+      "external",
       "link",
-      "new tab",
-      "new window",
-      "open",
-      "arrow",
       "outbound",
-      "redirect"
-    ],
-    "file": "external-link.svg"
-  },
-  "share": {
-    "tags": [
+      "export",
+      "open",
+      "redirect",
+      "new tab",
+      "popout",
+      "exit",
       "share",
+      "move",
+      "outgoing"
+    ]
+  },
+  "facebook": {
+    "hash": "4a241ea8db0cf43f",
+    "tags": [
+      "facebook",
       "social",
+      "media",
       "network",
       "connect",
-      "link",
-      "distribute",
-      "send",
-      "upload",
-      "export",
-      "internet",
-      "media",
-      "content"
-    ],
-    "file": "share.svg"
+      "profile",
+      "community",
+      "share",
+      "login"
+    ]
   },
-  "arrow-up": {
+  "file": {
+    "hash": "f0854bfa1686747c",
     "tags": [
-      "arrow",
-      "up",
-      "direction",
-      "indicator",
-      "move up",
-      "scroll up",
-      "sort up",
-      "increase",
-      "top",
-      "north"
-    ],
-    "file": "arrow-up.svg"
-  },
-  "linkedin": {
-    "tags": [
-      "linkedin",
-      "social media",
-      "network",
-      "professional",
-      "job",
-      "career",
-      "business",
-      "connection"
-    ],
-    "file": "linkedin.svg"
+      "file",
+      "document",
+      "page",
+      "text",
+      "data",
+      "content",
+      "paper",
+      "note",
+      "record",
+      "information"
+    ]
   },
   "file-blank": {
+    "hash": "fc8314fe069c2201",
     "tags": [
       "file",
       "document",
       "blank",
+      "page",
+      "paper",
       "empty",
       "new",
-      "paper",
-      "page",
-      "sheet",
-      "note"
-    ],
-    "file": "file-blank.svg"
+      "text",
+      "data",
+      "content"
+    ]
   },
   "filter": {
+    "hash": "73c27ed3c304d505",
     "tags": [
       "filter",
+      "refine",
       "sort",
-      "options",
-      "funnel",
-      "organize",
+      "narrow",
       "adjust",
-      "preferences"
-    ],
-    "file": "filter.svg"
+      "options",
+      "settings",
+      "funnel",
+      "selection",
+      "organize"
+    ]
   },
-  "cluster-host": {
+  "fit-to-screen": {
+    "hash": "46ab24ec99613f81",
     "tags": [
-      "cluster",
-      "host",
-      "network",
-      "connection",
-      "data",
-      "server",
-      "computing",
-      "infrastructure",
-      "grid",
-      "hexagonal",
-      "system",
-      "group",
-      "distributed"
-    ],
-    "file": "cluster-host.svg"
+      "fit",
+      "screen",
+      "fullscreen",
+      "expand",
+      "maximize",
+      "display",
+      "view",
+      "resize",
+      "zoom",
+      "window",
+      "layout"
+    ]
   },
-  "arrow-left": {
+  "folder": {
+    "hash": "657f956dd05ebb4b",
     "tags": [
-      "arrow",
-      "left",
-      "previous",
-      "back",
+      "folder",
+      "directory",
+      "files",
+      "storage",
+      "documents",
+      "organization",
+      "management",
+      "container",
+      "navigation",
+      "data"
+    ]
+  },
+  "fork": {
+    "hash": "4c93ce78e29ad4a3",
+    "tags": [
+      "fork",
+      "branch",
+      "split",
+      "diverge",
+      "separation",
+      "version control",
+      "git",
+      "flow",
+      "path",
       "direction",
-      "move",
-      "navigate"
-    ],
-    "file": "arrow-left.svg"
+      "branching"
+    ]
   },
-  "power-off": {
+  "fullscreen": {
+    "hash": "53c52a2a72b80fc6",
     "tags": [
-      "power",
-      "off",
-      "switch",
-      "button",
-      "stop",
-      "shutdown",
-      "turn off",
-      "energy",
-      "disable",
-      "disconnect",
-      "standby",
-      "indicator"
-    ],
-    "file": "power-off.svg"
+      "fullscreen",
+      "expand",
+      "maximize",
+      "focus",
+      "frame",
+      "enlarge",
+      "view",
+      "display",
+      "border",
+      "boundary"
+    ]
   },
-  "notifications": {
+  "gift": {
+    "hash": "6735e7a5c5092f10",
     "tags": [
-      "notifications",
-      "bell",
-      "alert",
-      "reminder",
-      "alarm",
-      "message",
-      "sound",
-      "signal"
-    ],
-    "file": "notifications.svg"
+      "gift",
+      "present",
+      "reward",
+      "bonus",
+      "offer",
+      "promotion",
+      "surprise",
+      "package",
+      "box",
+      "prize",
+      "incentive"
+    ]
   },
-  "error": {
+  "github": {
+    "hash": "38acdb78803068ea",
     "tags": [
-      "error",
-      "wrong",
-      "close",
-      "delete",
-      "cross",
-      "fail",
-      "incorrect",
-      "warning",
-      "caution",
-      "alert"
-    ],
-    "file": "error.svg"
-  },
-  "upload": {
-    "tags": [
-      "upload",
-      "share",
-      "send",
-      "transfer",
-      "data",
-      "file",
-      "cloud",
-      "arrow",
-      "up",
-      "save"
-    ],
-    "file": "upload.svg"
-  },
-  "pause": {
-    "tags": [
-      "pause",
-      "stop",
-      "media",
-      "player",
-      "control",
-      "music",
-      "video",
-      "audio",
-      "sound"
-    ],
-    "file": "pause.svg"
+      "github",
+      "git",
+      "repository",
+      "code",
+      "developer",
+      "version control",
+      "software",
+      "hosting",
+      "source code",
+      "collaboration"
+    ]
   },
   "help": {
+    "hash": "25972794a112ab24",
     "tags": [
       "help",
       "question",
-      "info",
-      "information",
       "support",
-      "assistance",
-      "query",
       "faq",
-      "ask",
-      "problem"
-    ],
-    "file": "help.svg"
-  },
-  "status": {
-    "tags": [
-      "status",
-      "graph",
-      "line",
-      "data",
-      "chart",
-      "signal",
-      "activity",
-      "monitoring"
-    ],
-    "file": "status.svg"
-  },
-  "warning-fill": {
-    "tags": [
-      "warning",
-      "alert",
-      "error",
-      "caution",
-      "danger",
-      "exclamation",
-      "triangle",
+      "info",
+      "assistance",
+      "guide",
+      "query",
       "problem",
-      "issue",
-      "attention",
-      "important"
-    ],
-    "file": "warning-fill.svg"
+      "ask"
+    ]
   },
-  "add-partition": {
+  "hide": {
+    "hash": "e0a94cc223392846",
     "tags": [
-      "add",
-      "partition",
-      "plus",
-      "block",
-      "segment",
-      "create",
-      "new",
+      "hide",
+      "visibility",
+      "invisible",
+      "conceal",
+      "eye",
+      "eye off",
+      "obscure",
+      "private",
+      "password",
+      "mask"
+    ]
+  },
+  "highlight-off": {
+    "hash": "5c2c5b06900c09cb",
+    "tags": [
+      "idea",
+      "suggestion",
+      "tip",
+      "insight",
+      "knowledge",
+      "disabled",
+      "off",
+      "unavailable",
+      "lightbulb",
+      "intelligence"
+    ]
+  },
+  "highlight-on": {
+    "hash": "1de5268969b71f87",
+    "tags": [
+      "idea",
+      "lightbulb",
+      "insight",
+      "suggestion",
+      "innovation",
+      "creative",
+      "solution",
+      "intelligence",
+      "discovery",
+      "knowledge",
+      "inspiration",
+      "brainstorming"
+    ]
+  },
+  "home": {
+    "hash": "757e61c74c2e0259",
+    "tags": [
+      "home",
+      "main",
+      "start",
+      "dashboard",
+      "base",
+      "root",
+      "landing",
+      "house"
+    ]
+  },
+  "image": {
+    "hash": "c17ac26f40c5f671",
+    "tags": [
+      "os",
+      "operating system",
+      "software",
+      "system",
+      "platform",
+      "kernel",
+      "environment",
+      "core"
+    ]
+  },
+  "image-registries": {
+    "hash": "6e0e747369ab0f06",
+    "tags": [
+      "registry",
+      "images",
       "storage",
-      "disk",
-      "layout",
-      "section",
-      "divide",
-      "split"
-    ],
-    "file": "add-partition.svg"
+      "repository",
+      "container",
+      "docker",
+      "archive",
+      "database",
+      "collection",
+      "library"
+    ]
   },
-  "priority-high": {
+  "import": {
+    "hash": "d94f5a781ae9e931",
     "tags": [
-      "priority",
-      "high",
-      "important",
-      "urgent",
-      "exclamation",
-      "alert",
+      "import",
+      "download",
+      "receive",
+      "input",
+      "inbound",
+      "get",
+      "load",
+      "fetch",
+      "transfer",
+      "add",
+      "incoming",
+      "save"
+    ]
+  },
+  "in-progress": {
+    "hash": "012772b6d5ae6935",
+    "tags": [
+      "in-progress",
+      "loading",
+      "processing",
+      "status",
+      "running",
+      "incomplete",
+      "waiting",
+      "buffer",
+      "circle",
+      "progress bar",
+      "active"
+    ]
+  },
+  "information": {
+    "hash": "954997570147407a",
+    "tags": [
       "information",
-      "notice"
-    ],
-    "file": "priority-high.svg"
+      "info",
+      "help",
+      "details",
+      "about",
+      "notice",
+      "guide",
+      "instruction",
+      "query",
+      "knowledge",
+      "faq"
+    ]
   },
-  "menu": {
-    "tags": ["menu", "hamburger", "navigation", "lines", "list", "options"],
-    "file": "menu.svg"
-  },
-  "containers": {
-    "tags": ["container", "box", "storage", "stack", "package", "cargo"],
-    "file": "containers.svg"
-  },
-  "statistics": {
+  "instagram": {
+    "hash": "2592fc2bf5fb9bb1",
     "tags": [
-      "statistics",
-      "chart",
-      "graph",
-      "data",
-      "analysis",
-      "growth",
-      "trend",
-      "progress",
-      "report",
+      "instagram",
+      "social media",
+      "camera",
+      "photo",
+      "photography",
+      "media",
+      "network",
+      "app",
+      "social"
+    ]
+  },
+  "iso": {
+    "hash": "741382e3dd204515",
+    "tags": [
+      "iso",
+      "disk",
+      "image",
+      "disc",
+      "storage",
+      "file",
+      "format",
+      "optical",
+      "archive",
+      "data"
+    ]
+  },
+  "keyboard": {
+    "hash": "380a290fd6d6f446",
+    "tags": [
+      "keyboard",
+      "input",
+      "typing",
+      "hardware",
+      "computer",
+      "keys",
+      "text",
+      "peripheral",
+      "typewriter",
+      "button"
+    ]
+  },
+  "keyboard-off": {
+    "hash": "2f5668aa1069b055",
+    "tags": [
+      "keyboard",
+      "off",
+      "disabled",
+      "disconnected",
+      "input",
+      "none",
+      "remove",
+      "unplugged",
+      "hardware",
+      "typing",
+      "no keyboard"
+    ]
+  },
+  "layout-grid": {
+    "hash": "c9a78362869f5809",
+    "tags": [
+      "grid",
+      "layout",
+      "dashboard",
+      "tiles",
+      "menu",
+      "apps",
+      "gallery",
+      "view",
+      "structure",
+      "blocks",
+      "mosaic"
+    ]
+  },
+  "light-theme": {
+    "hash": "8a7620cea7827611",
+    "tags": [
+      "light",
+      "theme",
+      "brightness",
+      "sun",
+      "day",
+      "mode",
+      "display",
+      "appearance",
+      "ui",
+      "screen"
+    ]
+  },
+  "link": {
+    "hash": "3a54ad43abd86ee3",
+    "tags": [
+      "link",
+      "connection",
+      "url",
+      "hyperlink",
+      "attach",
+      "chain",
+      "connect",
+      "web",
+      "anchor",
+      "relationship",
+      "binding"
+    ]
+  },
+  "linkedin": {
+    "hash": "aec7e00ab47dec1d",
+    "tags": [
+      "linkedin",
+      "social",
+      "professional",
+      "networking",
+      "career",
       "business",
-      "finance",
-      "performance",
-      "analytics",
-      "line chart",
-      "up",
-      "increase",
-      "arrow",
-      "visual",
-      "information"
-    ],
-    "file": "statistics.svg"
+      "profile",
+      "connection",
+      "media",
+      "social media"
+    ]
+  },
+  "location": {
+    "hash": "39a060ec69e766df",
+    "tags": [
+      "location",
+      "map",
+      "pin",
+      "marker",
+      "place",
+      "position",
+      "gps",
+      "destination",
+      "address",
+      "point",
+      "navigation",
+      "coordinates"
+    ]
   },
   "locked": {
+    "hash": "737378c9114fc867",
     "tags": [
-      "locked",
       "lock",
-      "padlock",
       "secure",
-      "security",
-      "private",
       "privacy",
+      "protection",
+      "safety",
+      "encrypted",
+      "access",
       "closed",
-      "restricted"
-    ],
-    "file": "locked.svg"
+      "authentication",
+      "security"
+    ]
   },
-  "queued": {
+  "log-out": {
+    "hash": "e997ce50973e253f",
     "tags": [
-      "queued",
-      "queue",
-      "pending",
-      "waiting",
-      "status",
-      "circle",
-      "item",
+      "logout",
+      "exit",
+      "sign out",
+      "leave",
+      "session end",
+      "departure",
+      "out",
+      "disconnect",
+      "close session"
+    ]
+  },
+  "machines": {
+    "hash": "4202f11874cc2513",
+    "tags": [
+      "server",
+      "hardware",
+      "compute",
+      "node",
+      "host",
+      "infrastructure",
+      "rack",
+      "computer",
+      "datacenter",
+      "instance",
+      "machine"
+    ]
+  },
+  "map": {
+    "hash": "e5d49d146713b44b",
+    "tags": [
+      "map",
+      "navigation",
+      "location",
+      "direction",
+      "route",
+      "atlas",
+      "folded",
+      "guide",
+      "geography",
+      "travel",
+      "destination",
+      "wayfinding"
+    ]
+  },
+  "maximize": {
+    "hash": "02811341fd6738ca",
+    "tags": [
+      "maximize",
+      "expand",
+      "fullscreen",
+      "enlarge",
+      "resize",
+      "scale",
+      "arrows",
+      "diagonal",
+      "stretch",
+      "increase"
+    ]
+  },
+  "menu": {
+    "hash": "7733e689998abadc",
+    "tags": [
+      "menu",
+      "navigation",
       "list",
-      "sequence",
-      "next"
-    ],
-    "file": "queued.svg"
+      "hamburger",
+      "options",
+      "more",
+      "drawer",
+      "main",
+      "toggle",
+      "expand",
+      "settings",
+      "sidebar"
+    ]
   },
-  "folder": {
-    "tags": ["folder", "directory", "file", "document", "storage", "organize"],
-    "file": "folder.svg"
-  },
-  "play-fill": {
+  "menu-contextual": {
+    "hash": "b047ce486219d7c7",
     "tags": [
-      "play",
-      "button",
-      "media",
-      "start",
-      "circle",
-      "multimedia",
-      "video",
-      "audio",
-      "player",
-      "triangle",
-      "filled"
-    ],
-    "file": "play-fill.svg"
+      "menu",
+      "more",
+      "options",
+      "vertical",
+      "dots",
+      "settings",
+      "actions",
+      "overflow",
+      "context",
+      "more-vert"
+    ]
+  },
+  "minimize": {
+    "hash": "60376bd92a6e0b0b",
+    "tags": [
+      "minimize",
+      "shrink",
+      "collapse",
+      "reduce",
+      "resize",
+      "window",
+      "scale",
+      "compress",
+      "close",
+      "contract"
+    ]
   },
   "minus": {
+    "hash": "49547574f2520115",
     "tags": [
       "minus",
       "subtract",
       "remove",
       "decrease",
-      "hyphen",
-      "dash",
-      "horizontal line",
-      "math",
-      "arithmetic",
-      "reduction"
-    ],
-    "file": "minus.svg"
+      "less",
+      "negative",
+      "delete",
+      "subtraction",
+      "reduction",
+      "dash"
+    ]
   },
-  "chevron-left": {
+  "models": {
+    "hash": "c2a43992b822f08c",
     "tags": [
-      "chevron",
-      "left",
-      "arrow",
+      "models",
+      "network",
+      "nodes",
+      "connections",
+      "structure",
+      "topology",
+      "graph",
+      "data",
+      "relationship",
+      "system",
+      "architecture"
+    ]
+  },
+  "mount": {
+    "hash": "c20f02678a70c6ec",
+    "tags": [
+      "mount",
+      "add",
+      "storage",
+      "disk",
+      "drive",
+      "volume",
+      "hardware",
+      "attach",
+      "plug",
+      "device",
+      "filesystem"
+    ]
+  },
+  "notifications": {
+    "hash": "84f257838141c6e2",
+    "tags": [
+      "notifications",
+      "alerts",
+      "bell",
+      "reminders",
+      "announcements",
+      "updates",
+      "attention",
+      "activity",
+      "incoming",
+      "alarm"
+    ]
+  },
+  "notifications-off": {
+    "hash": "99998dbd3a20b6ed",
+    "tags": [
+      "notifications",
+      "mute",
+      "silence",
+      "off",
+      "alert",
+      "bell",
+      "disabled",
+      "do not disturb",
+      "quiet",
+      "suppress",
+      "none",
+      "inactive"
+    ]
+  },
+  "open-terminal": {
+    "hash": "51d673b68fdda9f8",
+    "tags": [
+      "terminal",
+      "command line",
+      "shell",
+      "console",
+      "prompt",
+      "cli",
+      "bash",
+      "command",
+      "input",
+      "programming",
+      "developer",
+      "interface"
+    ]
+  },
+  "paste": {
+    "hash": "887f2c99f575aa4a",
+    "tags": [
+      "paste",
+      "insert",
+      "add",
+      "clipboard",
+      "document",
+      "file",
+      "copy",
+      "content",
+      "data",
+      "input"
+    ]
+  },
+  "pause": {
+    "hash": "e45fcde515e5cb1d",
+    "tags": [
+      "pause",
+      "stop",
+      "halt",
+      "wait",
+      "interrupt",
+      "break",
+      "pause button",
+      "playback",
+      "suspend",
+      "hold"
+    ]
+  },
+  "pin": {
+    "hash": "5a969c8d41dba9ee",
+    "tags": [
+      "pin",
+      "pushpin",
+      "anchor",
+      "fix",
+      "attach",
+      "stick",
+      "mark",
+      "location",
+      "spot",
+      "pinned",
+      "bookmark"
+    ]
+  },
+  "plans": {
+    "hash": "cae099ba12de1339",
+    "tags": [
+      "verified",
+      "approved",
+      "success",
+      "plan",
+      "subscription",
+      "check",
+      "badge",
+      "guarantee",
+      "confirmed",
+      "valid",
+      "premium",
+      "agreement"
+    ]
+  },
+  "play": {
+    "hash": "5351c32b30c1cc23",
+    "tags": [
+      "play",
+      "start",
+      "run",
+      "execute",
+      "resume",
+      "media",
+      "video",
+      "audio",
+      "trigger",
+      "begin"
+    ]
+  },
+  "play-fill": {
+    "hash": "8bb45be16a6602a2",
+    "tags": [
+      "play",
+      "start",
+      "resume",
+      "media",
+      "video",
+      "audio",
+      "run",
+      "execute",
+      "button",
+      "triangle"
+    ]
+  },
+  "play-pending": {
+    "hash": "597d473c05ce10fe",
+    "tags": [
+      "play",
+      "pending",
+      "queued",
+      "waiting",
+      "buffer",
+      "media",
+      "start",
+      "loading",
+      "ready",
+      "process"
+    ]
+  },
+  "plus": {
+    "hash": "d413f10320fc845f",
+    "tags": [
+      "add",
+      "create",
+      "new",
+      "plus",
+      "insert",
+      "positive",
+      "increase",
+      "expand",
+      "join",
+      "append"
+    ]
+  },
+  "pods": {
+    "hash": "03623ea38c70fecb",
+    "tags": [
+      "kubernetes",
+      "container",
+      "pod",
+      "cluster",
+      "deployment",
+      "orchestration",
+      "workload",
+      "compute",
+      "node",
+      "microservice",
+      "infrastructure"
+    ]
+  },
+  "power-off": {
+    "hash": "920dab6acff25e75",
+    "tags": [
+      "power",
+      "off",
+      "shutdown",
+      "stop",
+      "exit",
+      "sleep",
+      "deactivate",
+      "turn off",
+      "system",
+      "control"
+    ]
+  },
+  "power-on": {
+    "hash": "0a18ce3dfba0d610",
+    "tags": [
+      "power",
+      "on",
+      "start",
+      "activate",
+      "boot",
+      "switch",
+      "system",
+      "running",
+      "enable",
+      "status"
+    ]
+  },
+  "priority-critical": {
+    "hash": "94282cef57c7eabd",
+    "tags": [
+      "critical",
+      "priority",
+      "alert",
+      "emergency",
+      "danger",
+      "warning",
+      "error",
+      "urgent",
+      "attention",
+      "hazard"
+    ]
+  },
+  "priority-high": {
+    "hash": "3b43c6c62865835d",
+    "tags": [
+      "urgent",
+      "important",
+      "critical",
+      "high",
+      "alert",
+      "attention",
+      "priority",
+      "status",
+      "warning",
+      "flag"
+    ]
+  },
+  "priority-low": {
+    "hash": "4fee0a6e0b121593",
+    "tags": [
+      "low",
+      "priority",
+      "importance",
+      "level",
+      "gauge",
+      "scale",
+      "status",
+      "minimal",
+      "slight",
+      "degree"
+    ]
+  },
+  "priority-medium": {
+    "hash": "880e1c12f2f0238f",
+    "tags": [
+      "priority",
+      "medium",
+      "importance",
+      "level",
+      "status",
+      "task",
+      "issue",
+      "order",
+      "urgency",
+      "middle"
+    ]
+  },
+  "priority-negligible": {
+    "hash": "41d7ca2ee9821745",
+    "tags": [
+      "negligible",
+      "low",
+      "minimal",
+      "minor",
+      "insignificant",
+      "low priority",
+      "importance",
+      "level",
+      "rank",
+      "order"
+    ]
+  },
+  "priority-unknown": {
+    "hash": "a3270eb763bbce66",
+    "tags": [
+      "priority",
+      "unknown",
+      "question",
+      "undefined",
+      "uncertain",
+      "unspecified",
+      "help",
+      "status",
+      "indeterminable",
+      "task"
+    ]
+  },
+  "private-key": {
+    "hash": "8c10482eb24ae8d6",
+    "tags": [
+      "key",
+      "security",
+      "private",
+      "encryption",
+      "authentication",
+      "access",
+      "credential",
+      "password",
+      "secret",
+      "cryptography",
+      "authorization"
+    ]
+  },
+  "profiles": {
+    "hash": "f1caf43cf06fce79",
+    "tags": [
+      "profiles",
+      "profile",
+      "configuration",
+      "settings",
+      "template",
+      "preset",
+      "cube",
+      "container",
+      "instance",
+      "lxd"
+    ]
+  },
+  "queued": {
+    "hash": "b5f013387689cf1e",
+    "tags": [
+      "queue",
+      "waiting",
+      "pending",
+      "buffer",
+      "list",
+      "order",
+      "sequence",
+      "process",
+      "stack",
+      "hold"
+    ]
+  },
+  "repository": {
+    "hash": "7e8c5cd7e59808ba",
+    "tags": [
+      "repository",
+      "storage",
+      "database",
+      "stack",
+      "collection",
+      "archive",
+      "files",
+      "data",
+      "server",
+      "registry",
+      "library"
+    ]
+  },
+  "resize": {
+    "hash": "8204979ad2c3960f",
+    "tags": [
+      "resize",
+      "scale",
+      "expand",
+      "stretch",
+      "dimensions",
+      "crop",
+      "transform",
+      "adjust",
+      "enlarge",
+      "size",
+      "frame"
+    ]
+  },
+  "resize-off": {
+    "hash": "8c309003c1f3263f",
+    "tags": [
+      "resize",
+      "disable",
+      "lock",
+      "fixed",
+      "scale",
+      "dimensions",
+      "proportions",
+      "size",
+      "restriction",
+      "stop",
+      "unavailable"
+    ]
+  },
+  "restart": {
+    "hash": "be72dc78cce06078",
+    "tags": [
+      "restart",
+      "reset",
+      "reboot",
+      "refresh",
+      "reload",
+      "cycle",
+      "redo",
+      "return",
+      "loop",
+      "retry",
+      "revert",
+      "initialize"
+    ]
+  },
+  "revisions": {
+    "hash": "d86ebacdc5439afc",
+    "tags": [
+      "history",
+      "version",
       "back",
       "previous",
-      "direction",
-      "navigation",
-      "pointer"
-    ],
-    "file": "chevron-left.svg"
+      "undo",
+      "timeline",
+      "log",
+      "change",
+      "restore",
+      "archive",
+      "time",
+      "past"
+    ]
   },
-  "select-remove": {
+  "rotate-left": {
+    "hash": "cf289cd41f23ce08",
+    "tags": [
+      "rotate",
+      "turn",
+      "orientation",
+      "direction",
+      "reorient",
+      "twist",
+      "angle",
+      "reposition",
+      "transform",
+      "arrow"
+    ]
+  },
+  "rotate-right": {
+    "hash": "c2bfec6a3dfde4f2",
+    "tags": [
+      "rotate",
+      "orientation",
+      "screen",
+      "mobile",
+      "device",
+      "turn",
+      "landscape",
+      "portrait",
+      "display",
+      "phone"
+    ]
+  },
+  "rss": {
+    "hash": "b5818e33b46aaee7",
+    "tags": [
+      "rss",
+      "feed",
+      "subscribe",
+      "broadcast",
+      "updates",
+      "news",
+      "stream",
+      "notification",
+      "blog",
+      "syndication"
+    ]
+  },
+  "screen-record": {
+    "hash": "5dc3058bdc46cdd6",
+    "tags": [
+      "record",
+      "capture",
+      "video",
+      "recording",
+      "screen",
+      "monitor",
+      "camera",
+      "media",
+      "camcorder",
+      "clip"
+    ]
+  },
+  "screenshot": {
+    "hash": "fc8fa57167f375ea",
+    "tags": [
+      "screenshot",
+      "camera",
+      "capture",
+      "snapshot",
+      "photo",
+      "image",
+      "screen",
+      "take",
+      "record",
+      "photography",
+      "frame"
+    ]
+  },
+  "search": {
+    "hash": "066d66cfce42b35e",
+    "tags": [
+      "search",
+      "find",
+      "lookup",
+      "inspect",
+      "explore",
+      "magnifying glass",
+      "zoom",
+      "scan",
+      "query",
+      "discovery"
+    ]
+  },
+  "security": {
+    "hash": "9ebf1eecdae4dd86",
+    "tags": [
+      "security",
+      "protection",
+      "safety",
+      "shield",
+      "defense",
+      "guard",
+      "privacy",
+      "secure",
+      "firewall",
+      "safe",
+      "armor"
+    ]
+  },
+  "security-error": {
+    "hash": "81ad4a1e11e286da",
+    "tags": [
+      "security",
+      "error",
+      "failure",
+      "danger",
+      "threat",
+      "vulnerability",
+      "breach",
+      "protection",
+      "shield",
+      "warning",
+      "risk",
+      "unprotected"
+    ]
+  },
+  "security-tick": {
+    "hash": "24b9a3bd6596de5e",
+    "tags": [
+      "security",
+      "shield",
+      "protection",
+      "verified",
+      "safe",
+      "check",
+      "success",
+      "passed",
+      "guaranteed",
+      "privacy",
+      "compliance"
+    ]
+  },
+  "security-warning": {
+    "hash": "15c5cd359ad75f31",
+    "tags": [
+      "security",
+      "warning",
+      "alert",
+      "danger",
+      "threat",
+      "protection",
+      "shield",
+      "error",
+      "risk",
+      "caution",
+      "vulnerability",
+      "safety"
+    ]
+  },
+  "select": {
+    "hash": "3a08993aa087fc7f",
     "tags": [
       "select",
-      "remove",
-      "delete",
       "selection",
-      "minus",
+      "area",
+      "boundary",
+      "region",
+      "highlight",
+      "crop",
+      "frame",
+      "box",
+      "capture",
+      "range"
+    ]
+  },
+  "select-add": {
+    "hash": "61c5df023f4600c6",
+    "tags": [
+      "add",
+      "create",
+      "new",
+      "plus",
+      "selection",
+      "insert",
+      "item",
+      "square",
       "dashed",
-      "border",
+      "box"
+    ]
+  },
+  "select-remove": {
+    "hash": "53b6d7ccad7dfd5d",
+    "tags": [
+      "remove",
+      "deselect",
+      "delete",
+      "clear",
+      "unselect",
+      "selection",
+      "cancel",
+      "discard",
+      "boundary",
       "area"
-    ],
-    "file": "select-remove.svg"
+    ]
+  },
+  "settings": {
+    "hash": "f9d156a81232e98c",
+    "tags": [
+      "settings",
+      "gear",
+      "cog",
+      "configuration",
+      "options",
+      "preferences",
+      "setup",
+      "tools",
+      "management",
+      "engine",
+      "control",
+      "adjustment"
+    ]
+  },
+  "share": {
+    "hash": "f8476f7b3b136058",
+    "tags": [
+      "share",
+      "distribute",
+      "connect",
+      "network",
+      "social",
+      "send",
+      "export",
+      "link",
+      "branch",
+      "transfer"
+    ]
+  },
+  "show": {
+    "hash": "4b3b36c85f960523",
+    "tags": [
+      "visibility",
+      "view",
+      "show",
+      "eye",
+      "display",
+      "reveal",
+      "look",
+      "inspect",
+      "monitor",
+      "watch",
+      "preview",
+      "see"
+    ]
+  },
+  "single-host": {
+    "hash": "12001fcd1fcaae1a",
+    "tags": [
+      "host",
+      "node",
+      "server",
+      "instance",
+      "machine",
+      "computer",
+      "single",
+      "unit",
+      "hexagon",
+      "endpoint",
+      "compute"
+    ]
+  },
+  "snapshot": {
+    "hash": "4b962012c1416961",
+    "tags": [
+      "snapshot",
+      "camera",
+      "capture",
+      "backup",
+      "image",
+      "save",
+      "state",
+      "point in time",
+      "recovery",
+      "storage"
+    ]
+  },
+  "snooze": {
+    "hash": "eaa627e0a4056e12",
+    "tags": [
+      "snooze",
+      "sleep",
+      "pause",
+      "delay",
+      "quiet",
+      "rest",
+      "nap",
+      "dormant",
+      "reminder",
+      "alarm"
+    ]
+  },
+  "spinner": {
+    "hash": "59696fe4c95058a4",
+    "tags": [
+      "loading",
+      "progress",
+      "waiting",
+      "processing",
+      "buffer",
+      "status",
+      "sync",
+      "cycle",
+      "refresh",
+      "indeterminate"
+    ]
+  },
+  "starred": {
+    "hash": "6b3dbfdfd1177e9a",
+    "tags": [
+      "star",
+      "favorite",
+      "bookmark",
+      "important",
+      "highlight",
+      "rating",
+      "special",
+      "mark",
+      "save",
+      "preference"
+    ]
+  },
+  "starred-off": {
+    "hash": "a75813cf57dc4890",
+    "tags": [
+      "star",
+      "unstarred",
+      "remove",
+      "deselect",
+      "favorite",
+      "bookmark",
+      "rating",
+      "empty",
+      "outline",
+      "not favorite"
+    ]
+  },
+  "statistics": {
+    "hash": "387c68c6820d3717",
+    "tags": [
+      "statistics",
+      "analytics",
+      "chart",
+      "graph",
+      "trend",
+      "data",
+      "growth",
+      "performance",
+      "metrics",
+      "progress",
+      "measurement",
+      "reporting"
+    ]
+  },
+  "status": {
+    "hash": "4b7cca29a48e5d44",
+    "tags": [
+      "status",
+      "health",
+      "activity",
+      "pulse",
+      "monitoring",
+      "performance",
+      "metrics",
+      "heartbeat",
+      "signal",
+      "wave",
+      "vitals"
+    ]
+  },
+  "stop": {
+    "hash": "0b13141ae51ce538",
+    "tags": [
+      "stop",
+      "halt",
+      "terminate",
+      "end",
+      "square",
+      "pause",
+      "exit",
+      "cancel",
+      "abort",
+      "close",
+      "interrupt"
+    ]
+  },
+  "stop-fill": {
+    "hash": "b8e0aa8021b5b9a1",
+    "tags": [
+      "stop",
+      "halt",
+      "terminate",
+      "end",
+      "square",
+      "pause",
+      "exit",
+      "cancel",
+      "close",
+      "interrupt"
+    ]
+  },
+  "success": {
+    "hash": "0148827f518fcbef",
+    "tags": [
+      "success",
+      "complete",
+      "done",
+      "check",
+      "checkmark",
+      "correct",
+      "approved",
+      "valid",
+      "finished",
+      "ok",
+      "pass",
+      "yes"
+    ]
+  },
+  "success-fill": {
+    "hash": "75b6672eaf8dfd80",
+    "tags": [
+      "success",
+      "check",
+      "done",
+      "complete",
+      "correct",
+      "approved",
+      "finished",
+      "ok",
+      "valid",
+      "confirm",
+      "completed",
+      "pass"
+    ]
+  },
+  "swap": {
+    "hash": "15d4087bf220f4cc",
+    "tags": [
+      "swap",
+      "exchange",
+      "transfer",
+      "switch",
+      "replace",
+      "reverse",
+      "shuffle",
+      "toggle",
+      "move",
+      "redirect",
+      "alternate",
+      "reorder"
+    ]
+  },
+  "switcher": {
+    "hash": "ecf1bda0caee7e1f",
+    "tags": [
+      "switcher",
+      "switch",
+      "toggle",
+      "grid",
+      "apps",
+      "off",
+      "disable",
+      "deactivate",
+      "inactive"
+    ]
+  },
+  "switcher-dashboard": {
+    "hash": "3c398c2cc947ffa3",
+    "tags": [
+      "dashboard",
+      "grid",
+      "menu",
+      "apps",
+      "switcher",
+      "layout",
+      "overview",
+      "navigation",
+      "control panel",
+      "modules"
+    ]
+  },
+  "switcher-environments": {
+    "hash": "7ca59004d80c814c",
+    "tags": [
+      "environments",
+      "switch",
+      "list",
+      "menu",
+      "selection",
+      "options",
+      "settings",
+      "configuration",
+      "context",
+      "toggle"
+    ]
+  },
+  "system-theme": {
+    "hash": "8ea634f3961a8b1c",
+    "tags": [
+      "theme",
+      "brightness",
+      "display",
+      "appearance",
+      "mode",
+      "dark mode",
+      "light mode",
+      "contrast",
+      "interface",
+      "settings"
+    ]
+  },
+  "table": {
+    "hash": "27233f82b3dfa2e8",
+    "tags": [
+      "table",
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns",
+      "matrix",
+      "layout",
+      "schedule",
+      "list",
+      "database"
+    ]
+  },
+  "tag": {
+    "hash": "c9e6fc784cb75da3",
+    "tags": [
+      "tag",
+      "label",
+      "category",
+      "metadata",
+      "classification",
+      "identifier",
+      "organize",
+      "group",
+      "marker",
+      "taxonomy"
+    ]
+  },
+  "thumbs-down": {
+    "hash": "7f08563de608bb20",
+    "tags": [
+      "dislike",
+      "thumbs down",
+      "disapprove",
+      "negative",
+      "no",
+      "bad",
+      "reject",
+      "downvote",
+      "low quality",
+      "unfavorable"
+    ]
+  },
+  "thumbs-up": {
+    "hash": "4fd5d558ebf17450",
+    "tags": [
+      "like",
+      "approve",
+      "yes",
+      "success",
+      "good",
+      "agree",
+      "positive",
+      "vote",
+      "upvote",
+      "favourite",
+      "ok",
+      "correct"
+    ]
+  },
+  "tidy": {
+    "hash": "9cfb6bfdddd668f6",
+    "tags": [
+      "clean",
+      "cleanup",
+      "maintenance",
+      "tidy",
+      "broom",
+      "organize",
+      "sweep",
+      "reset",
+      "remove",
+      "optimize"
+    ]
+  },
+  "timed-out": {
+    "hash": "5e772ac7e7286f21",
+    "tags": [
+      "timeout",
+      "expired",
+      "deadline",
+      "clock",
+      "time",
+      "error",
+      "failure",
+      "limit",
+      "stop",
+      "interrupted"
+    ]
+  },
+  "units": {
+    "hash": "f4b93384c943a017",
+    "tags": [
+      "units",
+      "nodes",
+      "instances",
+      "components",
+      "modules",
+      "blocks",
+      "elements",
+      "parts",
+      "items",
+      "clusters"
+    ]
+  },
+  "unlocked": {
+    "hash": "d247d377abb738ef",
+    "tags": [
+      "unlocked",
+      "open",
+      "security",
+      "access",
+      "permission",
+      "unsecured",
+      "privacy",
+      "protection",
+      "padlock",
+      "safety",
+      "disabled"
+    ]
+  },
+  "unmount": {
+    "hash": "a668354125b3384f",
+    "tags": [
+      "unmount",
+      "disconnect",
+      "eject",
+      "remove",
+      "detach",
+      "storage",
+      "drive",
+      "disk",
+      "volume",
+      "hardware",
+      "external"
+    ]
+  },
+  "upload": {
+    "hash": "41c3a9546c0cc66c",
+    "tags": [
+      "upload",
+      "export",
+      "send",
+      "transfer",
+      "outbound",
+      "share",
+      "uploading",
+      "data",
+      "storage",
+      "cloud",
+      "server"
+    ]
+  },
+  "usb": {
+    "hash": "e631162ef98426a2",
+    "tags": [
+      "usb",
+      "connection",
+      "port",
+      "hardware",
+      "interface",
+      "plug",
+      "peripheral",
+      "data",
+      "cable",
+      "connector",
+      "transfer",
+      "device"
+    ]
+  },
+  "user": {
+    "hash": "41337b039f65bc11",
+    "tags": [
+      "user",
+      "account",
+      "person",
+      "profile",
+      "avatar",
+      "member",
+      "human",
+      "identity",
+      "individual",
+      "login",
+      "customer"
+    ]
+  },
+  "user-group": {
+    "hash": "7b23b843ecdb53f7",
+    "tags": [
+      "users",
+      "group",
+      "people",
+      "team",
+      "community",
+      "account",
+      "members",
+      "collaboration",
+      "social",
+      "audience",
+      "profile"
+    ]
+  },
+  "user-profile": {
+    "hash": "3ac88d1008a38e5d",
+    "tags": [
+      "user",
+      "profile",
+      "account",
+      "person",
+      "avatar",
+      "member",
+      "identity",
+      "individual",
+      "human",
+      "login",
+      "customer",
+      "user account"
+    ]
+  },
+  "volume-down": {
+    "hash": "3fdac81582c5e166",
+    "tags": [
+      "volume",
+      "sound",
+      "audio",
+      "speaker",
+      "decrease",
+      "lower",
+      "mute",
+      "quiet",
+      "reduce",
+      "output"
+    ]
+  },
+  "volume-mute": {
+    "hash": "6c0266ef9cb01983",
+    "tags": [
+      "mute",
+      "volume",
+      "silent",
+      "sound",
+      "audio",
+      "speaker",
+      "off",
+      "no sound",
+      "unmute",
+      "quiet"
+    ]
+  },
+  "volume-up": {
+    "hash": "b65a2b10688dc8f5",
+    "tags": [
+      "volume",
+      "sound",
+      "audio",
+      "speaker",
+      "increase",
+      "raise",
+      "loud",
+      "amplifier",
+      "gain",
+      "output"
+    ]
+  },
+  "waiting": {
+    "hash": "65eb002ec1ef80ab",
+    "tags": [
+      "loading",
+      "progress",
+      "processing",
+      "waiting",
+      "busy",
+      "ellipsis",
+      "status",
+      "pending",
+      "buffering",
+      "indeterminate"
+    ]
+  },
+  "warning": {
+    "hash": "8dfd6b55b9a7ab2a",
+    "tags": [
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "attention",
+      "hazard",
+      "problem",
+      "notice",
+      "exclamation",
+      "danger"
+    ]
+  },
+  "warning-fill": {
+    "hash": "4bc548b4f4c9a6a1",
+    "tags": [
+      "warning",
+      "alert",
+      "error",
+      "caution",
+      "attention",
+      "problem",
+      "hazard",
+      "critical",
+      "notice",
+      "danger",
+      "issue"
+    ]
+  },
+  "website": {
+    "hash": "175dea4bfd62de34",
+    "tags": [
+      "web",
+      "browser",
+      "internet",
+      "window",
+      "page",
+      "site",
+      "online",
+      "application",
+      "url",
+      "interface",
+      "viewport"
+    ]
+  },
+  "x": {
+    "hash": "3954461a908a54ea",
+    "tags": [
+      "x",
+      "twitter",
+      "social media",
+      "social",
+      "logo",
+      "brand",
+      "network",
+      "post",
+      "tweet",
+      "share"
+    ]
+  },
+  "youtube": {
+    "hash": "3bd402a6fc2944e0",
+    "tags": [
+      "youtube",
+      "video",
+      "play",
+      "media",
+      "player",
+      "watch",
+      "content",
+      "streaming",
+      "multimedia",
+      "movie"
+    ]
   }
 }

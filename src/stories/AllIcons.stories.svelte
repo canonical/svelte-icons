@@ -77,17 +77,18 @@
   // filtering
   const iconsWithMetadata = (Object.keys(icons) as (keyof typeof icons)[]).map(
     (iconName) => {
+      const key = pascalToKebabCase(iconName) as keyof typeof metadata;
       return {
         name: iconName,
-        metadata:
-          metadata[pascalToKebabCase(iconName) as keyof typeof metadata],
+        key,
+        metadata: metadata[key],
         Component: icons[iconName] as Component,
       };
     },
   );
 
   const fuse = new Fuse(iconsWithMetadata, {
-    keys: ["name", "metadata.file", "metadata.tags"],
+    keys: ["name", "key", "metadata.tags"],
     threshold: 0.2,
     ignoreLocation: true,
     findAllMatches: true,
