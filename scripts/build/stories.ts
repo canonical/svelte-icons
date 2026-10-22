@@ -1,27 +1,13 @@
 #!/usr/bin/env bun
 import { readdir } from "node:fs/promises";
 import path from "node:path";
-import { parseArgs } from "node:util";
 import { Eta } from "eta";
+import { parseStoriesArgs } from "./args.ts";
+import { TEMPLATES_DIR } from "./constants.ts";
 
-const {
-  values: { inputDir, outputDir },
-} = parseArgs({
-  args: Bun.argv,
-  options: {
-    inputDir: { type: "string", short: "i" },
-    outputDir: { type: "string", short: "o" },
-  },
-  allowPositionals: true,
-  strict: true,
-});
+const { inputDir, outputDir } = parseStoriesArgs(Bun.argv);
 
-if (!inputDir || !outputDir) {
-  console.error("Usage: bun run build:stories -i <inputDir> -o <outputDir>");
-  process.exit(1);
-}
-
-const eta = new Eta({ views: path.join(__dirname, "templates") });
+const eta = new Eta({ views: TEMPLATES_DIR });
 const relativeInput = path.relative(outputDir, inputDir);
 const svelteFiles = (await readdir(inputDir)).filter((file) =>
   file.endsWith(".svelte"),

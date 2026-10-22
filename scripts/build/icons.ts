@@ -1,28 +1,14 @@
 #!/usr/bin/env bun
 import path from "node:path";
-import { parseArgs } from "node:util";
 import { Eta } from "eta";
 import { readIconSvgs } from "../utils.ts";
+import { parseIconsArgs } from "./args.ts";
+import { TEMPLATES_DIR } from "./constants.ts";
 import { indent, kebabToPascalCase } from "./utils.ts";
 
-const {
-  values: { inputDir, outputDir },
-} = parseArgs({
-  args: Bun.argv,
-  options: {
-    inputDir: { type: "string", short: "i" },
-    outputDir: { type: "string", short: "o" },
-  },
-  allowPositionals: true,
-  strict: true,
-});
+const { inputDir, outputDir } = parseIconsArgs(Bun.argv);
 
-if (!inputDir || !outputDir) {
-  console.error("Usage: bun run build:icons -i <inputDir> -o <outputDir>");
-  process.exit(1);
-}
-
-const eta = new Eta({ views: path.join(__dirname, "templates") });
+const eta = new Eta({ views: TEMPLATES_DIR });
 const icons = await readIconSvgs(inputDir);
 
 const components = await Promise.all(
