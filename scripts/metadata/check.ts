@@ -1,26 +1,9 @@
 #!/usr/bin/env bun
-import { parseArgs } from "node:util";
 import { readIconSvgs } from "../utils.ts";
+import { parseCheckArgs } from "./args.ts";
 import { hashSvg, parseMetadata } from "./utils.ts";
 
-const {
-  values: { inputDir, metadataFile },
-} = parseArgs({
-  args: Bun.argv,
-  options: {
-    inputDir: { type: "string", short: "i" },
-    metadataFile: { type: "string", short: "m" },
-  },
-  allowPositionals: true,
-  strict: true,
-});
-
-if (!inputDir || !metadataFile) {
-  console.error(
-    "Usage: bun run check:metadata -i <inputDir> -m <metadataFile>",
-  );
-  process.exit(1);
-}
+const { inputDir, metadataFile } = parseCheckArgs(Bun.argv);
 
 const icons = await readIconSvgs(inputDir);
 const metadata = parseMetadata(await Bun.file(metadataFile).text());

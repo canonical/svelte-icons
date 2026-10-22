@@ -1,17 +1,13 @@
 #!/usr/bin/env bun
-import { parseArgs } from "node:util";
 import { Resvg } from "@resvg/resvg-js";
 import OpenAI from "openai";
 import { zodResponseFormat } from "openai/helpers/zod.mjs";
 import { z } from "zod";
 import { readIconSvgs } from "../utils.ts";
+import { parseBuildArgs } from "./args.ts";
 import {
-  DEFAULT_CONCURRENCY,
-  DEFAULT_MODEL,
-  DEFAULT_TIMEOUT_SECONDS,
   FILLER_TAGS,
   MAX_RETRIES,
-  OPENROUTER_BASE_URL,
   PROMPT,
   RENDER_SIZE,
   TAGS_SCHEMA,
@@ -20,90 +16,14 @@ import {
 import { hashSvg, parseMetadata } from "./utils.ts";
 
 const {
-  values: {
-    inputDir,
-    outputFile,
-    clean,
-    model,
-    "base-url": customBaseUrl,
-    timeout,
-    concurrency: concurrencyArg,
-    verbose,
-  },
-} = parseArgs({
-  args: Bun.argv,
-  options: {
-    inputDir: { type: "string", short: "i" },
-    outputFile: { type: "string", short: "o" },
-    clean: { type: "boolean", short: "c", default: false },
-    model: { type: "string", short: "m" },
-    "base-url": { type: "string" },
-    timeout: { type: "string", default: DEFAULT_TIMEOUT_SECONDS },
-    concurrency: { type: "string", short: "j", default: DEFAULT_CONCURRENCY },
-    verbose: { type: "boolean", short: "v", default: false },
-  },
-  allowPositionals: true,
-  strict: true,
-});
-
-if (!inputDir || !outputFile) {
-  console.error(
-    "Usage: bun run build:metadata -i <inputDir> -o <outputFile> [-c] [-m <model>] [--base-url <apiBaseUrl>] [--timeout <seconds>] [-j <concurrency>] [-v]",
-  );
-  process.exit(1);
-}
-
-const timeoutMs = Number(timeout) * 1000;
-if (!Number.isFinite(timeoutMs) || timeoutMs <= 0) {
-  throw new Error("--timeout must be a positive number of seconds");
-}
-
-const concurrency = Number(concurrencyArg);
-if (!Number.isInteger(concurrency) || concurrency < 1) {
-  throw new Error("--concurrency must be a positive integer");
-}
-
-let baseUrl: URL;
-let selectedModel: string;
-let apiKey: string | undefined;
-let providerOptions = {};
-
-if (customBaseUrl !== undefined) {
-  try {
-    baseUrl = new URL(customBaseUrl);
-  } catch {
-    throw new Error("--base-url must be a valid HTTP(S) API base URL");
-  }
-  if (
-    !["http:", "https:"].includes(baseUrl.protocol) ||
-    baseUrl.username ||
-    baseUrl.password ||
-    baseUrl.search ||
-    baseUrl.hash
-  ) {
-    throw new Error(
-      "--base-url must be an HTTP(S) API base URL without credentials, a query, or a fragment",
-    );
-  }
-  selectedModel = model ?? "";
-  apiKey = process.env.METADATA_API_KEY?.trim();
-} else {
-  baseUrl = new URL(OPENROUTER_BASE_URL);
-  selectedModel = model ?? DEFAULT_MODEL;
-  apiKey = process.env.OPENROUTER_API_KEY?.trim();
-  providerOptions = { provider: { require_parameters: true } };
-  if (!apiKey) {
-    throw new Error("OPENROUTER_API_KEY environment variable is not set");
-  }
-}
-
-if (!selectedModel?.trim()) {
-  throw new Error(
-    "A non-empty --model is required when using --base-url or overriding the default model",
-  );
-}
-
-baseUrl.pathname = baseUrl.pathname.replace(/\/+$/, "");
+  inputDir,
+  outputFile,
+  clean,
+  verbose,
+  concurrency,
+  timeoutMs,
+  endpoint: { baseUrl, model, apiKey, providerOptions },
+} = parseBuildArgs(Bun.argv);
 
 const client = new OpenAI({
   baseURL: baseUrl.href,
@@ -140,7 +60,7 @@ for (const [iconName, svg] of icons) {
 }
 
 console.log(
-  `Generating tags for ${pendingIcons.length} of ${icons.size} icons with ${selectedModel} at ${baseUrl.origin} (concurrency: ${concurrency})`,
+  `Generating tags for ${pendingIcons.length} of ${icons.size} icons with ${model} at ${baseUrl.origin} (concurrency: ${concurrency})`,
 );
 
 const reporter = createReporter(pendingIcons);
@@ -194,7 +114,7 @@ function renderIcon(svg: string) {
 
 async function generateTags(name: string, svg: string) {
   const completion = await client.chat.completions.parse({
-    model: selectedModel,
+    model,
     temperature: TEMPERATURE,
     ...providerOptions,
     response_format: zodResponseFormat(TAGS_SCHEMA, "icon_tags"),
