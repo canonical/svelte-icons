@@ -1,7 +1,8 @@
-import { readdir } from "node:fs/promises";
+#!/usr/bin/env bun
 import path from "node:path";
 import { parseArgs } from "node:util";
 import { Eta } from "eta";
+import { readIconSvgs } from "../utils.ts";
 import { indent, kebabToPascalCase } from "./utils.ts";
 
 const {
@@ -17,25 +18,18 @@ const {
 });
 
 if (!inputDir || !outputDir) {
-  console.error("Usage: bun build-icons.ts -i <inputDir> -o <outputDir>");
+  console.error("Usage: bun run build:icons -i <inputDir> -o <outputDir>");
   process.exit(1);
 }
 
 const eta = new Eta({ views: path.join(__dirname, "templates") });
-const svgFiles = (await readdir(inputDir)).filter((file) =>
-  file.endsWith(".svg"),
-);
+const icons = await readIconSvgs(inputDir);
 
 const components = await Promise.all(
-  svgFiles.map(async (svgFile) => {
-    const iconName = svgFile.replace(/\.svg$/, "");
+  [...icons].map(async ([iconName, svgRaw]) => {
     const component = `${kebabToPascalCase(iconName)}Icon`;
-    const svgInputPath = path.join(inputDir, svgFile);
     const outputPath = path.join(outputDir, `${component}.svelte`);
 
-    const svgRaw = await Bun.file(svgInputPath, {
-      type: "image/svg+xml",
-    }).text();
     const svgContent = svgRaw.replace(/<\?xml[^?]*\?>\s*/g, "");
 
     const componentContent = eta.render("./Icon", {

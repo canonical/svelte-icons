@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 import { parseArgs } from "node:util";
@@ -16,7 +17,7 @@ const {
 });
 
 if (!inputDir || !outputDir) {
-  console.error("Usage: bun build-stories.ts -i <inputDir> -o <outputDir>");
+  console.error("Usage: bun run build:stories -i <inputDir> -o <outputDir>");
   process.exit(1);
 }
 

@@ -32,10 +32,10 @@
   },
   "scripts": {
     "build": "bun run clean:icons && bun run build:icons && bun run build:package",
-    "build:icons": "bun run scripts/build-icons.ts -i node_modules/@canonical/ds-assets/icons/ -o src/lib/icons",
+    "build:icons": "bun run scripts/build/icons.ts -i node_modules/@canonical/ds-assets/icons/ -o src/lib/icons",
     "build:package": "svelte-package -o dist -i src/lib --tsconfig ./tsconfig.app.json",
-    "build:stories": "bun run scripts/build-stories.ts -i src/lib/icons -o src/stories/icons",
-    "build:metadata": "bun run scripts/build-metadata.ts -i node_modules/@canonical/ds-assets/icons/ -o metadata.json",
+    "build:stories": "bun run scripts/build/stories.ts -i src/lib/icons -o src/stories/icons",
+    "build:metadata": "bun run scripts/metadata/build.ts -i node_modules/@canonical/ds-assets/icons/ -o metadata.json",
     "clean": "bun run clean:icons && bun run clean:stories",
     "clean:icons": "rm -f src/lib/icons/*.svelte src/lib/icons/index.ts",
     "clean:stories": "rm -f src/stories/icons/*.svelte",
@@ -44,7 +44,7 @@
     "check:biome": "biome check",
     "check:biome:fix": "biome check --write",
     "check:ts": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "check:metadata": "bun run scripts/check-metadata.ts -i node_modules/@canonical/ds-assets/icons/ -m metadata.json",
+    "check:metadata": "bun run scripts/metadata/check.ts -i node_modules/@canonical/ds-assets/icons/ -m metadata.json",
     "storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook dev -p 6006 --no-open",
     "build-storybook": "bun run clean && bun run build:icons && bun run build:stories && storybook build"
   },

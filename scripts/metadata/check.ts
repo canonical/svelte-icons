@@ -1,5 +1,7 @@
+#!/usr/bin/env bun
 import { parseArgs } from "node:util";
-import { hashSvg, parseMetadata, readIconSvgs } from "./utils.ts";
+import { readIconSvgs } from "../utils.ts";
+import { hashSvg, parseMetadata } from "./utils.ts";
 
 const {
   values: { inputDir, metadataFile },
@@ -14,7 +16,9 @@ const {
 });
 
 if (!inputDir || !metadataFile) {
-  console.error("Usage: bun check-metadata.ts -i <inputDir> -m <metadataFile>");
+  console.error(
+    "Usage: bun run check:metadata -i <inputDir> -m <metadataFile>",
+  );
   process.exit(1);
 }
 
