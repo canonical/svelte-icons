@@ -25,7 +25,7 @@ const {
   endpoint: { baseUrl, model, apiKey, providerOptions },
 } = parseBuildArgs(Bun.argv);
 
-const client = new OpenAI({
+const llmClient = new OpenAI({
   baseURL: baseUrl.href,
   // The SDK requires a key; for keyless endpoints, pass a placeholder and drop the header.
   apiKey: apiKey || "unused",
@@ -113,7 +113,7 @@ function renderIcon(svg: string) {
 }
 
 async function generateTags(name: string, svg: string) {
-  const completion = await client.chat.completions.parse({
+  const completion = await llmClient.chat.completions.parse({
     model,
     temperature: TEMPERATURE,
     ...providerOptions,
