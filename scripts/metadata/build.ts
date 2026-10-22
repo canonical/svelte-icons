@@ -1,6 +1,8 @@
 #!/usr/bin/env bun
 import { parseArgs } from "node:util";
 import { Resvg } from "@resvg/resvg-js";
+import OpenAI from "openai";
+import { zodResponseFormat } from "openai/helpers/zod.mjs";
 import { z } from "zod";
 import { readIconSvgs } from "../utils.ts";
 import {
@@ -8,13 +10,10 @@ import {
   DEFAULT_MODEL,
   DEFAULT_TIMEOUT_SECONDS,
   FILLER_TAGS,
-  MAX_ATTEMPTS,
+  MAX_RETRIES,
   OPENROUTER_BASE_URL,
   PROMPT,
   RENDER_SIZE,
-  RETRY_DELAY_MS,
-  RETRYABLE_STATUSES,
-  TAGS_JSON_SCHEMA,
   TAGS_SCHEMA,
   TEMPERATURE,
 } from "./constants.ts";
@@ -65,7 +64,7 @@ if (!Number.isInteger(concurrency) || concurrency < 1) {
 }
 
 let baseUrl: URL;
-let selectedModel: string | undefined;
+let selectedModel: string;
 let apiKey: string | undefined;
 let providerOptions = {};
 
@@ -86,7 +85,7 @@ if (customBaseUrl !== undefined) {
       "--base-url must be an HTTP(S) API base URL without credentials, a query, or a fragment",
     );
   }
-  selectedModel = model;
+  selectedModel = model ?? "";
   apiKey = process.env.METADATA_API_KEY?.trim();
 } else {
   baseUrl = new URL(OPENROUTER_BASE_URL);
@@ -104,7 +103,20 @@ if (!selectedModel?.trim()) {
   );
 }
 
-baseUrl.pathname = `${baseUrl.pathname.replace(/\/+$/, "")}/chat/completions`;
+baseUrl.pathname = baseUrl.pathname.replace(/\/+$/, "");
+
+const client = new OpenAI({
+  baseURL: baseUrl.href,
+  // The SDK requires a key; for keyless endpoints, pass a placeholder and drop the header.
+  apiKey: apiKey || "unused",
+  defaultHeaders: apiKey ? undefined : { Authorization: null },
+  // Don't pick up OPENAI_ORG_ID / OPENAI_PROJECT_ID and send them to other providers.
+  organization: null,
+  project: null,
+  timeout: timeoutMs,
+  maxRetries: MAX_RETRIES,
+  fetchOptions: { redirect: "error" },
+});
 
 const icons = await readIconSvgs(inputDir);
 
@@ -137,9 +149,7 @@ await runWithConcurrency(pendingIcons, concurrency, async (iconName) => {
   const startedAt = performance.now();
   try {
     const svg = icons.get(iconName) ?? "";
-    const result = await generateTags(iconName, svg, (message) =>
-      reporter.warn(iconName, message),
-    );
+    const result = await generateTags(iconName, svg);
     metadata[iconName] = { hash: hashSvg(svg), tags: result.tags };
     reporter.succeed(iconName, result, performance.now() - startedAt);
   } catch (error) {
@@ -182,110 +192,36 @@ function renderIcon(svg: string) {
   return `data:image/png;base64,${Buffer.from(png).toString("base64")}`;
 }
 
-async function generateTags(
-  name: string,
-  svg: string,
-  onRetry: (message: string) => void,
-) {
-  const result = await requestCompletion(
-    {
-      model: selectedModel,
-      stream: false,
-      temperature: TEMPERATURE,
-      ...providerOptions,
-      response_format: {
-        type: "json_schema",
-        json_schema: {
-          name: "icon_tags",
-          strict: true,
-          schema: TAGS_JSON_SCHEMA,
-        },
+async function generateTags(name: string, svg: string) {
+  const completion = await client.chat.completions.parse({
+    model: selectedModel,
+    temperature: TEMPERATURE,
+    ...providerOptions,
+    response_format: zodResponseFormat(TAGS_SCHEMA, "icon_tags"),
+    messages: [
+      { role: "system", content: PROMPT },
+      {
+        role: "user",
+        content: [
+          { type: "text", text: `Icon name: ${name}` },
+          { type: "image_url", image_url: { url: renderIcon(svg) } },
+        ],
       },
-      messages: [
-        { role: "system", content: PROMPT },
-        {
-          role: "user",
-          content: [
-            { type: "text", text: `Icon name: ${name}` },
-            { type: "image_url", image_url: { url: renderIcon(svg) } },
-          ],
-        },
-      ],
-    },
-    onRetry,
-  );
-  if (isRecord(result) && result.error != null) {
-    throw new Error(`API returned an error: ${getErrorMessage(result)}`);
+    ],
+  });
+  const message = completion.choices[0]?.message;
+  if (!message?.parsed) {
+    throw new Error(
+      message?.refusal
+        ? `Model refused: ${message.refusal}`
+        : "Unexpected response content",
+    );
   }
-  const choice =
-    isRecord(result) && Array.isArray(result.choices)
-      ? result.choices[0]
-      : undefined;
-  const content =
-    isRecord(choice) && isRecord(choice.message)
-      ? choice.message.content
-      : undefined;
-  if (typeof content !== "string") {
-    throw new Error("Unexpected response content");
-  }
-
-  let generated: unknown;
-  try {
-    generated = JSON.parse(content);
-  } catch (cause) {
-    throw new Error("Invalid tags JSON", { cause });
-  }
-  const parsed = TAGS_SCHEMA.safeParse(generated);
-  if (!parsed.success) {
-    throw new Error("Invalid tags schema", {
-      cause: parsed.error,
-    });
-  }
-  const tags = normalizeTags(parsed.data.tags);
+  const tags = normalizeTags(message.parsed.tags);
   if (tags.length === 0) {
     throw new Error("No usable tags");
   }
-  return { ...parsed.data, tags };
-}
-
-async function requestCompletion(
-  body: Record<string, unknown>,
-  onRetry: (message: string) => void,
-) {
-  let lastError: unknown;
-  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-    let retryable = true;
-    try {
-      const response = await fetch(baseUrl, {
-        method: "POST",
-        redirect: "error",
-        signal: AbortSignal.timeout(timeoutMs),
-        headers: {
-          "Content-Type": "application/json",
-          ...(apiKey ? { Authorization: `Bearer ${apiKey}` } : {}),
-        },
-        body: JSON.stringify(body),
-      });
-      if (response.ok) {
-        return (await response.json()) as unknown;
-      }
-      const details = getErrorMessage(await response.json().catch(() => null));
-      lastError = new Error(
-        `HTTP ${response.status}${details ? `: ${details}` : ""}`,
-      );
-      retryable = RETRYABLE_STATUSES.has(response.status);
-    } catch (error) {
-      lastError = error;
-    }
-    if (!retryable || attempt === MAX_ATTEMPTS) {
-      break;
-    }
-    onRetry(
-      `attempt ${attempt}/${MAX_ATTEMPTS} failed (${formatError(lastError)}), retrying`,
-    );
-    await Bun.sleep(RETRY_DELAY_MS * attempt);
-  }
-  throw new Error("Request failed", { cause: lastError });
+  return { ...message.parsed, tags };
 }
 
 async function runWithConcurrency<T>(
@@ -340,9 +276,6 @@ function createReporter(iconNames: string[]) {
         `${style(31, "✗")} ${counter()} ${name.padEnd(nameWidth)}  ${style(31, formatError(error))}`,
       );
     },
-    warn(name: string, message: string) {
-      console.log(`${style(33, "!")} ${indent.slice(2)}${name}: ${message}`);
-    },
     finish(reused: number, failed: string[]) {
       const summary = `${total - failed.length} generated, ${reused} reused, ${failed.length} failed in ${formatDuration(performance.now() - startedAt)}`;
       console.log(style(failed.length ? 31 : 32, summary));
@@ -371,15 +304,4 @@ function formatError(error: unknown): string {
   return error.cause === undefined
     ? error.message
     : `${error.message}: ${formatError(error.cause)}`;
-}
-
-function getErrorMessage(value: unknown) {
-  if (isRecord(value) && isRecord(value.error)) {
-    return typeof value.error.message === "string" ? value.error.message : "";
-  }
-  return "";
-}
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === "object" && value !== null;
 }

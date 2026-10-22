@@ -66,6 +66,7 @@
     "@types/node": "^24.10.1",
     "eta": "^4.4.1",
     "fuse.js": "^7.1.0",
+    "openai": "^7.42.0",
     "storybook": "^10.1.2",
     "svelte-check": "^4.3.4",
     "typescript": "~5.9.3",

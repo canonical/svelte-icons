@@ -146,8 +146,8 @@ authentication header is sent.
 
 Icons are processed 6 at a time by default; change this with `--concurrency`
 (or `-j`), e.g. `-j 1` for slow local servers. Requests time out after 120
-seconds and are retried up to 3 times on timeouts, network errors, rate limits,
-and server errors. Increase the timeout for slow local models with
+seconds and are retried up to 2 times, with backoff, on timeouts, network
+errors, rate limits, and server errors. Increase the timeout for slow local models with
 `--timeout <seconds>`. Icons that still fail are reported at the end, the
 remaining results are written, and the command exits with a non-zero status.
 

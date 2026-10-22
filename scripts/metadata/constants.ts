@@ -4,9 +4,7 @@ export const OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1";
 export const DEFAULT_MODEL = "google/gemma-4-26b-a4b-it";
 export const DEFAULT_TIMEOUT_SECONDS = "120";
 export const DEFAULT_CONCURRENCY = "6";
-export const MAX_ATTEMPTS = 3;
-export const RETRY_DELAY_MS = 2000;
-export const RETRYABLE_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
+export const MAX_RETRIES = 2;
 export const TEMPERATURE = 0.2;
 export const RENDER_SIZE = 256;
 export const FILLER_TAGS = new Set([
@@ -43,4 +41,3 @@ export const TAGS_SCHEMA = z.strictObject({
   meaning: z.string(),
   tags: z.array(z.string().trim().min(1)).min(1),
 });
-export const TAGS_JSON_SCHEMA = TAGS_SCHEMA.toJSONSchema();
