@@ -18,6 +18,8 @@ When @canonical/ds-assets is changed, note the version used under the release he
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-10-23
+
 Icons sourced from `@canonical/ds-assets@0.44.1`.
 
 ### Added
@@ -240,5 +242,6 @@ Icons sourced from `@canonical/ds-assets@0.10.0-experimental.8`.
   - `XIcon`
   - `YoutubeIcon`
 
-[Unreleased]: https://github.com/canonical/svelte-icons/compare/ad699f7...HEAD
+[Unreleased]: https://github.com/canonical/svelte-icons/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/canonical/svelte-icons/compare/ad699f7...v0.1.0
 [0.0.9]: https://github.com/canonical/svelte-icons/commit/ad699f7
