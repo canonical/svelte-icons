@@ -72,6 +72,7 @@ Icons sourced from `@canonical/ds-assets@0.44.1`.
 
 ### Internal
 
+- After successful npm publishing, create a `v<version>` tag and GitHub release linking to the changelog at the published commit.
 - Generate icon metadata from rendered icon images, using any OpenAI-compatible Chat Completions endpoint (OpenRouter by default, or a custom `--base-url` such as Ollama or llama.cpp).
 - Regenerate tags for all icons in `metadata.json`.
 - Store SVG hashes in `metadata.json` so only new or changed icons are re-tagged; drop filenames and stale entries.

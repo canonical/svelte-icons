@@ -76,3 +76,12 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - run: npm publish --access public
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PACKAGE_VERSION=$(npm pkg get version | tr -d '"')
+          gh release create "v$PACKAGE_VERSION" \
+            --target "$GITHUB_SHA" \
+            --notes "See the [changelog](https://github.com/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/CHANGELOG.md) for details."
