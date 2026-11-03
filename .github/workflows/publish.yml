@@ -84,4 +84,5 @@ jobs:
           PACKAGE_VERSION=$(npm pkg get version | tr -d '"')
           gh release create "v$PACKAGE_VERSION" \
             --target "$GITHUB_SHA" \
+            --title "v$PACKAGE_VERSION" \
             --notes "See the [changelog](https://github.com/$GITHUB_REPOSITORY/blob/$GITHUB_SHA/CHANGELOG.md) for details."
